@@ -1,0 +1,79 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: chasingthatfeeling
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+WrapStyle: 2
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&HFF000000,&H26000000,&H00000000,0,0,0,0,100,100,0.0,0,1,1.0,1,2,10,10,10,1
+Style: Value_style,Arial,60,&H00FFFFFF,&H0300FFFF,&H18000000,&H02000000,0,-1,0,0,100,100,0.0,0,1,1.0,1.0,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.09,0:00:08.23,Default,,0,0,0,,Lost on a moonlit night
+Dialogue: 0,0:00:08.68,0:00:10.76,Default,,0,0,0,,Summer, one-nine
+Dialogue: 0,0:00:11.92,0:00:14.42,Default,,0,0,0,,Thought it would last forever
+Dialogue: 0,0:00:14.80,0:00:17.66,Default,,0,0,0,,Never felt more alive
+Dialogue: 0,0:00:18.56,0:00:20.99,Default,,0,0,0,,Life was so simple then
+Dialogue: 0,0:00:21.76,0:00:24.27,Default,,0,0,0,,A perpetual high
+Dialogue: 0,0:00:25.32,0:00:27.67,Default,,0,0,0,,Those days that I knew may be gone
+Dialogue: 0,0:00:27.67,0:00:30.04,Default,,0,0,0,,But I won't let them die
+Dialogue: 0,0:00:30.56,0:00:33.99,Default,,0,0,0,,{\ytkt()}{\k45}Time's {\k40}a {\k48}thief {\k17}that {\k65}keeps {\k40}on {\k70}stealing
+Dialogue: 0,0:00:34.00,0:00:37.44,Default,,0,0,0,,{\ytkt()}{\k40}I {\k40}just {\k19}keep {\k43}on {\k37}cha{\k34}sing {\k45}that {\k40}feeling
+Dialogue: 0,0:00:37.44,0:00:40.80,Default,,0,0,0,,{\ytkt()}{\k39}Won't {\k40}give {\k60}up, {\k40}won't {\k40}stop {\k21}be{\k40}li{\k20}ving
+Dialogue: 0,0:00:40.80,0:00:44.08,Default,,0,0,0,,{\ytkt()}{\k39}I {\k40}just {\k15}keep {\k40}on {\k43}cha{\k48}sing, {\k37}cha{\k20}sing {\k10}that
+Dialogue: 0,0:00:44.08,0:00:46.44,Default,,0,0,0,,{\fs65}{\b1}Feeling
+Dialogue: 0,0:00:46.44,0:00:47.47,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:00:47.47,0:00:49.57,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:00:49.78,0:00:50.92,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:00:50.92,0:00:52.92,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:00:53.04,0:00:57.69,Default,,0,0,0,,{\ytkt()}{\k16}It's {\k45}all {\k40}I {\k65}know, {\k16}it's {\k39}all {\k42}I {\k40}know
+Dialogue: 0,0:00:58.88,0:01:01.40,Default,,0,0,0,,Didn't know what I had, did I?
+Dialogue: 0,0:01:02.22,0:01:04.85,Default,,0,0,0,,Left it all in the past
+Dialogue: 0,0:01:06.05,0:01:08.71,Default,,0,0,0,,Hoping for twice in a lifetime
+Dialogue: 0,0:01:08.88,0:01:11.22,Default,,0,0,0,,Is that too much to ask?
+Dialogue: 0,0:01:12.81,0:01:15.06,Default,,0,0,0,,Lightning across the sky
+Dialogue: 0,0:01:16.04,0:01:18.81,Default,,0,0,0,,Went by in a flash
+Dialogue: 0,0:01:19.62,0:01:21.82,Default,,0,0,0,,I'll keep running faster
+Dialogue: 0,0:01:21.82,0:01:24.34,Default,,0,0,0,,Chasing one more chance
+Dialogue: 0,0:01:24.64,0:01:28.12,Default,,0,0,0,,{\ytkt()}{\k45}Time's {\k40}a {\k48}thief {\k17}that {\k65}keeps {\k40}on {\k70}stealing
+Dialogue: 0,0:01:28.12,0:01:31.44,Default,,0,0,0,,{\ytkt()}{\k40}I {\k40}just {\k19}keep {\k43}on {\k37}cha{\k30}sing {\k45}that {\k40}feeling
+Dialogue: 0,0:01:31.45,0:01:34.84,Default,,0,0,0,,{\ytkt()}{\k39}Won't {\k40}give {\k69}up, {\k40}won't {\k40}stop {\k21}be{\k40}li{\k20}ving
+Dialogue: 0,0:01:34.84,0:01:38.20,Default,,0,0,0,,{\ytkt()}{\k39}I {\k42}just {\k19}keep {\k40}on {\k43}cha{\k48}sing, {\k34}cha{\k26}sing {\k10}that
+Dialogue: 0,0:01:38.20,0:01:40.48,Default,,0,0,0,,{\fs65}{\b1}Feeling
+Dialogue: 0,0:01:40.48,0:01:41.63,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:01:41.63,0:01:43.73,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:01:43.96,0:01:44.99,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:01:44.99,0:01:46.90,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:01:47.04,0:01:51.76,Default,,0,0,0,,{\ytkt()}{\k16}It's {\k45}all {\k40}I {\k65}know, {\k20}it's {\k41}all {\k40}I {\k40}know
+Dialogue: 0,0:01:59.76,0:02:01.26,Default,,0,0,0,,I'm chasing
+Dialogue: 0,0:02:01.45,0:02:02.79,Default,,0,0,0,,Chasing
+Dialogue: 0,0:02:03.15,0:02:04.73,Default,,0,0,0,,I'm chasing
+Dialogue: 0,0:02:06.95,0:02:09.29,Default,,0,0,0,,In my kaleidoscopе
+Dialogue: 0,0:02:10.08,0:02:12.20,Default,,0,0,0,,Are pressed butterflies
+Dialogue: 0,0:02:13.44,0:02:16.04,Default,,0,0,0,,Reminding me I've only one life
+Dialogue: 0,0:02:16.06,0:02:16.86,Value_style,,0,0,0,,(One life)
+Dialogue: 0,0:02:16.86,0:02:18.31,Value_style,,0,0,0,,(One life, one life)
+Dialogue: 0,0:02:18.71,0:02:22.20,Default,,0,0,0,,{\ytkt()}{\k45}Time's {\k40}a {\k48}thief {\k17}that {\k65}keeps {\k40}on {\k70}stealing
+Dialogue: 0,0:02:22.20,0:02:25.56,Default,,0,0,0,,{\ytkt()}{\k40}I {\k40}just {\k19}keep {\k41}on {\k37}cha{\k31}sing {\k45}that {\k40}feeling
+Dialogue: 0,0:02:25.56,0:02:29.01,Default,,0,0,0,,{\ytkt()}{\k39}Won't {\k40}give {\k69}up, {\k40}won't {\k40}stop {\k21}be{\k40}li{\k20}ving
+Dialogue: 0,0:02:29.01,0:02:32.28,Default,,0,0,0,,{\ytkt()}{\k39}I {\k40}just {\k15}keep {\k40}on {\k43}cha{\k48}sing, {\k34}cha{\k23}sing {\k10}that
+Dialogue: 0,0:02:32.28,0:02:34.60,Default,,0,0,0,,{\fs65}{\b1}Feeling
+Dialogue: 0,0:02:34.60,0:02:35.68,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:02:35.68,0:02:38.04,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:02:38.04,0:02:39.04,Default,,0,0,0,,Chasing that feeling
+Dialogue: 0,0:02:39.04,0:02:41.16,Default,,0,0,0,,Chasing that {\fs65}{\b1}feeling{\b0}
+Dialogue: 0,0:02:41.16,0:02:45.74,Default,,0,0,0,,{\ytkt()}{\k16}It's {\k45}all {\k40}I {\k65}know, {\k20}it's {\k39}all {\k45}I {\k40}{\fs70}{\b1}know{\b0}
+Dialogue: 0,0:02:45.75,0:02:47.35,Default,,0,0,0,,{\fs70}{\b1}know{\b0}
+Dialogue: 0,0:02:47.35,0:02:48.28,Default,,0,0,0,,know
+Dialogue: 0,0:02:48.28,0:02:49.08,Default,,0,0,0,,{\c&H787878&}know
+Dialogue: 0,0:02:50.17,0:02:52.52,Default,,0,0,0,,{\i1}{\ytkt()}{\k125}I keep chasing, {\k122}chasing
+Dialogue: 0,0:02:53.81,0:02:55.15,Default,,0,0,0,,I'm chasing
+Dialogue: 0,0:02:55.76,0:02:56.76,Default,,0,0,0,,Chasing
+Dialogue: 0,0:02:56.83,0:02:59.79,Default,,0,0,0,,{\fad(0,120}I'm chasing my feeling
+Dialogue: 0,0:03:01.64,0:03:05.63,Default,,0,0,0,,{(\ytchroma)}Subtitles by @MitchSirco
