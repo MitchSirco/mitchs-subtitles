@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Unicode Space & Invisible Character Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.8; }
+        .category { font-weight: bold; margin-top: 20px; font-size: 18px; }
+        .box { border: 1px solid black; padding: 10px; margin: 5px; display: inline-block; white-space: pre; }
+    </style>
+</head>
+<body>
+    <h1>Ultimate Unicode Space & Invisible Character Test</h1>
+    <p>Compare how these characters display on PC vs. Mobile.</p>
+
+
+    <!-- CATEGORY 1: DEFINITELY SHOWN ON BOTH PC AND MOBILE -->
+    <div class="category">✅ Standard Spaces (Definitely Shown on Both PC and Mobile)</div>
+    <div class="box">No Space (U+0020): X YX</div>
+    <div class="box">No-Break Space (U+00A0): X&nbsp;YX</div>
+    <div class="box">En Space (U+2002): X YX</div>
+    <div class="box">Em Space (U+2003): X YX</div>
+    <div class="box">Three-Per-Em Space (U+2004): X YX</div>
+    <div class="box">Four-Per-Em Space (U+2005): X YX</div>
+    <div class="box">Six-Per-Em Space (U+2006): X YX</div>
+    <div class="box">Figure Space (U+2007): X YX</div>
+    <div class="box">Punctuation Space (U+2008): X YX</div>
+    <div class="box">Thin Space (U+2009): X YX</div>
+    <div class="box">Hair Space (U+200A): X YX</div>
+    <div class="box">Narrow No-Break Space (U+202F): X YX</div>
+    <div class="box">Medium Mathematical Space (U+205F): X YX</div>
+
+    <!-- CATEGORY 2: MAY NOT BE SHOWN ON MOBILE -->
+    <div class="category">⚠️ Inconsistent or Missing on Mobile</div>
+    <div class="box">Zero-Width Space (U+200B): X​YX</div>
+    <div class="box">Word Joiner (U+2060): X⁠YX</div>
+    <div class="box">Mongolian Vowel Separator (U+180E): X᠎YX</div>
+    <div class="box">Zero-Width No-Break Space (U+FEFF): X﻿YX</div>
+    <div class="box">Mathematical Invisible Separator (U+2063): X⁣YX</div>
+    <div class="box">Braille Blank (U+2800): X⠀YX</div>
+    <div class="box">Hangul Filler (U+3164): XㅤYX</div>
+    <div class="box">Halfwidth Hangul Filler (U+FFA0): XﾠYX</div>
+
+    <!-- CATEGORY 3: SPECIAL DIRECTIONAL & FORMATTING CHARACTERS -->
+    <div class="category">🧐 Special Formatting Characters</div>
+    <div class="box">Left-To-Right Mark (U+200E): X‎YX</div>
+    <div class="box">Right-To-Left Mark (U+200F): X‏YX</div>
+    <div class="box">Left-To-Right Embedding (U+202A): X‪YX</div>
+    <div class="box">Right-To-Left Embedding (U+202B): X‫YX</div>
+    <div class="box">Pop Directional Formatting (U+202C): X‬YX</div>
+    <div class="box">Left-To-Right Override (U+202D): X‭YX</div>
+    <div class="box">Right-To-Left Override (U+202E): X‮YX</div>
+
+    <!-- CATEGORY 4: ADVANCED INVISIBLE CHARACTERS -->
+    <div class="category">🔍 Advanced Invisible Characters</div>
+    <div class="box">Zero Width Non-Joiner (U+200C): X‌YX</div>
+    <div class="box">Zero Width Joiner (U+200D): X‍YX</div>
+    <div class="box">Shy Hyphen (Soft Hyphen, U+00AD): X­YX</div>
+    <div class="box">Invisible Times (U+2062): X⁢YX</div>
+    <div class="box">Invisible Plus (U+2064): X⁤YX</div>
+
+    <!-- CATEGORY 5: CONTROL CHARACTERS (NOT VISIBLE BUT MAY AFFECT TEXT) -->
+    <div class="category">🚨 Control Characters (May Affect Text Without Showing Up)</div>
+    <div class="box">Object Replacement Character (U+FFFC): X￼YX</div>
+    <div class="box">Interlinear Annotation Anchor (U+FFF9): X￹YX</div>
+    <div class="box">Interlinear Annotation Separator (U+FFFA): X￺YX</div>
+    <div class="box">Interlinear Annotation Terminator (U+FFFB): X￻YX</div>
+    <div class="box">Combining Grapheme Joiner (U+034F): X͏YX</div>
+
+    <!-- CATEGORY 6: ZERO-WIDTH PUNCTUATION -->
+    <div class="category">💀 Zero-Width Punctuation & Modifiers</div>
+    <div class="box">Zero-Width Full Stop (U+FE52): X﹒YX</div>
+    <div class="box">Small Full Stop (U+FE50): X﹐YX</div>
+    <div class="box">Small Comma (U+FE51): X﹑YX</div>
+
+</body>
+</html>

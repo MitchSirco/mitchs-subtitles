@@ -1,0 +1,78 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.55,0:00:08.65,Default,,0,0,0,,Just dropped in from the daydream
+Dialogue: 0,0:00:09.17,0:00:11.43,Default,,0,0,0,,You know I always gotta cause a big scene
+Dialogue: 0,0:00:12.13,0:00:14.30,Default,,0,0,0,,Gotta make everything about me
+Dialogue: 0,0:00:14.30,0:00:17.05,Default,,0,0,0,,I've been like this since I was like thirteen
+Dialogue: 0,0:00:17.55,0:00:19.85,Default,,0,0,0,,So let me bend your ears while I've got them
+Dialogue: 0,0:00:20.48,0:00:22.58,Default,,0,0,0,,What is it you're really trying to run from
+Dialogue: 0,0:00:23.42,0:00:25.45,Default,,0,0,0,,I guess that's the thing about problems
+Dialogue: 0,0:00:25.45,0:00:26.88,Default,,0,0,0,,While you ignore them,
+Dialogue: 0,0:00:26.88,0:00:28.28,Default,,0,0,0,,then you ain't got none
+Dialogue: 0,0:00:28.28,0:00:33.42,Default,,0,0,0,,﻿Oh, what a wonderful way to live
+Dialogue: 0,0:00:33.87,0:00:39.07,Default,,0,0,0,,Cold, magnifying the things I did
+Dialogue: 0,0:00:39.07,0:00:44.22,Default,,0,0,0,,I know something has got to give
+Dialogue: 0,0:00:44.62,0:00:49.08,Default,,0,0,0,,I wait for the veil to lift
+Dialogue: 0,0:00:51.85,0:00:53.67,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:00:54.53,0:00:56.50,Default,,0,0,0,,I'm feeding that void every day
+Dialogue: 0,0:00:57.45,0:00:59.27,Default,,0,0,0,,I'm screaming your voice in my brain
+Dialogue: 0,0:01:00.15,0:01:01.35,Default,,0,0,0,,It's more than I can take
+Dialogue: 0,0:01:01.35,0:01:02.10,Default,,0,0,0,,And oh
+Dialogue: 0,0:01:02.88,0:01:04.78,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:01:05.75,0:01:07.73,Default,,0,0,0,,A little blockade in my brain
+Dialogue: 0,0:01:08.45,0:01:10.40,Default,,0,0,0,,Whatever comes next I pray
+Dialogue: 0,0:01:10.92,0:01:12.90,Default,,0,0,0,,It isn't more than I can take, yeah
+Dialogue: 0,0:01:13.60,0:01:15.62,Default,,0,0,0,,Always late to the party
+Dialogue: 0,0:01:16.17,0:01:18.35,Default,,0,0,0,,So everybody might look upon me
+Dialogue: 0,0:01:19.08,0:01:21.25,Default,,0,0,0,,Show them something better than I might be
+Dialogue: 0,0:01:21.25,0:01:24.08,Default,,0,0,0,,Force feed a narrative, sell them what they wanna see
+Dialogue: 0,0:01:24.38,0:01:24.72,Default,,0,0,0,,Wait
+Dialogue: 0,0:01:24.72,0:01:26.83,Default,,0,0,0,,Maybe that's the way I put the walls up
+Dialogue: 0,0:01:27.45,0:01:29.67,Default,,0,0,0,,No one ever gets to get a close up
+Dialogue: 0,0:01:30.15,0:01:32.42,Default,,0,0,0,,That's the way illusions get bust up
+Dialogue: 0,0:01:32.42,0:01:35.23,Default,,0,0,0,,Life's been a breeze so long as I've kept the front up
+Dialogue: 0,0:01:35.30,0:01:40.22,Default,,0,0,0,,Hey, don't make me reflect on things
+Dialogue: 0,0:01:40.45,0:01:45.65,Default,,0,0,0,,Avoiding it all is an easy win
+Dialogue: 0,0:01:46.02,0:01:51.27,Default,,0,0,0,,No way can the loneliness settle in
+Dialogue: 0,0:01:51.53,0:01:56.20,Default,,0,0,0,,It's my choice to pretend to be king
+Dialogue: 0,0:01:58.80,0:02:00.68,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:02:01.58,0:02:03.48,Default,,0,0,0,,I'm feeding that void every day
+Dialogue: 0,0:02:04.40,0:02:06.25,Default,,0,0,0,,I'm screaming your voice in my brain
+Dialogue: 0,0:02:07.27,0:02:08.37,Default,,0,0,0,,It's more than I can take
+Dialogue: 0,0:02:08.37,0:02:09.10,Default,,0,0,0,,And oh
+Dialogue: 0,0:02:09.97,0:02:11.90,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:02:12.75,0:02:14.60,Default,,0,0,0,,A little blockade in my brain
+Dialogue: 0,0:02:15.00,0:02:17.60,Default,,0,0,0,,Whatever comes next I pray
+Dialogue: 0,0:02:17.98,0:02:19.88,Default,,0,0,0,,It isn't more than I can take, yeah
+Dialogue: 0,0:02:31.72,0:02:33.78,Default,,0,0,0,,The person inside underwhelms me
+Dialogue: 0,0:02:34.37,0:02:36.58,Default,,0,0,0,,So I pretend I'm something else entirely
+Dialogue: 0,0:02:37.20,0:02:39.43,Default,,0,0,0,,A person who's better than me at everything
+Dialogue: 0,0:02:39.43,0:02:42.22,Default,,0,0,0,,Rather you know that guy instead of me
+Dialogue: 0,0:02:42.85,0:02:44.95,Default,,0,0,0,,It's funny how it took so long to realise
+Dialogue: 0,0:02:45.60,0:02:47.75,Default,,0,0,0,,I thought I was alone at trying to live lies
+Dialogue: 0,0:02:48.12,0:02:50.60,Default,,0,0,0,,Maybe everyone's a person being hid behind
+Dialogue: 0,0:02:50.60,0:02:53.32,Default,,0,0,0,,Would we all be so alone if we empathised
+Dialogue: 0,0:02:53.45,0:02:58.63,Default,,0,0,0,,Whoa, a depressing epiphany
+Dialogue: 0,0:02:58.63,0:03:03.83,Default,,0,0,0,,I know you so far as you let me see
+Dialogue: 0,0:03:04.15,0:03:09.77,Default,,0,0,0,,We're both different people way underneath
+Dialogue: 0,0:03:09.87,0:03:14.33,Default,,0,0,0,,What happens when those people meet
+Dialogue: 0,0:03:16.98,0:03:18.77,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:03:19.67,0:03:21.58,Default,,0,0,0,,I'm feeding that void every day
+Dialogue: 0,0:03:22.67,0:03:24.37,Default,,0,0,0,,I'm screaming your voice in my brain
+Dialogue: 0,0:03:25.37,0:03:26.55,Default,,0,0,0,,It's more than I can take
+Dialogue: 0,0:03:26.55,0:03:27.22,Default,,0,0,0,,And oh
+Dialogue: 0,0:03:28.22,0:03:29.97,Default,,0,0,0,,I'm feeling that choice in the way
+Dialogue: 0,0:03:31.00,0:03:32.73,Default,,0,0,0,,A little blockade in my brain
+Dialogue: 0,0:03:33.03,0:03:35.77,Default,,0,0,0,,Whatever comes next I pray
+Dialogue: 0,0:03:36.27,0:03:38.08,Default,,0,0,0,,It isn't more than I can take, yeah

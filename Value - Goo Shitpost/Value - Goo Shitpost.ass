@@ -1,0 +1,66 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: untitled
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,1.0,1,2,10,10,10,1
+Style: Value_style,proportionalSansSerif,80,&H00FFFFFF,&H0300FFFF,&H18000000,&H02000000,0,0,0,0,100,100,0.0,0,3,2,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:03.84,Default,,0,0,0,,I've been nerding out on the Goo 2.0 Shader\Nfor the past like 3 months
+Dialogue: 0,0:00:03.86,0:00:05.86,Default,,0,0,0,,And you can get it right now, on the Patreon
+Dialogue: 0,0:00:06.25,0:00:08.13,Default,,0,0,0,,And get access to all the new stuff
+Dialogue: 0,0:00:08.13,0:00:09.46,Default,,0,0,0,,We got all the new boring stuff
+Dialogue: 0,0:00:09.46,0:00:10.78,Default,,0,0,0,,Like the new UI
+Dialogue: 0,0:00:10.78,0:00:12.12,Default,,0,0,0,,More texture slots
+Dialogue: 0,0:00:12.12,0:00:13.62,Default,,0,0,0,,LTCGI
+Dialogue: 0,0:00:13.62,0:00:14.80,Default,,0,0,0,,SPS
+Dialogue: 0,0:00:14.81,0:00:17.59,Default,,0,0,0,,And you got the really fucking cool nerdy shit too
+Dialogue: 0,0:00:17.59,0:00:19.66,Default,,0,0,0,,You got, like the fucking mask channels
+Dialogue: 0,0:00:19.66,0:00:22.01,Default,,0,0,0,,You got the UV Buses, right? But what are those?
+Dialogue: 0,0:00:22.07,0:00:24.50,Default,,0,0,0,,Mask Channels, but like a global masking system
+Dialogue: 0,0:00:24.50,0:00:25.00,Default,,0,0,0,,on fucking steroids
+Dialogue: 0,0:00:25.00,0:00:25.63,Default,,0,0,0,,on {\i1}fucking{\i0} steroids
+Dialogue: 0,0:00:25.63,0:00:26.84,Default,,0,0,0,,on {\i1}fucking steroids{\i0}
+Dialogue: 0,0:00:27.23,0:00:29.34,Default,,0,0,0,,Right? You can say: "Okay, I want a texture mask"
+Dialogue: 0,0:00:29.34,0:00:30.42,Default,,0,0,0,,"I want a capsule mask"
+Dialogue: 0,0:00:30.42,0:00:31.42,Default,,0,0,0,,"I want a rim mask"
+Dialogue: 0,0:00:31.42,0:00:33.00,Default,,0,0,0,,"I want a scrolling mask"
+Dialogue: 0,0:00:33.00,0:00:33.52,Default,,0,0,0,,"I want {\c&H000000&}your fucking mom's mask", right?{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.52,0:00:35.30,Default,,0,0,0,,"I want your fucking mom's mask", right?
+Dialogue: 0,0:00:35.30,0:00:37.47,Default,,0,0,0,,Cause, look at this shit, fucking
+Dialogue: 0,0:00:38.50,0:00:42.28,Default,,0,0,0,,The drip is a different thing, 'cause we\Nmasked the drip to have an emission, right?
+Dialogue: 0,0:00:42.28,0:00:43.43,Default,,0,0,0,,And then the fucking-
+Dialogue: 0,0:00:43.43,0:00:45.16,Default,,0,0,0,,We have a fucking rim mask
+Dialogue: 0,0:00:45.16,0:00:46.60,Default,,0,0,0,,FUCKING HIP TRACK-
+Dialogue: 0,0:00:46.61,0:00:48.77,Default,,0,0,0,,And the UV Busses, are like a way of saying:
+Dialogue: 0,0:00:48.77,0:00:54.28,Default,,0,0,0,,"Okay, I want these UV's to be\Nlike world space", right? Okay, cool
+Dialogue: 0,0:00:56.56,0:00:58.52,Default,,0,0,0,,The fuck is going on
+Dialogue: 0,0:00:59.33,0:01:02.82,Default,,0,0,0,,"Okay, now I want them to be\Ndistorted with this texture", right?
+Dialogue: 0,0:01:02.82,0:01:04.09,Default,,0,0,0,,That we can pan, and like-
+Dialogue: 0,0:01:04.09,0:01:05.23,Default,,0,0,0,,And then, oh my God, I have
+Dialogue: 0,0:01:05.70,0:01:09.23,Default,,0,0,0,,so many different things I wanna\Ndo with all that, it's not even done yet
+Dialogue: 0,0:01:09.23,0:01:12.62,Default,,0,0,0,,And so you should like get it\Nnow to support me and all that shit
+Dialogue: 0,0:01:12.62,0:01:13.15,Default,,0,0,0,,So I can fuck-
+Dialogue: 0,0:01:13.15,0:01:15.55,Default,,0,0,0,,Oh yeah, everything is\Ndocumented too, so you can like
+Dialogue: 0,0:01:15.55,0:01:17.55,Default,,0,0,0,,You see over there, you can\Nclick the little question mark
+Dialogue: 0,0:01:17.75,0:01:19.54,Default,,0,0,0,,And it'll tell you what it does
+Dialogue: 0,0:01:19.54,0:01:20.85,Default,,0,0,0,,And so you're not like:
+Dialogue: 0,0:01:20.98,0:01:22.03,Default,,0,0,0,,"Uh huh, yeah"
+Dialogue: 0,0:01:22.03,0:01:22.70,Default,,0,0,0,,{\i1}"What"
+Dialogue: 0,0:01:22.70,0:01:24.99,Default,,0,0,0,,We don't have tutorials and shit right now
+Dialogue: 0,0:01:24.99,0:01:26.88,Default,,0,0,0,,But, that's kinda the point, this is Early Access
+Dialogue: 0,0:01:26.88,0:01:29.53,Default,,0,0,0,,After, the most of the stuff that I\Nwanna do for the shader is done
+Dialogue: 0,0:01:29.53,0:01:30.77,Default,,0,0,0,,After we get tutorials
+Dialogue: 0,0:01:30.83,0:01:32.93,Default,,0,0,0,,Then, it's gonna be released as a free update
+Dialogue: 0,0:01:33.48,0:01:35.31,Default,,0,0,0,,Go get it now at Patreon
+Dialogue: 0,0:01:35.38,0:01:38.17,Default,,0,0,0,,Fucking, patreon.shader.gay, lets go
+Dialogue: 0,0:01:39.43,0:01:39.68,Default,,0,0,0,,Subtitles - MitchSirco

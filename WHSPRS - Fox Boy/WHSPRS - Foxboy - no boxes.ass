@@ -1,0 +1,107 @@
+[Script Info]
+Title: New subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 900
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,70,&H00FFFFFF,&HFF000000,&H18000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2.0,2,10,10,10,1
+Style: Up,Arial,70,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: Left,Arial,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,4,70,10,10,1
+Style: Right,Arial,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,6,10,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.98,0:00:02.89,Default,,0000,0000,0000,,Will you decide to stay
+Dialogue: 0,0:00:03.92,0:00:05.62,Default,,0000,0000,0000,,When the accents fade away
+Dialogue: 0,0:00:06.39,0:00:07.74,Default,,0000,0000,0000,,'Cause you're a busy boy
+Dialogue: 0,0:00:07.74,0:00:09.03,Default,,0000,0000,0000,,And I'm not too sure
+Dialogue: 0,0:00:09.03,0:00:10.97,Default,,0000,0000,0000,,If I can fit in your schedule
+Dialogue: 0,0:00:11.69,0:00:13.58,Default,,0,0,0,,You're from the other side of town
+Dialogue: 0,0:00:14.55,0:00:16.27,Default,,0,0,0,,Where the world is upside down
+Dialogue: 0,0:00:17.25,0:00:18.68,Right,,0,0,0,,{\i1}{{\pos(1720,450)\an6}Ah
+Dialogue: 0,0:00:17.86,0:00:18.68,Left,,0,0,0,,{\i1}{\an4{\pos(200,450)}Yeah
+Dialogue: 0,0:00:19.35,0:00:21.53,Default,,0,0,0,,It doesn't matter much to me
+Dialogue: 0,0:00:23.04,0:00:24.23,Default,,0,0,0,,'Cause everything you are
+Dialogue: 0,0:00:25.72,0:00:26.89,Default,,0,0,0,,Is all I wanna be
+Dialogue: 0,0:00:27.85,0:00:30.87,Default,,0,0,0,,If I took the plane would you remember me
+Dialogue: 0,0:00:31.87,0:00:34.74,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:00:35.05,0:00:36.85,Default,,0,0,0,,Sounds weird but it's true
+Dialogue: 0,0:00:38.66,0:00:39.57,Default,,0,0,0,,No, I won't give up
+Dialogue: 0,0:00:40.04,0:00:42.18,Default,,0,0,0,,No, I won't give up on you
+Dialogue: 0,0:00:42.52,0:00:45.44,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:00:45.80,0:00:47.54,Default,,0,0,0,,Sounds weird but it's you
+Dialogue: 0,0:00:50.70,0:00:52.86,Default,,0,0,0,,{\ytkt()}{\k15}And {\k30}I {\k39}don't {\k15}ev{\k34}en {\k32}know {\k33}your {\k40}name
+Dialogue: 0,0:00:56.22,0:00:58.65,Up,,0,0,0,,{\ytkt()}{\k33}I {\k37}don't {\k15}ev{\k36}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:01:01.55,0:01:04.13,Up,,0,0,0,,{\ytkt()}{\k31}I {\k31}don't {\k18}ev{\k41}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:01:06.91,0:01:09.38,Up,,0,0,0,,{\ytkt()}{\k33}I {\k34}don't {\k15}ev{\k37}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:01:15.04,0:01:16.19,Default,,0,0,0,,You're looking happier {\alpha&HFF&\c&H000000&}👏👏{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.19,0:01:16.51,Default,,0,0,0,,You're looking happier 👏{\alpha&HFF&\c&H000000&}👏{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.51,0:01:16.86,Default,,0,0,0,,You're looking happier 👏👏
+Dialogue: 0,0:01:17.75,0:01:19.55,Default,,0,0,0,,In every selfie with your friend
+Dialogue: 0,0:01:20.38,0:01:23.02,Default,,0,0,0,,You're such a busy boy, but I am sure
+Dialogue: 0,0:01:23.20,0:01:24.90,Default,,0,0,0,,I can give you what he gives you
+Dialogue: 0,0:01:25.60,0:01:27.53,Default,,0,0,0,,So if you've had a bad day
+Dialogue: 0,0:01:28.06,0:01:30.22,Default,,0,0,0,,I'm only a Telegram message away
+Dialogue: 0,0:01:31.21,0:01:32.81,Default,,0,0,0,,{\ytkt()}{\k66}Ah {\k40}yeah
+Dialogue: 0,0:01:33.54,0:01:35.52,Default,,0,0,0,,Baby you matter much to me
+Dialogue: 0,0:01:37.03,0:01:38.20,Default,,0,0,0,,'Cause everything you are
+Dialogue: 0,0:01:39.70,0:01:40.87,Default,,0,0,0,,Is all I wanna be
+Dialogue: 0,0:01:41.83,0:01:45.52,Default,,0,0,0,,If I took the plane, would you remember me?
+Dialogue: 0,0:01:46.53,0:01:49.44,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:01:49.71,0:01:51.55,Default,,0,0,0,,Sounds weird but it's true
+Dialogue: 0,0:01:53.32,0:01:54.23,Default,,0,0,0,,No, I won't give up
+Dialogue: 0,0:01:54.71,0:01:56.91,Default,,0,0,0,,No, I won't give up on you
+Dialogue: 0,0:01:57.21,0:02:00.06,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:02:00.40,0:02:02.20,Default,,0,0,0,,Sounds weird but it's you
+Dialogue: 0,0:02:03.92,0:02:04.89,Default,,0,0,0,,{\ytkt()}{\k60}Ah {\k40}yeah
+Dialogue: 0,0:02:05.38,0:02:07.54,Default,,0,0,0,,{\ytkt()}{\k15}And {\k30}I {\k37}don't {\k17}ev{\k34}en {\k33}know {\k35}your {\k40}name
+Dialogue: 0,0:02:10.83,0:02:13.37,Up,,0,0,0,,{\ytkt()}{\k33}I {\k34}don't {\k15}ev{\k37}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:02:16.20,0:02:18.75,Up,,0,0,0,,{\ytkt()}{\k36}I {\k34}don't {\k15}ev{\k37}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:02:21.54,0:02:24.07,Up,,0,0,0,,{\ytkt()}{\k33}I {\k35}don't {\k14}ev{\k30}en {\k34}know {\k32}your {\k40}name
+Dialogue: 0,0:02:28.98,0:02:32.00,Up,,0,0,0,,(You're so far away, so far away)
+Dialogue: 0,0:02:32.00,0:02:34.06,Up,,0,0,0,,(Could I have made you stay?)
+Dialogue: 0,0:02:34.43,0:02:36.89,Up,,0,0,0,,(You're so far away, so far away)
+Dialogue: 0,0:02:37.45,0:02:39.49,Up,,0,0,0,,(Now I'm the one who pays)
+Dialogue: 0,0:02:39.78,0:02:42.25,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:02:42.55,0:02:44.88,Default,,0,0,0,,Could I have made you stay?
+Dialogue: 0,0:02:45.10,0:02:47.54,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:02:47.87,0:02:50.08,Default,,0,0,0,,Now I'm the one who pays
+Dialogue: 0,0:02:50.39,0:02:52.88,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:02:53.22,0:02:55.47,Default,,0,0,0,,Could I have made you stay?
+Dialogue: 0,0:02:55.71,0:02:58.21,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:02:58.46,0:03:00.78,Default,,0,0,0,,Now I'm the one who pays
+Dialogue: 0,0:03:01.05,0:03:03.58,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:03:03.88,0:03:06.22,Default,,0,0,0,,Could I have made you stay?
+Dialogue: 0,0:03:06.37,0:03:08.86,Default,,0,0,0,,You're so far away, so far away
+Dialogue: 0,0:03:09.20,0:03:11.52,Default,,0,0,0,,Now I'm the one who pays
+Dialogue: 0,0:03:11.87,0:03:14.74,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:03:15.06,0:03:16.86,Default,,0,0,0,,Sounds weird but it's true
+Dialogue: 0,0:03:18.63,0:03:19.57,Default,,0,0,0,,No, I won't give up
+Dialogue: 0,0:03:20.05,0:03:22.32,Default,,0,0,0,,No, I won't give up on you
+Dialogue: 0,0:03:22.55,0:03:25.40,Default,,0,0,0,,I'm in love with a fox boy on the internet
+Dialogue: 0,0:03:25.80,0:03:27.54,Default,,0,0,0,,Sounds weird but it's you
+Dialogue: 0,0:03:30.84,0:03:32.87,Default,,0,0,0,,{\ytkt()}{\k33}I {\k37}don't {\k15}ev{\k36}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:03:33.17,0:03:34.34,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:34.55,0:03:35.61,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:35.82,0:03:36.79,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:36.13,0:03:38.47,Default,,0,0,0,,{\ytkt()}{\k33}I {\k34}don't {\k15}ev{\k37}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:03:37.13,0:03:38.28,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:38.48,0:03:39.78,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:39.86,0:03:40.90,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:41.19,0:03:42.23,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:41.49,0:03:43.83,Default,,0,0,0,,{\ytkt()}{\k33}I {\k37}don't {\k15}ev{\k36}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:03:42.55,0:03:43.72,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:43.83,0:03:45.07,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:45.22,0:03:46.23,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:46.46,0:03:47.60,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:46.91,0:03:49.15,Default,,0,0,0,,{\ytkt()}{\k30}I {\k34}don't {\k15}ev{\k37}en {\k30}know {\k32}your {\k40}name
+Dialogue: 0,0:03:47.84,0:03:49.03,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:49.15,0:03:50.25,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:50.50,0:03:51.56,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:51.79,0:03:52.86,Up,,0,0,0,,(So far away)
+Dialogue: 0,0:03:53.15,0:03:54.42,Up,,0,0,0,,{\ytkt()}{\k33}(So {\k15}far {\k18}aw{\k18}ay)
+Dialogue: 0,0:03:57.00,0:03:58.27,Default,,0,0,0,,Subtitles - MitchSirco

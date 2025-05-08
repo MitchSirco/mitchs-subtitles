@@ -1,0 +1,1394 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: ValueSubtitless
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 2560
+PlayResY: 1440
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ValueSubtitles_style,proportionalSansSerif,80.0,&H00FFFFFF,&H0300FFFF,&H18000000,&H26000000,0,0,0,0,100,100,0,0,3,2,0.0,2,10,10,10,1
+Style: bottom-center_style,proportionalSansSerif,80.0,&H00FFFFFF,&H0300FFFF,&H26000000,&H18000000,0,-1,0,0,100,100,0,0,3,2,2,8,10,10,10,1
+Style: top-center_style,proportionalSansSerif,20,&H00FFFFFF,&H0300FFFF,&H00000000,&H02000000,-1,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.80,0:00:04.90,ValueSubtitles_style,,0,0,0,,Oh, we've been doin' this since dark ages,
+Dialogue: 0,0:00:04.90,0:00:05.78,ValueSubtitles_style,,0,0,0,,with fast paces
+Dialogue: 0,0:00:06.13,0:00:07.07,ValueSubtitles_style,,0,0,0,,Takin' rock and metal,
+Dialogue: 0,0:00:07.07,0:00:08.18,ValueSubtitles_style,,0,0,0,,throwin' Drum and Bass in
+Dialogue: 0,0:00:08.47,0:00:10.30,ValueSubtitles_style,,0,0,0,,This one goes out to the cell dwellers
+Dialogue: 0,0:00:10.30,0:00:11.15,ValueSubtitles_style,,0,0,0,,Who stood alone,
+Dialogue: 0,0:00:11.15,0:00:13.62,ValueSubtitles_style,,0,0,0,,metronome full force to the trendsetters
+Dialogue: 0,0:00:13.88,0:00:14.95,ValueSubtitles_style,,0,0,0,,Rock the people,
+Dialogue: 0,0:00:15.08,0:00:16.25,ValueSubtitles_style,,0,0,0,,rush the stage
+Dialogue: 0,0:00:16.37,0:00:17.73,ValueSubtitles_style,,0,0,0,,Keeping bodies movin', yeah, but
+Dialogue: 0,0:00:17.73,0:00:18.98,ValueSubtitles_style,,0,0,0,,melting the face
+Dialogue: 0,0:00:19.10,0:00:20.47,ValueSubtitles_style,,0,0,0,,Crushin' the metal,
+Dialogue: 0,0:00:20.47,0:00:21.75,ValueSubtitles_style,,0,0,0,,punchin' the bass
+Dialogue: 0,0:00:21.75,0:00:23.41,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for {\c&H000000&}TAKEOVER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.41,0:00:23.45,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for T{\c&H000000&}AKEOVER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.45,0:00:23.49,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TA{\c&H000000&}KEOVER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.49,0:00:23.58,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAK{\c&H000000&}EOVER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.58,0:00:23.85,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKE{\c&H000000&}OVER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.85,0:00:23.96,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEO{\c&H000000&}VER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.96,0:00:24.05,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOV{\c&H000000&}ER!{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.05,0:00:24.17,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOVE{\c&H000000&}R!{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.17,0:00:24.60,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOVER!
+Dialogue: 0,0:00:24.87,0:00:26.43,ValueSubtitles_style,,0,0,0,,Yeah, yeah, yeah
+Dialogue: 0,0:00:30.30,0:00:31.50,ValueSubtitles_style,,0,0,0,,Haha,
+Dialogue: 0,0:00:31.50,0:00:32.73,ValueSubtitles_style,,0,0,0,,rush the stage
+Dialogue: 0,0:00:35.76,0:00:36.53,ValueSubtitles_style,,0,0,0,,Get ready, {\c&H000000&}motherfucker!{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.53,0:00:37.10,ValueSubtitles_style,,0,0,0,,Get ready, mother{\c&H000000&}fucker!{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.10,0:00:39.05,ValueSubtitles_style,,0,0,0,,Get ready, motherfucker!
+Dialogue: 0,0:00:39.37,0:00:39.82,ValueSubtitles_style,,0,0,0,,Brace for takeover!
+Dialogue: 0,0:00:39.82,0:00:39.85,ValueSubtitles_style,,0,0,0,,Brace for Takeover!
+Dialogue: 0,0:00:39.85,0:00:39.88,ValueSubtitles_style,,0,0,0,,Brace for TAkeover!
+Dialogue: 0,0:00:39.88,0:00:39.98,ValueSubtitles_style,,0,0,0,,Brace for TAKeover!
+Dialogue: 0,0:00:39.98,0:00:40.20,ValueSubtitles_style,,0,0,0,,Brace for TAKEover!
+Dialogue: 0,0:00:40.20,0:00:40.24,ValueSubtitles_style,,0,0,0,,Brace for TAKEOver!
+Dialogue: 0,0:00:40.24,0:00:40.51,ValueSubtitles_style,,0,0,0,,Brace for TAKEOVer!
+Dialogue: 0,0:00:40.51,0:00:40.56,ValueSubtitles_style,,0,0,0,,Brace for TAKEOVEr!
+Dialogue: 0,0:00:40.56,0:00:40.88,ValueSubtitles_style,,0,0,0,,Brace for TAKEOVER!
+Dialogue: 0,0:00:41.42,0:00:44.82,ValueSubtitles_style,,0,0,0,,Will we make it out alive?
+Dialogue: 0,0:00:45.98,0:00:46.37,ValueSubtitles_style,,0,0,0,,Huh!
+Dialogue: 0,0:00:56.80,0:00:57.32,ValueSubtitles_style,,0,0,0,,Yeah!
+Dialogue: 0,0:01:02.30,0:01:03.83,ValueSubtitles_style,,0,0,0,,Haha
+Dialogue: 0,0:01:07.90,0:01:09.22,ValueSubtitles_style,,0,0,0,,You better be ready, yeah
+Dialogue: 0,0:01:10.90,0:01:12.13,ValueSubtitles_style,,0,0,0,,You better be ready, yeah
+Dialogue: 0,0:01:12.13,0:01:13.47,ValueSubtitles_style,,0,0,0,,Brace for takeover!
+Dialogue: 0,0:01:13.75,0:01:15.05,ValueSubtitles_style,,0,0,0,,Watch how we break it out
+Dialogue: 0,0:01:16.43,0:01:17.55,ValueSubtitles_style,,0,0,0,,Watch how we break it out
+Dialogue: 0,0:01:17.55,0:01:19.20,ValueSubtitles_style,,0,0,0,,Brace for takeover!
+Dialogue: 0,0:01:19.20,0:01:20.65,ValueSubtitles_style,,0,0,0,,Rockin' the place as you
+Dialogue: 0,0:01:21.83,0:01:22.98,ValueSubtitles_style,,0,0,0,,Rockin' the place as you
+Dialogue: 0,0:01:22.98,0:01:24.35,ValueSubtitles_style,,0,0,0,,Brace for takeover!
+Dialogue: 0,0:01:24.70,0:01:26.13,ValueSubtitles_style,,0,0,0,,Watch how we tear it out
+Dialogue: 0,0:01:27.35,0:01:28.70,ValueSubtitles_style,,0,0,0,,Watch how we tear it out
+Dialogue: 0,0:01:28.90,0:01:29.32,ValueSubtitles_style,,0,0,0,,Haha, {\c&H000000&}you see,{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.32,0:01:29.74,ValueSubtitles_style,,0,0,0,,Haha, you see,
+Dialogue: 0,0:01:29.74,0:01:31.02,ValueSubtitles_style,,0,0,0,,The Qemists are the players,
+Dialogue: 0,0:01:31.02,0:01:32.27,ValueSubtitles_style,,0,0,0,,Z's the controller
+Dialogue: 0,0:01:32.53,0:01:33.85,ValueSubtitles_style,,0,0,0,,This ain't a game, yeah
+Dialogue: 0,0:01:35.43,0:01:36.50,ValueSubtitles_style,,0,0,0,,Q set the tone,
+Dialogue: 0,0:01:36.50,0:01:38.25,ValueSubtitles_style,,0,0,0,,Zardonic the reloader
+Dialogue: 0,0:01:38.25,0:01:39.35,ValueSubtitles_style,,0,0,0,,Getting so heavy, yeah, you
+Dialogue: 0,0:01:40.98,0:01:42.35,ValueSubtitles_style,,0,0,0,,Crushin' the metal,
+Dialogue: 0,0:01:42.35,0:01:43.63,ValueSubtitles_style,,0,0,0,,punchin' the bass
+Dialogue: 0,0:01:43.63,0:01:45.15,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for takeover!
+Dialogue: 0,0:01:45.15,0:01:45.20,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for Takeover!
+Dialogue: 0,0:01:45.20,0:01:45.25,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAkeover!
+Dialogue: 0,0:01:45.25,0:01:45.30,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKeover!
+Dialogue: 0,0:01:45.30,0:01:45.60,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEover!
+Dialogue: 0,0:01:45.60,0:01:45.70,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOver!
+Dialogue: 0,0:01:45.70,0:01:45.80,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOVer!
+Dialogue: 0,0:01:45.80,0:01:45.88,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOVEr!
+Dialogue: 0,0:01:45.88,0:01:46.39,ValueSubtitles_style,,0,0,0,,Rockin' the place as you brace for TAKEOVER!
+Dialogue: 0,0:01:46.82,0:01:51.52,ValueSubtitles_style,,0,0,0,,Will we make it out alive?
+Dialogue: 0,0:01:51.62,0:01:51.65,ValueSubtitles_style,,0,0,0,,:3
+Dialogue: 0,0:01:52.37,0:01:55.17,ValueSubtitles_style,,0,0,0,,Oh baby, that was quite a punch
+Dialogue: 0,0:01:55.17,0:01:57.03,ValueSubtitles_style,,0,0,0,,Could somebody check my pulse?
+Dialogue: 0,0:01:57.73,0:02:00.86,ValueSubtitles_style,,0,0,0,,It's been a minute since I tasted blood
+Dialogue: 0,0:02:00.86,0:02:02.72,ValueSubtitles_style,,0,0,0,,I forgot how good this was
+Dialogue: 0,0:02:03.43,0:02:06.07,ValueSubtitles_style,,0,0,0,,Oh honey, it's a fucked up world
+Dialogue: 0,0:02:06.07,0:02:08.18,ValueSubtitles_style,,0,0,0,,Can't you see the fun in that?
+Dialogue: 0,0:02:08.87,0:02:10.93,ValueSubtitles_style,,0,0,0,,Somebody better hold me
+Dialogue: 0,0:02:10.93,0:02:11.58,ValueSubtitles_style,,0,0,0,,Somebody better hold me BA
+Dialogue: 0,0:02:11.58,0:02:12.27,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAA
+Dialogue: 0,0:02:12.27,0:02:12.98,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAAAA
+Dialogue: 0,0:02:12.98,0:02:13.62,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAAAAACK
+Dialogue: 0,0:02:25.03,0:02:27.95,ValueSubtitles_style,,0,0,0,,Oh honey, it's a fucked up world
+Dialogue: 0,0:02:27.95,0:02:30.00,ValueSubtitles_style,,0,0,0,,You can bet your life on that
+Dialogue: 0,0:02:30.55,0:02:32.70,ValueSubtitles_style,,0,0,0,,Somebody better hold me
+Dialogue: 0,0:02:32.70,0:02:33.24,ValueSubtitles_style,,0,0,0,,Somebody better hold me BA
+Dialogue: 0,0:02:33.24,0:02:33.93,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAA
+Dialogue: 0,0:02:33.93,0:02:34.76,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAAACK
+Dialogue: 0,0:02:58.00,0:02:58.67,ValueSubtitles_style,,0,0,0,,My god!
+Dialogue: 0,0:02:59.23,0:02:59.98,ValueSubtitles_style,,0,0,0,,Just do it!
+Dialogue: 0,0:03:00.58,0:03:01.33,ValueSubtitles_style,,0,0,0,,I'm so done{\c&H000000&} thinking through it!{\c&HFFFFFF&}
+Dialogue: 0,0:03:01.33,0:03:01.97,ValueSubtitles_style,,0,0,0,,I'm so done thinking {\c&H000000&}through it!{\c&HFFFFFF&}
+Dialogue: 0,0:03:01.97,0:03:02.71,ValueSubtitles_style,,0,0,0,,I'm so done thinking through it!
+Dialogue: 0,0:03:03.42,0:03:04.15,ValueSubtitles_style,,0,0,0,,'Cause I got
+Dialogue: 0,0:03:04.77,0:03:05.45,ValueSubtitles_style,,0,0,0,,Bruises
+Dialogue: 0,0:03:06.18,0:03:06.75,ValueSubtitles_style,,0,0,0,,Doing {\c&H000000&}something stupid{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.75,0:03:07.42,ValueSubtitles_style,,0,0,0,,Doing something {\c&H000000&}stupid{\c&HFFFFFF&}
+Dialogue: 0,0:03:07.42,0:03:08.16,ValueSubtitles_style,,0,0,0,,Doing something stupid
+Dialogue: 0,0:03:08.77,0:03:11.60,ValueSubtitles_style,,0,0,0,,Oh honey, it's a fucked up world
+Dialogue: 0,0:03:11.60,0:03:13.67,ValueSubtitles_style,,0,0,0,,Can't you see the fun in that?
+Dialogue: 0,0:03:14.28,0:03:16.22,ValueSubtitles_style,,0,0,0,,Somebody better hold me
+Dialogue: 0,0:03:16.22,0:03:16.99,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAA
+Dialogue: 0,0:03:16.99,0:03:17.68,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAAAAA
+Dialogue: 0,0:03:17.68,0:03:17.92,ValueSubtitles_style,,0,0,0,,Somebody better hold me BAAAAAAACK
+Dialogue: 0,0:03:40.83,0:03:41.94,ValueSubtitles_style,,0,0,0,,Last night took an L,
+Dialogue: 0,0:03:41.94,0:03:43.52,ValueSubtitles_style,,0,0,0,,but tonight I bounce back
+Dialogue: 0,0:03:43.53,0:03:44.63,ValueSubtitles_style,,0,0,0,,Wake up every morning,
+Dialogue: 0,0:03:44.63,0:03:46.32,ValueSubtitles_style,,0,0,0,,by the night, I count stacks
+Dialogue: 0,0:03:46.32,0:03:47.35,ValueSubtitles_style,,0,0,0,,Knew that ass was real
+Dialogue: 0,0:03:47.35,0:03:49.31,ValueSubtitles_style,,0,0,0,,when I hit, it bounce back
+Dialogue: 0,0:03:49.39,0:03:51.80,ValueSubtitles_style,,0,0,0,,(You ain't getting checks) (short, short, short, short)
+Dialogue: 0,0:03:51.80,0:03:52.83,ValueSubtitles_style,,0,0,0,,Last night took an L,
+Dialogue: 0,0:03:52.83,0:03:54.13,ValueSubtitles_style,,0,0,0,,but tonight I bounce back
+Dialogue: 0,0:03:54.13,0:03:55.58,ValueSubtitles_style,,0,0,0,,Boy, I been broke as hell,
+Dialogue: 0,0:03:55.58,0:03:57.28,ValueSubtitles_style,,0,0,0,,cashed a check and bounced back
+Dialogue: 0,0:03:57.28,0:03:58.33,ValueSubtitles_style,,0,0,0,,D town LAX,
+Dialogue: 0,0:03:58.33,0:03:59.67,ValueSubtitles_style,,0,0,0,,every week I bounce back
+Dialogue: 0,0:03:59.85,0:04:00.93,ValueSubtitles_style,,0,0,0,,If you a real one,
+Dialogue: 0,0:04:00.93,0:04:02.20,ValueSubtitles_style,,0,0,0,,then you know how to bounce back
+Dialogue: 0,0:04:02.28,0:04:03.37,ValueSubtitles_style,,0,0,0,,Don't owe nobody, {\c&H000000&}owe nobody{\c&HFFFFFF&}
+Dialogue: 0,0:04:03.37,0:04:04.42,ValueSubtitles_style,,0,0,0,,Don't owe nobody, owe nobody
+Dialogue: 0,0:04:04.42,0:04:05.92,ValueSubtitles_style,,0,0,0,,Always on the fuckin' job,
+Dialogue: 0,0:04:05.92,0:04:07.22,ValueSubtitles_style,,0,0,0,,I got no hobbies
+Dialogue: 0,0:04:07.22,0:04:08.82,ValueSubtitles_style,,0,0,0,,Got the city fuckin' with me
+Dialogue: 0,0:04:08.82,0:04:09.90,ValueSubtitles_style,,0,0,0,,cause I'm homegrown
+Dialogue: 0,0:04:09.90,0:04:11.33,ValueSubtitles_style,,0,0,0,,Vibin' out more than my phone
+Dialogue: 0,0:04:11.33,0:04:12.35,ValueSubtitles_style,,0,0,0,,Though leave me 'lone,
+Dialogue: 0,0:04:12.35,0:04:13.57,ValueSubtitles_style,,0,0,0,,me on my own though
+Dialogue: 0,0:04:13.63,0:04:15.10,ValueSubtitles_style,,0,0,0,,Look, I cut that bitch off like an edit
+Dialogue: 0,0:04:15.29,0:04:16.55,ValueSubtitles_style,,0,0,0,,My daddy a G, it's genetics
+Dialogue: 0,0:04:16.62,0:04:18.02,ValueSubtitles_style,,0,0,0,,I heard ya new shit, it's pathetic
+Dialogue: 0,0:04:18.02,0:04:19.37,ValueSubtitles_style,,0,0,0,,Ya contract should be s-shredded
+Dialogue: 0,0:04:19.37,0:04:21.65,ValueSubtitles_style,,0,0,0,,Took my dogs on a private jet from the public housing
+Dialogue: 0,0:04:21.65,0:04:22.93,ValueSubtitles_style,,0,0,0,,I kept it G, yeah, one thousand
+Dialogue: 0,0:04:22.93,0:04:24.48,ValueSubtitles_style,,0,0,0,,Clique star studded like the Paramount mountain
+Dialogue: 0,0:04:24.93,0:04:26.27,ValueSubtitles_style,,0,0,0,,Everything I do is righteous
+Dialogue: 0,0:04:26.27,0:04:27.68,ValueSubtitles_style,,0,0,0,,Betting on me is the right risk
+Dialogue: 0,0:04:27.68,0:04:28.92,ValueSubtitles_style,,0,0,0,,Even in a fucking crisis
+Dialogue: 0,0:04:28.92,0:04:30.32,ValueSubtitles_style,,0,0,0,,I'm never on some switching sides shit
+Dialogue: 0,0:04:30.32,0:04:31.67,ValueSubtitles_style,,0,0,0,,I switch gears to the night shift
+Dialogue: 0,0:04:31.67,0:04:33.07,ValueSubtitles_style,,0,0,0,,Blacking out cause I'm enlightened
+Dialogue: 0,0:04:33.07,0:04:34.42,ValueSubtitles_style,,0,0,0,,God talk to me in silence
+Dialogue: 0,0:04:34.42,0:04:35.77,ValueSubtitles_style,,0,0,0,,But I hear him every time mane
+Dialogue: 0,0:04:36.80,0:04:37.82,ValueSubtitles_style,,0,0,0,,Last night took an L,
+Dialogue: 0,0:04:37.82,0:04:39.53,ValueSubtitles_style,,0,0,0,,but tonight I bounce back
+Dialogue: 0,0:04:39.53,0:04:40.55,ValueSubtitles_style,,0,0,0,,Wake up every morning,
+Dialogue: 0,0:04:40.55,0:04:42.26,ValueSubtitles_style,,0,0,0,,by the night, I count stacks
+Dialogue: 0,0:04:42.26,0:04:43.28,ValueSubtitles_style,,0,0,0,,Knew that ass was real
+Dialogue: 0,0:04:43.28,0:04:45.34,ValueSubtitles_style,,0,0,0,,when I hit, it bounce back
+Dialogue: 0,0:04:45.43,0:04:47.73,ValueSubtitles_style,,0,0,0,,(You ain't getting checks) (short, short, short, short)
+Dialogue: 0,0:04:47.73,0:04:48.75,ValueSubtitles_style,,0,0,0,,Last night took an L,
+Dialogue: 0,0:04:48.75,0:04:50.11,ValueSubtitles_style,,0,0,0,,but tonight I bounce back
+Dialogue: 0,0:04:50.11,0:04:51.42,ValueSubtitles_style,,0,0,0,,Boy, I been broke as hell,
+Dialogue: 0,0:04:51.42,0:04:52.78,ValueSubtitles_style,,0,0,0,,cashed a check and bounced back
+Dialogue: 0,0:04:53.18,0:04:54.20,ValueSubtitles_style,,0,0,0,,D town LAX,
+Dialogue: 0,0:04:54.20,0:04:55.73,ValueSubtitles_style,,0,0,0,,every week I bounce back
+Dialogue: 0,0:04:55.73,0:04:56.75,ValueSubtitles_style,,0,0,0,,If you a real one,
+Dialogue: 0,0:04:56.75,0:04:58.11,ValueSubtitles_style,,0,0,0,,then you know how to bounce back
+Dialogue: 0,0:04:58.11,0:05:00.00,ValueSubtitles_style,,0,0,0,,Lookin' for Ms like I lost a friend
+Dialogue: 0,0:05:00.00,0:05:01.68,ValueSubtitles_style,,0,0,0,,Jump out of my bed like, "Where the bread"
+Dialogue: 0,0:05:01.68,0:05:03.72,ValueSubtitles_style,,0,0,0,,You gon' hold a egg, waiter bring the check
+Dialogue: 0,0:05:03.72,0:05:05.42,ValueSubtitles_style,,0,0,0,,When we talk, we Kalashnikov,
+Dialogue: 0,0:05:05.42,0:05:06.46,ValueSubtitles_style,,0,0,0,,keep us in your thoughts
+Dialogue: 0,0:05:06.46,0:05:08.20,ValueSubtitles_style,,0,0,0,,Fully dressed at the crack of dawn,
+Dialogue: 0,0:05:08.20,0:05:09.16,ValueSubtitles_style,,0,0,0,,weapons letting off
+Dialogue: 0,0:05:09.16,0:05:10.50,ValueSubtitles_style,,0,0,0,,I can hear them from the block
+Dialogue: 0,0:05:10.50,0:05:11.87,ValueSubtitles_style,,0,0,0,,see them creeping through the fog
+Dialogue: 0,0:05:11.87,0:05:12.61,ValueSubtitles_style,,0,0,0,,Season's greetings,
+Dialogue: 0,0:05:12.61,0:05:14.67,ValueSubtitles_style,,0,0,0,,now feeding season can start, oh my God
+Dialogue: 0,0:05:14.67,0:05:15.38,ValueSubtitles_style,,0,0,0,,Look alive,
+Dialogue: 0,0:05:15.38,0:05:17.30,ValueSubtitles_style,,0,0,0,,lookin' like I live life on the crooked line
+Dialogue: 0,0:05:17.45,0:05:18.08,ValueSubtitles_style,,0,0,0,,Doin' fine,
+Dialogue: 0,0:05:18.08,0:05:20.03,ValueSubtitles_style,,0,0,0,,you want maximum stupid, I am the guy
+Dialogue: 0,0:05:20.12,0:05:20.72,ValueSubtitles_style,,0,0,0,,First of all,
+Dialogue: 0,0:05:20.72,0:05:22.80,ValueSubtitles_style,,0,0,0,,fuck the fuckin' law, we is fuckin' raw
+Dialogue: 0,0:05:22.80,0:05:23.52,ValueSubtitles_style,,0,0,0,,Steak tartare,
+Dialogue: 0,0:05:23.52,0:05:25.55,ValueSubtitles_style,,0,0,0,,oysters on the half-shell, sushi bar
+Dialogue: 0,0:05:25.55,0:05:26.22,ValueSubtitles_style,,0,0,0,,Life a bitch,
+Dialogue: 0,0:05:26.22,0:05:28.28,ValueSubtitles_style,,0,0,0,,and the pussy fish, still fucked her raw
+Dialogue: 0,0:05:28.28,0:05:28.98,ValueSubtitles_style,,0,0,0,,I'm a dog,
+Dialogue: 0,0:05:28.98,0:05:30.00,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, {\c&H000000&}ha-ha-ha-ha-ha{\c&HFFFFFF&}
+Dialogue: 0,0:05:30.00,0:05:30.17,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, ha-{\c&H000000&}ha-ha-ha-ha{\c&HFFFFFF&}
+Dialogue: 0,0:05:30.17,0:05:30.33,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, ha-ha-{\c&H000000&}ha-ha-ha{\c&HFFFFFF&}
+Dialogue: 0,0:05:30.33,0:05:30.50,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, ha-ha-ha-{\c&H000000&}ha-ha{\c&HFFFFFF&}
+Dialogue: 0,0:05:30.50,0:05:30.65,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, ha-ha-ha-ha-{\c&H000000&}ha{\c&HFFFFFF&}
+Dialogue: 0,0:05:30.65,0:05:30.78,ValueSubtitles_style,,0,0,0,,I'm a dirty dog, ha-ha-ha-ha-ha
+Dialogue: 0,0:05:30.78,0:05:31.85,ValueSubtitles_style,,0,0,0,,Ol' Dirty Bastard,
+Dialogue: 0,0:05:31.85,0:05:33.73,ValueSubtitles_style,,0,0,0,,go in your jaw, shimmy, shimmy, ya
+Dialogue: 0,0:05:33.73,0:05:35.10,ValueSubtitles_style,,0,0,0,,Got the semi in the hemi,
+Dialogue: 0,0:05:35.10,0:05:36.45,ValueSubtitles_style,,0,0,0,,go and gimme, gimme, ya
+Dialogue: 0,0:05:36.45,0:05:39.20,ValueSubtitles_style,,0,0,0,,Pugilistic, my linguistics are Jeru the Damaja
+Dialogue: 0,0:05:39.20,0:05:40.53,ValueSubtitles_style,,0,0,0,,And I rap it pornographic,
+Dialogue: 0,0:05:40.53,0:05:41.75,ValueSubtitles_style,,0,0,0,,bitch, set up the camera
+Dialogue: 0,0:05:42.33,0:05:44.58,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:44.58,0:05:45.07,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui (Ayy)
+Dialogue: 0,0:05:45.07,0:05:47.30,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:47.30,0:05:47.78,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui (Ah, oui oui)
+Dialogue: 0,0:05:47.78,0:05:50.30,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:50.42,0:05:52.07,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:52.07,0:05:53.25,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui (Mon cheri, mon cheri)
+Dialogue: 0,0:05:53.25,0:05:55.85,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:56.00,0:05:58.25,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:05:58.25,0:05:58.65,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui (Ah, oui oui)
+Dialogue: 0,0:05:58.65,0:06:01.28,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:06:01.37,0:06:03.18,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui
+Dialogue: 0,0:06:03.18,0:06:04.02,ValueSubtitles_style,,0,0,0,,Ooh, la la, ah, oui oui (Mon cheri)
+Dialogue: 0,0:06:04.28,0:06:06.27,ValueSubtitles_style,,0,0,0,,Sometimes when the going gets tough
+Dialogue: 0,0:06:06.27,0:06:09.52,ValueSubtitles_style,,0,0,0,,You gotta look at your friends beside you
+Dialogue: 0,0:06:09.88,0:06:11.95,ValueSubtitles_style,,0,0,0,,Every now and then, send a prayer up
+Dialogue: 0,0:06:11.95,0:06:15.33,ValueSubtitles_style,,0,0,0,,{\b1}Cause the devil's two steps behind you{\b0}
+Dialogue: 0,0:06:15.33,0:06:17.57,ValueSubtitles_style,,0,0,0,,And count your lucky stars
+Dialogue: 0,0:06:17.57,0:06:20.18,ValueSubtitles_style,,0,0,0,,That trouble don't come and find you
+Dialogue: 0,0:06:20.18,0:06:21.82,ValueSubtitles_style,,0,0,0,,So step into the ring brother
+Dialogue: 0,0:06:21.82,0:06:23.10,ValueSubtitles_style,,0,0,0,,Crack another smile
+Dialogue: 0,0:06:23.10,0:06:25.32,ValueSubtitles_style,,0,0,0,,There's only gonna be one standing
+Dialogue: 0,0:06:25.32,0:06:25.90,ValueSubtitles_style,,0,0,0,,When I'm through
+Dialogue: 0,0:06:36.43,0:06:40.53,ValueSubtitles_style,,0,0,0,,You walk the lonely road
+Dialogue: 0,0:06:40.53,0:06:42.15,ValueSubtitles_style,,0,0,0,,But you'll be
+Dialogue: 0,0:06:42.15,0:06:43.60,ValueSubtitles_style,,0,0,0,,But you'll be FII
+Dialogue: 0,0:06:43.60,0:06:45.00,ValueSubtitles_style,,0,0,0,,But you'll be FIIIIII
+Dialogue: 0,0:06:45.00,0:06:46.72,ValueSubtitles_style,,0,0,0,,But you'll be FIIIIIIIINE
+Dialogue: 0,0:06:46.72,0:06:50.73,ValueSubtitles_style,,0,0,0,,Cause these bright lights are better than gold
+Dialogue: 0,0:06:50.73,0:06:53.15,ValueSubtitles_style,,0,0,0,,I would never let go
+Dialogue: 0,0:06:53.48,0:06:55.85,ValueSubtitles_style,,0,0,0,,Try hard to find my way
+Dialogue: 0,0:06:55.85,0:06:58.60,ValueSubtitles_style,,0,0,0,,Through and through
+Dialogue: 0,0:06:58.93,0:07:01.68,ValueSubtitles_style,,0,0,0,,This time doing better than you know
+Dialogue: 0,0:07:01.68,0:07:04.03,ValueSubtitles_style,,0,0,0,,Nobody's gonna stop the show
+Dialogue: 0,0:07:04.44,0:07:04.73,ValueSubtitles_style,,0,0,0,,Look {\c&H000000&}what you made me do{\c&HFFFFFF&}
+Dialogue: 0,0:07:04.73,0:07:05.01,ValueSubtitles_style,,0,0,0,,Look what {\c&H000000&}you made me do{\c&HFFFFFF&}
+Dialogue: 0,0:07:05.01,0:07:05.45,ValueSubtitles_style,,0,0,0,,Look what you {\c&H000000&}made me do{\c&HFFFFFF&}
+Dialogue: 0,0:07:05.45,0:07:05.74,ValueSubtitles_style,,0,0,0,,Look what you made {\c&H000000&}me do{\c&HFFFFFF&}
+Dialogue: 0,0:07:05.74,0:07:06.08,ValueSubtitles_style,,0,0,0,,Look what you made me {\c&H000000&}do{\c&HFFFFFF&}
+Dialogue: 0,0:07:06.08,0:07:06.88,ValueSubtitles_style,,0,0,0,,Look what you made me do
+Dialogue: 0,0:07:28.62,0:07:29.82,ValueSubtitles_style,,0,0,0,,free his mind at night,
+Dialogue: 0,0:07:29.82,0:07:30.15,ValueSubtitles_style,,0,0,0,,at, {\c&H000000&}at,{\c&HFFFFFF&}
+Dialogue: 0,0:07:30.15,0:07:30.52,ValueSubtitles_style,,0,0,0,,at, at,
+Dialogue: 0,0:07:30.55,0:07:31.32,ValueSubtitles_style,,0,0,0,,at night
+Dialogue: 0,0:07:31.43,0:07:32.03,ValueSubtitles_style,,0,0,0,,DAY AND NIGHT
+Dialogue: 0,0:07:32.03,0:07:32.70,ValueSubtitles_style,,0,0,0,,Day and Night
+Dialogue: 0,0:07:32.70,0:07:33.35,ValueSubtitles_style,,0,0,0,,day and night
+Dialogue: 0,0:07:36.80,0:07:37.45,ValueSubtitles_style,,0,0,0,,DAY AND NIGHT
+Dialogue: 0,0:07:37.45,0:07:38.13,ValueSubtitles_style,,0,0,0,,Day and Night
+Dialogue: 0,0:07:38.13,0:07:38.72,ValueSubtitles_style,,0,0,0,,day and night
+Dialogue: 0,0:07:41.57,0:07:41.75,ValueSubtitles_style,,0,0,0,,Da-,  {\c&H000000&}Da-,  Da-,  Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:41.75,0:07:41.91,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  {\c&H000000&}Da-,  Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:41.91,0:07:42.08,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  Da-,  {\c&H000000&}Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:42.08,0:07:42.27,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  Da-,  Da-,
+Dialogue: 0,0:07:42.28,0:07:42.97,ValueSubtitles_style,,0,0,0,,DAY AND NIGHT
+Dialogue: 0,0:07:42.97,0:07:43.62,ValueSubtitles_style,,0,0,0,,Day and Night
+Dialogue: 0,0:07:43.62,0:07:44.23,ValueSubtitles_style,,0,0,0,,day and night
+Dialogue: 0,0:07:47.73,0:07:48.38,ValueSubtitles_style,,0,0,0,,DAY AND NIGHT
+Dialogue: 0,0:07:48.38,0:07:49.12,ValueSubtitles_style,,0,0,0,,Day and Night
+Dialogue: 0,0:07:49.12,0:07:49.77,ValueSubtitles_style,,0,0,0,,day and night
+Dialogue: 0,0:07:52.51,0:07:52.67,ValueSubtitles_style,,0,0,0,,Da-,  {\c&H000000&}Da-,  Da-,  Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:52.67,0:07:52.83,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  {\c&H000000&}Da-,  Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:52.83,0:07:53.01,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  Da-,  {\c&H000000&}Da-,{\c&HFFFFFF&}
+Dialogue: 0,0:07:53.01,0:07:53.20,ValueSubtitles_style,,0,0,0,,Da-,  Da-,  Da-,  Da-,
+Dialogue: 0,0:08:02.98,0:08:06.73,ValueSubtitles_style,,0,0,0,,So you thought that, apparently
+Dialogue: 0,0:08:06.73,0:08:10.05,ValueSubtitles_style,,0,0,0,,This town just wasn't big enough, well
+Dialogue: 0,0:08:10.05,0:08:12.27,ValueSubtitles_style,,0,0,0,,Now that makes two of us, so
+Dialogue: 0,0:08:12.27,0:08:15.02,ValueSubtitles_style,,0,0,0,,Put em up and pray
+Dialogue: 0,0:09:29.16,0:09:29.98,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:09:29.98,0:09:30.67,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:09:30.67,0:09:31.50,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:09:40.06,0:09:41.84,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin'
+Dialogue: 0,0:09:42.88,0:09:44.95,ValueSubtitles_style,,0,0,0,,Even if my jokes aren't funny
+Dialogue: 0,0:09:45.51,0:09:47.67,ValueSubtitles_style,,0,0,0,,My tongue tied up, honey
+Dialogue: 0,0:09:48.23,0:09:50.38,ValueSubtitles_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:09:50.90,0:09:51.71,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin', {\c&HFFFFFF&}{\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:09:51.71,0:09:52.52,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:09:52.53,0:09:53.20,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:10:01.73,0:10:03.78,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin'
+Dialogue: 0,0:10:12.80,0:10:13.57,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:13.57,0:10:14.33,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:14.33,0:10:14.98,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:10:15.65,0:10:17.72,ValueSubtitles_style,,0,0,0,,Even if I lost all my money
+Dialogue: 0,0:10:18.07,0:10:20.43,ValueSubtitles_style,,0,0,0,,This river runs deep, honey
+Dialogue: 0,0:10:20.90,0:10:23.17,ValueSubtitles_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:10:23.68,0:10:24.47,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:24.47,0:10:25.23,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:25.23,0:10:25.85,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:10:26.53,0:10:28.62,ValueSubtitles_style,,0,0,0,,Even if my jokes aren't funny
+Dialogue: 0,0:10:29.05,0:10:31.33,ValueSubtitles_style,,0,0,0,,My tongue tied up, honey
+Dialogue: 0,0:10:31.92,0:10:34.08,ValueSubtitles_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:10:34.58,0:10:36.48,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin'
+Dialogue: 0,0:10:36.80,0:10:38.45,ValueSubtitles_style,,0,0,0,,Um, eh, ah,
+Dialogue: 0,0:10:38.45,0:10:41.08,ValueSubtitles_style,,0,0,0,,play me like a bass guitar
+Dialogue: 0,0:10:41.08,0:10:43.93,ValueSubtitles_style,,0,0,0,,Simmer down and mess me up
+Dialogue: 0,0:10:43.93,0:10:47.73,ValueSubtitles_style,,0,0,0,,Trippin' like I'm Jimmy at Woodstock
+Dialogue: 0,0:10:47.73,0:10:49.40,ValueSubtitles_style,,0,0,0,,Um, eh, ah,
+Dialogue: 0,0:10:49.40,0:10:52.02,ValueSubtitles_style,,0,0,0,,drive me round in your red Ford
+Dialogue: 0,0:10:52.02,0:10:54.85,ValueSubtitles_style,,0,0,0,,Shivers down my spinal cord
+Dialogue: 0,0:10:54.85,0:10:56.42,ValueSubtitles_style,,0,0,0,,Oh-oh-oh, oh-oh,
+Dialogue: 0,0:10:56.42,0:10:57.28,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:57.28,0:10:57.87,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:10:57.87,0:10:58.58,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:10:59.20,0:11:01.38,ValueSubtitles_style,,0,0,0,,Even if I lost all my money
+Dialogue: 0,0:11:01.78,0:11:04.08,ValueSubtitles_style,,0,0,0,,This river runs deep, honey
+Dialogue: 0,0:11:04.62,0:11:06.78,ValueSubtitles_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:11:07.34,0:11:08.15,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:08.15,0:11:08.90,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:08.90,0:11:09.58,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:11:10.25,0:11:12.30,ValueSubtitles_style,,0,0,0,,Even if my jokes aren't funny
+Dialogue: 0,0:11:12.77,0:11:15.00,ValueSubtitles_style,,0,0,0,,My tongue tied up, honey
+Dialogue: 0,0:11:15.57,0:11:17.73,ValueSubtitles_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:11:18.32,0:11:19.12,ValueSubtitles_style,,0,0,0,,Cause you got me {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:19.12,0:11:19.17,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴
+Dialogue: 0,0:11:19.17,0:11:19.25,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴
+Dialogue: 0,0:11:19.25,0:11:19.35,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴
+Dialogue: 0,0:11:19.35,0:11:19.47,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴
+Dialogue: 0,0:11:19.47,0:11:19.77,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:19.77,0:11:19.83,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:19.83,0:11:19.92,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:19.92,0:11:20.00,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:20.00,0:11:20.10,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:20.10,0:11:20.52,ValueSubtitles_style,,0,0,0,,Cause you got me 🦴🦴🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:11:29.18,0:11:31.17,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin'
+Dialogue: 0,0:11:40.00,0:11:40.87,ValueSubtitles_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:40.87,0:11:41.55,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:41.55,0:11:42.30,ValueSubtitles_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:12:25.91,0:12:27.17,ValueSubtitles_style,,0,0,0,,Style too dangerous
+Dialogue: 0,0:12:27.18,0:12:28.60,ValueSubtitles_style,,0,0,0,,Flow too murderous
+Dialogue: 0,0:12:28.60,0:12:30.07,ValueSubtitles_style,,0,0,0,,Beats too treacherous
+Dialogue: 0,0:12:30.07,0:12:31.40,ValueSubtitles_style,,0,0,0,,You can't handle this
+Dialogue: 0,0:12:31.55,0:12:34.32,ValueSubtitles_style,,0,0,0,,Mic technician, here me heat it up so feel the friction
+Dialogue: 0,0:12:34.33,0:12:36.78,ValueSubtitles_style,,0,0,0,,Obliterate when I disintegrate the competition
+Dialogue: 0,0:12:36.78,0:12:38.40,ValueSubtitles_style,,0,0,0,,You know how we do to blow it back
+Dialogue: 0,0:12:38.40,0:12:39.52,ValueSubtitles_style,,0,0,0,,Yo, thats our only mission
+Dialogue: 0,0:12:39.85,0:12:41.15,ValueSubtitles_style,,0,0,0,,Its ringing from the bang
+Dialogue: 0,0:12:41.15,0:12:42.58,ValueSubtitles_style,,0,0,0,,The flash distorts your vision
+Dialogue: 0,0:12:42.58,0:12:45.13,ValueSubtitles_style,,0,0,0,,Cold flows so frigid, I'm wizard or mic magician
+Dialogue: 0,0:12:45.13,0:12:46.58,ValueSubtitles_style,,0,0,0,,Camo & Krooked on the beat
+Dialogue: 0,0:12:46.57,0:12:47.99,ValueSubtitles_style,,0,0,0,,and they the bomb technicians
+Dialogue: 0,0:12:48.00,0:12:50.68,ValueSubtitles_style,,0,0,0,,Peep the precision of this collaborative composition
+Dialogue: 0,0:12:50.68,0:12:52.83,ValueSubtitles_style,,0,0,0,,In addition, witness the the damage that's done
+Dialogue: 0,0:12:52.83,0:12:53.98,ValueSubtitles_style,,0,0,0,,Its about to blow {\c&H000000&}{\b1}UP{\b0}{\c&HFFFFFF&}
+Dialogue: 0,0:12:53.98,0:12:54.48,ValueSubtitles_style,,0,0,0,,Its about to blow {\b1}UP{\b0}
+Dialogue: 0,0:12:54.48,0:12:54.82,ValueSubtitles_style,,0,0,0,,3
+Dialogue: 0,0:12:54.82,0:12:55.30,ValueSubtitles_style,,0,0,0,,2
+Dialogue: 0,0:12:55.30,0:12:55.93,ValueSubtitles_style,,0,0,0,,1
+Dialogue: 0,0:13:01.02,0:13:02.37,ValueSubtitles_style,,0,0,0,,None other than the illest
+Dialogue: 0,0:13:02.50,0:13:03.17,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:03.32,0:13:04.02,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:09.75,0:13:10.93,ValueSubtitles_style,,0,0,0,,We set it off
+Dialogue: 0,0:13:11.13,0:13:12.27,ValueSubtitles_style,,0,0,0,,We set it off
+Dialogue: 0,0:13:12.55,0:13:13.65,ValueSubtitles_style,,0,0,0,,We set it off
+Dialogue: 0,0:13:13.85,0:13:14.97,ValueSubtitles_style,,0,0,0,,WE SET IT OFF
+Dialogue: 0,0:13:15.30,0:13:17.03,ValueSubtitles_style,,0,0,0,,🪑➡️➡️➡️➡️
+Dialogue: 0,0:13:17.03,0:13:17.47,ValueSubtitles_style,,0,0,0,,🪑➡️➡️➡️➡️↩️
+Dialogue: 0,0:13:20.77,0:13:22.48,ValueSubtitles_style,,0,0,0,,⬅️⬅️⬅️⬅️🪑
+Dialogue: 0,0:13:22.48,0:13:22.85,ValueSubtitles_style,,0,0,0,,↪️⬅️⬅️⬅️⬅️​​🪑
+Dialogue: 0,0:13:22.88,0:13:24.23,ValueSubtitles_style,,0,0,0,,None other than the illest
+Dialogue: 0,0:13:24.37,0:13:25.03,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:25.18,0:13:25.88,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:26.22,0:13:27.95,ValueSubtitles_style,,0,0,0,,🪑➡️➡️➡️➡️
+Dialogue: 0,0:13:27.95,0:13:28.32,ValueSubtitles_style,,0,0,0,,🪑➡️➡️➡️➡️↩️
+Dialogue: 0,0:13:31.75,0:13:33.00,ValueSubtitles_style,,0,0,0,,Na-Na-Na Na-Na-Na
+Dialogue: 0,0:13:34.10,0:13:35.32,ValueSubtitles_style,,0,0,0,,Solo Killa
+Dialogue: 0,0:13:44.70,0:13:46.05,ValueSubtitles_style,,0,0,0,,None other than the illest
+Dialogue: 0,0:13:46.18,0:13:46.85,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:47.00,0:13:47.70,ValueSubtitles_style,,0,0,0,,Illest
+Dialogue: 0,0:13:47.93,0:13:50.28,ValueSubtitles_style,,0,0,0,,So cold, my heavyweight soul
+Dialogue: 0,0:13:50.28,0:13:53.02,ValueSubtitles_style,,0,0,0,,So weighed down by the things that I know
+Dialogue: 0,0:13:53.35,0:13:55.69,ValueSubtitles_style,,0,0,0,,All told I got too bold
+Dialogue: 0,0:14:20.60,0:14:21.78,ValueSubtitles_style,,0,0,0,,Space wizards, {\c&H000000&}hollywood blizzards{\c&HFFFFFF&}
+Dialogue: 0,0:14:21.78,0:14:23.10,ValueSubtitles_style,,0,0,0,,Space wizards, hollywood blizzards
+Dialogue: 0,0:14:23.10,0:14:25.98,ValueSubtitles_style,,0,0,0,,Cheatin’ at cards with illuminati lizards
+Dialogue: 0,0:14:25.98,0:14:28.43,ValueSubtitles_style,,0,0,0,,From Indiana out to Valhalla
+Dialogue: 0,0:14:28.43,0:14:29.72,ValueSubtitles_style,,0,0,0,,They know my name
+Dialogue: 0,0:14:29.72,0:14:31.10,ValueSubtitles_style,,0,0,0,,‘cause nobody does it better, {\c&H000000&}yea{\c&HFFFFFF&}
+Dialogue: 0,0:14:31.10,0:14:31.37,ValueSubtitles_style,,0,0,0,,‘cause nobody does it better, yea
+Dialogue: 0,0:14:31.57,0:14:33.97,ValueSubtitles_style,,0,0,0,,And it’s strange but I don’t mind
+Dialogue: 0,0:14:33.97,0:14:36.80,ValueSubtitles_style,,0,0,0,,I drive off the edge of the earth to kill time
+Dialogue: 0,0:14:37.05,0:14:38.03,ValueSubtitles_style,,0,0,0,,The storm’s comin’
+Dialogue: 0,0:14:38.03,0:14:39.40,ValueSubtitles_style,,0,0,0,,You better get runnin’
+Dialogue: 0,0:14:39.40,0:14:42.22,ValueSubtitles_style,,0,0,0,,Wherever I am I’m starting up something
+Dialogue: 0,0:14:52.82,0:14:53.18,ValueSubtitles_style,,0,0,0,,*YEA*
+Dialogue: 0,0:15:06.50,0:15:07.15,ValueSubtitles_style,,0,0,0,,like that
+Dialogue: 0,0:15:08.70,0:15:09.83,ValueSubtitles_style,,0,0,0,,I do it like that
+Dialogue: 0,0:15:11.95,0:15:12.60,ValueSubtitles_style,,0,0,0,,like that
+Dialogue: 0,0:15:14.62,0:15:15.40,ValueSubtitles_style,,0,0,0,,like that
+Dialogue: 0,0:15:17.43,0:15:18.07,ValueSubtitles_style,,0,0,0,,like that
+Dialogue: 0,0:15:19.60,0:15:20.47,ValueSubtitles_style,,0,0,0,,I do it like that
+Dialogue: 0,0:15:22.85,0:15:23.55,ValueSubtitles_style,,0,0,0,,like that
+Dialogue: 0,0:15:26.22,0:15:32.03,ValueSubtitles_style,,0,0,0,,I'll take you with me wherever I go
+Dialogue: 0,0:15:32.03,0:15:37.58,ValueSubtitles_style,,0,0,0,,I'll keep you company, but what do I know?
+Dialogue: 0,0:15:37.58,0:15:42.92,ValueSubtitles_style,,0,0,0,,You take no bullet for me, but I know
+Dialogue: 0,0:15:42.92,0:15:47.72,ValueSubtitles_style,,0,0,0,,And I still care
+Dialogue: 0,0:15:49.01,0:15:51.39,ValueSubtitles_style,,0,0,0,,Emotionally confused, that feeling is slapped in my views
+Dialogue: 0,0:15:51.39,0:15:53.32,ValueSubtitles_style,,0,0,0,,and I got used and now I don't know who to trust
+Dialogue: 0,0:15:54.53,0:15:56.86,ValueSubtitles_style,,0,0,0,,My heart went so cold, because of lies that I was told
+Dialogue: 0,0:15:56.86,0:15:58.68,ValueSubtitles_style,,0,0,0,,now I'm alone, I don't remembеr how to love
+Dialogue: 0,0:15:59.88,0:16:02.58,ValueSubtitles_style,,0,0,0,,Blaming all my flaws on you, when I should have supportеd you
+Dialogue: 0,0:16:02.58,0:16:04.18,ValueSubtitles_style,,0,0,0,,and now I realize I’ve never done enough
+Dialogue: 0,0:16:05.43,0:16:07.86,ValueSubtitles_style,,0,0,0,,Behind doors going crazy, letting inside me is satan
+Dialogue: 0,0:16:07.86,0:16:09.55,ValueSubtitles_style,,0,0,0,,you sedate me when I hear you say:
+Dialogue: 0,0:16:09.98,0:16:15.72,ValueSubtitles_style,,0,0,0,,I'll take you with me wherever I go
+Dialogue: 0,0:16:15.72,0:16:21.07,ValueSubtitles_style,,0,0,0,,I'll keep you company, but what do I know?
+Dialogue: 0,0:16:21.07,0:16:26.55,ValueSubtitles_style,,0,0,0,,You take no bullet for me, but I know
+Dialogue: 0,0:16:26.55,0:16:31.33,ValueSubtitles_style,,0,0,0,,And I still care
+Dialogue: 0,0:16:32.68,0:16:35.09,ValueSubtitles_style,,0,0,0,,All your friends they judge me, asking why you even love me
+Dialogue: 0,0:16:35.09,0:16:36.85,ValueSubtitles_style,,0,0,0,,they don't understand or rather see my pain
+Dialogue: 0,0:16:38.07,0:16:40.46,ValueSubtitles_style,,0,0,0,,Blinded by the lights and all the celebrity gossip
+Dialogue: 0,0:16:40.46,0:16:42.30,ValueSubtitles_style,,0,0,0,,got me treating relationships like a game
+Dialogue: 0,0:16:43.42,0:16:45.89,ValueSubtitles_style,,0,0,0,,Staring in the mirror, I see nothing hasn't changed
+Dialogue: 0,0:16:45.89,0:16:48.75,ValueSubtitles_style,,0,0,0,,while everybody seems to think I ain't the same
+Dialogue: 0,0:16:49.18,0:16:50.65,ValueSubtitles_style,,0,0,0,,All I hear is voices saying:
+Dialogue: 0,0:16:50.65,0:16:52.90,ValueSubtitles_style,,0,0,0,,"You take no bullet for me"
+Dialogue: 0,0:16:53.25,0:16:54.43,ValueSubtitles_style,,0,0,0,,I hear them loads
+Dialogue: 0,0:16:54.43,0:16:56.13,ValueSubtitles_style,,0,0,0,,Voices I hear them throw the type of words
+Dialogue: 0,0:16:56.13,0:16:58.18,ValueSubtitles_style,,0,0,0,,that take control of your body, mind and your soul
+Dialogue: 0,0:16:58.38,0:17:00.88,ValueSubtitles_style,,0,0,0,,Choking on your ego, deusa gold is rolled,
+Dialogue: 0,0:17:00.88,0:17:02.33,ValueSubtitles_style,,0,0,0,,is what they say knowing you go
+Dialogue: 0,0:17:02.43,0:17:03.83,ValueSubtitles_style,,0,0,0,,Now they got you on your own
+Dialogue: 0,0:17:03.83,0:17:06.52,ValueSubtitles_style,,0,0,0,,Diseased is what this game is, pokerface you're about to fold
+Dialogue: 0,0:17:06.52,0:17:09.32,ValueSubtitles_style,,0,0,0,,That's just the lies that you were told, the story never gets old
+Dialogue: 0,0:17:09.32,0:17:10.55,ValueSubtitles_style,,0,0,0,,You was young wise en was bold
+Dialogue: 0,0:17:10.55,0:17:13.25,ValueSubtitles_style,,0,0,0,,Now you faded and life is cold, it’s got me not answering the phone
+Dialogue: 0,0:17:13.25,0:17:14.95,ValueSubtitles_style,,0,0,0,,and I’m too scared to get you involved
+Dialogue: 0,0:17:16.03,0:17:18.70,ValueSubtitles_style,,0,0,0,,Ey, blue sky tide help me clear my mind
+Dialogue: 0,0:17:18.70,0:17:21.10,ValueSubtitles_style,,0,0,0,,Full of nothing I need, no
+Dialogue: 0,0:17:21.40,0:17:24.17,ValueSubtitles_style,,0,0,0,,I look up sometimes and to my surprise
+Dialogue: 0,0:17:24.17,0:17:26.65,ValueSubtitles_style,,0,0,0,,I can finally breathe, woah
+Dialogue: 0,0:17:26.92,0:17:29.66,ValueSubtitles_style,,0,0,0,,It's a real thin line 'tween wasting time
+Dialogue: 0,0:17:29.66,0:17:32.12,ValueSubtitles_style,,0,0,0,,And getting some peace though
+Dialogue: 0,0:17:32.23,0:17:35.35,ValueSubtitles_style,,0,0,0,,All the depths I dive try to finally find out
+Dialogue: 0,0:17:35.35,0:17:36.38,ValueSubtitles_style,,0,0,0,,What it all means
+Dialogue: 0,0:17:36.38,0:17:36.70,ValueSubtitles_style,,0,0,0,,OH {\c&H000000&}FAITHFUL{\c&HFFFFFF&}
+Dialogue: 0,0:17:36.70,0:17:37.29,ValueSubtitles_style,,0,0,0,,OH FAITH{\c&H000000&}FUL{\c&HFFFFFF&}
+Dialogue: 0,0:17:37.29,0:17:38.44,ValueSubtitles_style,,0,0,0,,OH FAITHFUL
+Dialogue: 0,0:17:38.44,0:17:39.04,ValueSubtitles_style,,0,0,0,,IN{\c&H000000&}NER DEMONS{\c&HFFFFFF&}
+Dialogue: 0,0:17:39.04,0:17:39.48,ValueSubtitles_style,,0,0,0,,INNER{\c&H000000&} DEMONS{\c&HFFFFFF&}
+Dialogue: 0,0:17:39.48,0:17:40.05,ValueSubtitles_style,,0,0,0,,INNER DE{\c&H000000&}MONS{\c&HFFFFFF&}
+Dialogue: 0,0:17:40.05,0:17:41.17,ValueSubtitles_style,,0,0,0,,INNER DEMONS
+Dialogue: 0,0:17:41.17,0:17:41.68,ValueSubtitles_style,,0,0,0,,GIVE {\c&H000000&}ME SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:17:41.68,0:17:42.19,ValueSubtitles_style,,0,0,0,,GIVE ME {\c&H000000&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:17:42.19,0:17:42.74,ValueSubtitles_style,,0,0,0,,GIVE ME SOME{\c&H000000&}THING{\c&HFFFFFF&}
+Dialogue: 0,0:17:42.74,0:17:43.97,ValueSubtitles_style,,0,0,0,,GIVE ME SOMETHING
+Dialogue: 0,0:17:43.97,0:17:44.45,ValueSubtitles_style,,0,0,0,,TO {\c&H000000&}BELIEVE IN{\c&HFFFFFF&}
+Dialogue: 0,0:17:44.45,0:17:44.92,ValueSubtitles_style,,0,0,0,,TO BEL{\c&H000000&}IEVE IN{\c&HFFFFFF&}
+Dialogue: 0,0:17:44.92,0:17:45.45,ValueSubtitles_style,,0,0,0,,TO BELIEVE {\c&H000000&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:17:45.45,0:17:46.65,ValueSubtitles_style,,0,0,0,,TO BELIEVE IN
+Dialogue: 0,0:17:46.65,0:17:47.21,ValueSubtitles_style,,0,0,0,,I'VE {\c&H000000&}BEEN{\c&HFFFFFF&}
+Dialogue: 0,0:17:47.21,0:17:47.70,ValueSubtitles_style,,0,0,0,,I'VE BEEN
+Dialogue: 0,0:18:01.10,0:18:02.75,ValueSubtitles_style,,0,0,0,,Yeah,
+Dialogue: 0,0:18:02.75,0:18:04.13,ValueSubtitles_style,,0,0,0,,Yeah, ether
+Dialogue: 0,0:18:06.52,0:18:08.08,ValueSubtitles_style,,0,0,0,,Yeah,
+Dialogue: 0,0:18:08.08,0:18:09.52,ValueSubtitles_style,,0,0,0,,Yeah, ether
+Dialogue: 0,0:18:11.92,0:18:13.63,ValueSubtitles_style,,0,0,0,,Yeah,
+Dialogue: 0,0:18:13.63,0:18:15.00,ValueSubtitles_style,,0,0,0,,Yeah, ether
+Dialogue: 0,0:18:19.77,0:18:22.17,ValueSubtitles_style,,0,0,0,,Oh faithful
+Dialogue: 0,0:18:22.17,0:18:24.88,ValueSubtitles_style,,0,0,0,,Inner demons
+Dialogue: 0,0:18:24.88,0:18:27.59,ValueSubtitles_style,,0,0,0,,Give me something
+Dialogue: 0,0:18:27.59,0:18:30.31,ValueSubtitles_style,,0,0,0,,to believe in
+Dialogue: 0,0:18:30.31,0:18:33.05,ValueSubtitles_style,,0,0,0,,I've been stumbling
+Dialogue: 0,0:18:33.05,0:18:35.78,ValueSubtitles_style,,0,0,0,,'round the ether
+Dialogue: 0,0:18:35.78,0:18:38.45,ValueSubtitles_style,,0,0,0,,I keep wondering
+Dialogue: 0,0:18:38.45,0:18:42.28,ValueSubtitles_style,,0,0,0,,why I'm here
+Dialogue: 0,0:18:42.47,0:18:45.35,ValueSubtitles_style,,0,0,0,,Go on, let me then, take you for a foolin'\NI jump for that steel tool
+Dialogue: 0,0:18:45.35,0:18:48.08,ValueSubtitles_style,,0,0,0,,I jump for the key\NBless the land, my posture feed that
+Dialogue: 0,0:18:48.08,0:18:50.83,ValueSubtitles_style,,0,0,0,,When you're alone\NWhen you’re steady in the long wind, don't need to worry
+Dialogue: 0,0:18:50.83,0:18:53.53,ValueSubtitles_style,,0,0,0,,Inna go then, when I lie about them, they’re gonna be free
+Dialogue: 0,0:18:53.53,0:18:56.28,ValueSubtitles_style,,0,0,0,,Aye, blood, don’t tell fake, hyper socials, you clickbait
+Dialogue: 0,0:18:56.28,0:18:59.00,ValueSubtitles_style,,0,0,0,,Money in real life, but mine didn't matter how I feel like, boy
+Dialogue: 0,0:18:59.00,0:19:01.75,ValueSubtitles_style,,0,0,0,,Man, they give me bloodclaat, what am I saying\NSay anything and you're doomed with my dick
+Dialogue: 0,0:19:01.75,0:19:03.38,ValueSubtitles_style,,0,0,0,,Anything you talk, we definite\NHit it like this, life can't lie anytime
+Dialogue: 0,0:19:28.23,0:19:29.62,ValueSubtitles_style,,0,0,0,,Yeah,{\c&H000000&} Yeah, Yeah, Yeah, Yeah, Yeah{\c&HFFFFFF&}
+Dialogue: 0,0:19:29.62,0:19:29.98,ValueSubtitles_style,,0,0,0,,Yeah, Yeah, {\c&H000000&}Yeah, Yeah, Yeah, Yeah{\c&HFFFFFF&}
+Dialogue: 0,0:19:29.98,0:19:30.34,ValueSubtitles_style,,0,0,0,,Yeah, Yeah, Yeah, {\c&H000000&}Yeah, Yeah, Yeah{\c&HFFFFFF&}
+Dialogue: 0,0:19:30.34,0:19:30.67,ValueSubtitles_style,,0,0,0,,Yeah, Yeah, Yeah, Yeah, {\c&H000000&}Yeah, Yeah{\c&HFFFFFF&}
+Dialogue: 0,0:19:30.67,0:19:30.98,ValueSubtitles_style,,0,0,0,,Yeah, Yeah, Yeah, Yeah, Yeah, {\c&H000000&}Yeah{\c&HFFFFFF&}
+Dialogue: 0,0:19:30.98,0:19:31.32,ValueSubtitles_style,,0,0,0,,Yeah, Yeah, Yeah, Yeah, Yeah, Yeah
+Dialogue: 0,0:19:33.70,0:19:35.45,ValueSubtitles_style,,0,0,0,,Yeah,
+Dialogue: 0,0:19:35.45,0:19:36.80,ValueSubtitles_style,,0,0,0,,Yeah, ether
+Dialogue: 0,0:19:39.20,0:19:40.90,ValueSubtitles_style,,0,0,0,,Yeah,
+Dialogue: 0,0:19:40.90,0:19:42.30,ValueSubtitles_style,,0,0,0,,Yeah, ether
+Dialogue: 0,0:20:09.65,0:20:12.35,ValueSubtitles_style,,0,0,0,,Come, Corey, can you talk to me\Ncan some white guy start at me
+Dialogue: 0,0:20:12.34,0:20:15.06,ValueSubtitles_style,,0,0,0,,Did you just do crime properly\NSelfish, a bad mind, let's fuck, Corey
+Dialogue: 0,0:20:15.07,0:20:17.77,ValueSubtitles_style,,0,0,0,,Eat my Nina, this thing so no boy\Ncould ever try so near to me
+Dialogue: 0,0:20:17.77,0:20:20.53,ValueSubtitles_style,,0,0,0,,But man in a list, sing your boss up,\Nbitches wanna rip off your artery
+Dialogue: 0,0:20:20.53,0:20:23.17,ValueSubtitles_style,,0,0,0,,So let's get gassed, hold some more Henny inside us
+Dialogue: 0,0:20:23.17,0:20:26.27,ValueSubtitles_style,,0,0,0,,We can, you wanna see violence,\NI'm blaming this on my ignorance
+Dialogue: 0,0:20:26.27,0:20:28.62,ValueSubtitles_style,,0,0,0,,Living off a seaside ting, prison's a job,\Ncan't ever let 'em win
+Dialogue: 0,0:20:28.62,0:20:31.78,ValueSubtitles_style,,0,0,0,,Beats of love are vulgar, so keep the music,\Nhope it all screams
+Dialogue: 0,0:20:31.97,0:20:33.32,ValueSubtitles_style,,0,0,0,,Force fields,
+Dialogue: 0,0:20:33.32,0:20:34.74,ValueSubtitles_style,,0,0,0,,mind cracks
+Dialogue: 0,0:20:34.74,0:20:36.80,ValueSubtitles_style,,0,0,0,,Where we're going we won't be coming back
+Dialogue: 0,0:20:37.46,0:20:38.66,ValueSubtitles_style,,0,0,0,,Into the void,
+Dialogue: 0,0:20:38.66,0:20:40.05,ValueSubtitles_style,,0,0,0,,splintershock
+Dialogue: 0,0:20:40.05,0:20:42.18,ValueSubtitles_style,,0,0,0,,Nobody can hear you when you're in the dark
+Dialogue: 0,0:20:42.94,0:20:44.23,ValueSubtitles_style,,0,0,0,,Lifeline,
+Dialogue: 0,0:20:44.23,0:20:45.62,ValueSubtitles_style,,0,0,0,,feeble glow
+Dialogue: 0,0:20:45.62,0:20:47.73,ValueSubtitles_style,,0,0,0,,Feel the hunger of what lurks below
+Dialogue: 0,0:20:48.24,0:20:49.55,ValueSubtitles_style,,0,0,0,,A pale flash,
+Dialogue: 0,0:20:49.55,0:20:51.00,ValueSubtitles_style,,0,0,0,,the simple truth
+Dialogue: 0,0:20:51.00,0:20:53.18,ValueSubtitles_style,,0,0,0,,You aren't even sure what you've got left to prove
+Dialogue: 0,0:20:54.99,0:20:55.97,ValueSubtitles_style,,0,0,0,,Splintershock
+Dialogue: 0,0:21:14.93,0:21:17.75,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:17.75,0:21:20.43,ValueSubtitles_style,,0,0,0,,Baby hang with four or five killers\NBaby got children, Baby prolly still drug dealin'
+Dialogue: 0,0:21:20.43,0:21:23.18,ValueSubtitles_style,,0,0,0,,Baby ain't a trapper, he a rapper\NBaby makin' classics, Baby in the hood gettin' active
+Dialogue: 0,0:21:23.18,0:21:25.03,ValueSubtitles_style,,0,0,0,,Baby keep it real with his people\NBaby like a preacher
+Dialogue: 0,0:21:25.95,0:21:28.72,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:28.72,0:21:31.42,ValueSubtitles_style,,0,0,0,,Baby hang with four or five killers\NBaby got children, Baby prolly still drug dealin'
+Dialogue: 0,0:21:31.42,0:21:34.15,ValueSubtitles_style,,0,0,0,,Baby ain't a trapper, he a rapper\NBaby makin' classics, Baby in the hood gettin' active
+Dialogue: 0,0:21:34.15,0:21:36.80,ValueSubtitles_style,,0,0,0,,Baby keep it real with his people, Baby like a preacher
+Dialogue: 0,0:21:36.83,0:21:39.43,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:39.57,0:21:42.10,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:42.25,0:21:44.90,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:45.02,0:21:47.70,ValueSubtitles_style,,0,0,0,,Baby keep it real with his people\NBaby like a preacher, Baby prolly still sell reefer
+Dialogue: 0,0:21:47.82,0:21:50.28,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:50.43,0:21:53.18,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:21:53.18,0:21:55.95,ValueSubtitles_style,,0,0,0,,Baby hang with four or five killers\NBaby got children, Baby prolly still drug dealin'
+Dialogue: 0,0:21:55.95,0:21:57.27,ValueSubtitles_style,,0,0,0,,Baby ain't a trapper, he a rapper
+Dialogue: 0,0:21:58.65,0:22:01.30,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:22:01.38,0:22:03.88,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:22:04.10,0:22:06.82,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:22:06.82,0:22:09.57,ValueSubtitles_style,,0,0,0,,Baby keep it real with his people\NBaby like a preacher, Baby prolly still sell reefer
+Dialogue: 0,0:22:09.57,0:22:12.17,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:22:12.25,0:22:15.03,ValueSubtitles_style,,0,0,0,,Baby puttin' on for the city\NBaby, he the realest, Baby prolly got a couple million
+Dialogue: 0,0:22:15.03,0:22:17.62,ValueSubtitles_style,,0,0,0,,Baby hang with four or five killers\NBaby got children, Baby prolly still drug dealin'
+Dialogue: 0,0:22:17.62,0:22:19.08,ValueSubtitles_style,,0,0,0,,Baby ain't a trapper, he a rapper\NBaby makin' classics,
+Dialogue: 0,0:22:19.08,0:22:19.62,ValueSubtitles_style,,0,0,0,,Leave {\alpha&H18&\c&H000000&}it all behind{\c&HFFFFFF&}
+Dialogue: 0,0:22:19.62,0:22:19.79,ValueSubtitles_style,,0,0,0,,Leave it {\alpha&H18&\c&H000000&}all behind{\c&HFFFFFF&}
+Dialogue: 0,0:22:19.79,0:22:20.25,ValueSubtitles_style,,0,0,0,,Leave it all {\alpha&H18&\c&H000000&}behind{\c&HFFFFFF&}
+Dialogue: 0,0:22:20.25,0:22:20.40,ValueSubtitles_style,,0,0,0,,Leave it all be{\alpha&H18&\c&H000000&}hind{\c&HFFFFFF&}
+Dialogue: 0,0:22:20.40,0:22:23.10,ValueSubtitles_style,,0,0,0,,Leave it all behind
+Dialogue: 0,0:22:24.48,0:22:24.98,ValueSubtitles_style,,0,0,0,,Read {\alpha&H18&\c&H000000&}between the lines{\c&HFFFFFF&}
+Dialogue: 0,0:22:24.98,0:22:25.13,ValueSubtitles_style,,0,0,0,,Read bet{\alpha&H18&\c&H000000&}ween the lines{\c&HFFFFFF&}
+Dialogue: 0,0:22:25.13,0:22:25.61,ValueSubtitles_style,,0,0,0,,Read between {\alpha&H18&\c&H000000&}the lines{\c&HFFFFFF&}
+Dialogue: 0,0:22:25.61,0:22:25.79,ValueSubtitles_style,,0,0,0,,Read between the {\alpha&H18&\c&H000000&}lines{\c&HFFFFFF&}
+Dialogue: 0,0:22:25.79,0:22:27.83,ValueSubtitles_style,,0,0,0,,Read between the lines
+Dialogue: 0,0:22:30.02,0:22:30.41,ValueSubtitles_style,,0,0,0,,Don't {\c&H000000&}forget this moment{\c&HFFFFFF&}
+Dialogue: 0,0:22:30.41,0:22:30.60,ValueSubtitles_style,,0,0,0,,Don't for{\c&H000000&}get this moment{\c&HFFFFFF&}
+Dialogue: 0,0:22:30.60,0:22:30.89,ValueSubtitles_style,,0,0,0,,Don't forget {\c&H000000&}this moment{\c&HFFFFFF&}
+Dialogue: 0,0:22:30.89,0:22:31.29,ValueSubtitles_style,,0,0,0,,Don't forget this {\c&H000000&}moment{\c&HFFFFFF&}
+Dialogue: 0,0:22:31.29,0:22:31.67,ValueSubtitles_style,,0,0,0,,Don't forget this mo{\c&H000000&}ment{\c&HFFFFFF&}
+Dialogue: 0,0:22:31.67,0:22:34.14,ValueSubtitles_style,,0,0,0,,Don't forget this moment
+Dialogue: 0,0:22:35.45,0:22:35.97,ValueSubtitles_style,,0,0,0,,It{\c&H000000&} is your life{\c&HFFFFFF&}
+Dialogue: 0,0:22:35.97,0:22:36.43,ValueSubtitles_style,,0,0,0,,It is {\c&H000000&}your life{\c&HFFFFFF&}
+Dialogue: 0,0:22:36.43,0:22:36.79,ValueSubtitles_style,,0,0,0,,It is your{\c&H000000&} life{\c&HFFFFFF&}
+Dialogue: 0,0:22:36.79,0:22:39.52,ValueSubtitles_style,,0,0,0,,It is your life
+Dialogue: 0,0:22:41.98,0:22:44.88,ValueSubtitles_style,,0,0,0,,As I walk through the battle
+Dialogue: 0,0:22:44.88,0:22:47.35,ValueSubtitles_style,,0,0,0,,The ashes lead the way
+Dialogue: 0,0:22:47.35,0:22:50.08,ValueSubtitles_style,,0,0,0,,No fire cast upon me
+Dialogue: 0,0:22:50.08,0:22:52.97,ValueSubtitles_style,,0,0,0,,Shall quell the light you gave
+Dialogue: 0,0:22:53.16,0:22:55.73,ValueSubtitles_style,,0,0,0,,Comrades march in mourning
+Dialogue: 0,0:22:55.73,0:22:58.30,ValueSubtitles_style,,0,0,0,,But we stand not afraid
+Dialogue: 0,0:22:58.30,0:23:01.02,ValueSubtitles_style,,0,0,0,,A warrior hath fallen
+Dialogue: 0,0:23:01.02,0:23:03.88,ValueSubtitles_style,,0,0,0,,With legacy in wake
+Dialogue: 0,0:23:04.10,0:23:07.32,ValueSubtitles_style,,0,0,0,,I stare through the abyss
+Dialogue: 0,0:23:07.82,0:23:09.93,ValueSubtitles_style,,0,0,0,,I'm hearing your voice,
+Dialogue: 0,0:23:09.93,0:23:14.33,ValueSubtitles_style,,0,0,0,,echo all that you left with me
+Dialogue: 0,0:23:14.70,0:23:17.70,ValueSubtitles_style,,0,0,0,,As I stare through the abyss
+Dialogue: 0,0:23:18.75,0:23:20.77,ValueSubtitles_style,,0,0,0,,I follow your voice
+Dialogue: 0,0:23:20.77,0:23:22.18,ValueSubtitles_style,,0,0,0,,to the depths
+Dialogue: 0,0:23:22.18,0:23:24.17,ValueSubtitles_style,,0,0,0,,'til my shadows
+Dialogue: 0,0:23:24.17,0:23:24.90,ValueSubtitles_style,,0,0,0,,rest {\c&H000000&}in peace{\c&HFFFFFF&}
+Dialogue: 0,0:23:24.90,0:23:25.58,ValueSubtitles_style,,0,0,0,,rest in {\c&H000000&}peace{\c&HFFFFFF&}
+Dialogue: 0,0:23:25.58,0:23:25.86,ValueSubtitles_style,,0,0,0,,rest in peace
+Dialogue: 0,0:23:25.86,0:23:28.96,ValueSubtitles_style,,0,0,0,,{\ytshake}rest in peace
+Dialogue: 0,0:23:31.00,0:23:34.40,ValueSubtitles_style,,0,0,0,,{\ytshake}Peace
+Dialogue: 0,0:23:36.42,0:23:40.05,ValueSubtitles_style,,0,0,0,,As I stare through the abyss
+Dialogue: 0,0:23:40.45,0:23:42.53,ValueSubtitles_style,,0,0,0,,I follow your voice
+Dialogue: 0,0:23:42.53,0:23:43.92,ValueSubtitles_style,,0,0,0,,to the depths
+Dialogue: 0,0:23:43.92,0:23:45.92,ValueSubtitles_style,,0,0,0,,'til my shadows
+Dialogue: 0,0:23:45.92,0:23:46.68,ValueSubtitles_style,,0,0,0,,rest {\c&H000000&}in peace{\c&HFFFFFF&}
+Dialogue: 0,0:23:46.68,0:23:47.30,ValueSubtitles_style,,0,0,0,,rest in {\c&H000000&}peace{\c&HFFFFFF&}
+Dialogue: 0,0:23:47.30,0:23:47.73,ValueSubtitles_style,,0,0,0,,rest in peace
+Dialogue: 0,0:24:09.53,0:24:12.90,ValueSubtitles_style,,0,0,0,,I stare through the abyss
+Dialogue: 0,0:24:13.28,0:24:15.28,ValueSubtitles_style,,0,0,0,,I'm hearing your voice,
+Dialogue: 0,0:24:15.28,0:24:19.54,ValueSubtitles_style,,0,0,0,,echo all that you left with me
+Dialogue: 0,0:24:20.15,0:24:23.77,ValueSubtitles_style,,0,0,0,,As I stare through the abyss
+Dialogue: 0,0:24:24.23,0:24:26.17,ValueSubtitles_style,,0,0,0,,I follow your voice
+Dialogue: 0,0:24:26.17,0:24:27.48,ValueSubtitles_style,,0,0,0,,to the depths
+Dialogue: 0,0:24:27.48,0:24:29.57,ValueSubtitles_style,,0,0,0,,'til my shadows
+Dialogue: 0,0:24:29.57,0:24:30.28,ValueSubtitles_style,,0,0,0,,rest {\c&H000000&}in peace{\c&HFFFFFF&}
+Dialogue: 0,0:24:30.28,0:24:31.01,ValueSubtitles_style,,0,0,0,,rest in {\c&H000000&}peace{\c&HFFFFFF&}
+Dialogue: 0,0:24:31.01,0:24:31.37,ValueSubtitles_style,,0,0,0,,rest in peace
+Dialogue: 0,0:24:31.37,0:24:32.92,ValueSubtitles_style,,0,0,0,,A lucky, lucky girl
+Dialogue: 0,0:24:32.92,0:24:35.40,ValueSubtitles_style,,0,0,0,,She got married to a boy like you
+Dialogue: 0,0:24:35.40,0:24:38.30,ValueSubtitles_style,,0,0,0,,She'd kick you out if she ever, ever knew
+Dialogue: 0,0:24:38.30,0:24:41.90,ValueSubtitles_style,,0,0,0,,'Bout all the - you tell me that you do
+Dialogue: 0,0:24:38.93,0:24:39.46,ValueSubtitles_style,,0,0,0,,{\pos(1280,1335 )\c&HFFFF00&}*telegram ping*
+Dialogue: 0,0:24:42.40,0:24:43.80,ValueSubtitles_style,,0,0,0,,Dirty, dirty boy
+Dialogue: 0,0:24:43.80,0:24:46.53,ValueSubtitles_style,,0,0,0,,You know everyone is talking on the scene
+Dialogue: 0,0:24:46.53,0:24:49.27,ValueSubtitles_style,,0,0,0,,I hear them whispering 'bout the places that you've been
+Dialogue: 0,0:24:49.27,0:24:52.92,ValueSubtitles_style,,0,0,0,,And how you don't know how to keep your business clean
+Dialogue: 0,0:24:53.27,0:24:55.57,ValueSubtitles_style,,0,0,0,,Mummy don't know daddy's getting hot
+Dialogue: 0,0:24:55.57,0:24:58.62,ValueSubtitles_style,,0,0,0,,At the body shop, doing something unholy
+Dialogue: 0,0:24:58.62,0:25:01.03,ValueSubtitles_style,,0,0,0,,He's sat back while she's dropping it,
+Dialogue: 0,0:25:01.03,0:25:02.33,ValueSubtitles_style,,0,0,0,,she be popping it
+Dialogue: 0,0:25:02.33,0:25:03.98,ValueSubtitles_style,,0,0,0,,Yeah, she put it down slowly
+Dialogue: 0,0:25:04.12,0:25:06.83,ValueSubtitles_style,,0,0,0,,Oh-ee-oh-ee-oh, he left his kids at
+Dialogue: 0,0:25:06.83,0:25:09.53,ValueSubtitles_style,,0,0,0,,Ho-ee-oh-ee-ome, so he can get that
+Dialogue: 0,0:25:09.53,0:25:11.90,ValueSubtitles_style,,0,0,0,,Mummy don't know daddy's getting hot
+Dialogue: 0,0:25:11.90,0:25:14.51,ValueSubtitles_style,,0,0,0,,At the body shop, doing something unholy
+Dialogue: 0,0:25:14.51,0:25:16.01,ValueSubtitles_style,,0,0,0,,I know I'm fine
+Dialogue: 0,0:25:16.01,0:25:17.72,ValueSubtitles_style,,0,0,0,,But the money makes me handsomer
+Dialogue: 0,0:25:17.72,0:25:20.79,ValueSubtitles_style,,0,0,0,,Walk around, smelling like a come-up in the answer for her problems
+Dialogue: 0,0:25:20.79,0:25:22.85,ValueSubtitles_style,,0,0,0,, but I'm not him, I don't mind it though
+Dialogue: 0,0:25:22.85,0:25:25.21,ValueSubtitles_style,,0,0,0,,You don't like me how you think you do, I like it though
+Dialogue: 0,0:25:25.43,0:25:26.58,ValueSubtitles_style,,0,0,0,,I know I'm fine
+Dialogue: 0,0:25:26.93,0:25:28.67,ValueSubtitles_style,,0,0,0,,But the money makes me handsomer
+Dialogue: 0,0:25:28.67,0:25:31.67,ValueSubtitles_style,,0,0,0,,Walk around, smelling like a come-up in the answer for her problems
+Dialogue: 0,0:25:31.67,0:25:33.77,ValueSubtitles_style,,0,0,0,,but I'm not him, I don't mind it though
+Dialogue: 0,0:25:33.77,0:25:35.79,ValueSubtitles_style,,0,0,0,,You don't like me how you think you do, I like it though
+Dialogue: 0,0:25:36.14,0:25:36.52,ValueSubtitles_style,,0,0,0,,All {\c&H000000&}religion,{\c&HFFFFFF&}
+Dialogue: 0,0:25:36.52,0:25:36.67,ValueSubtitles_style,,0,0,0,,All re{\c&H000000&}ligion,{\c&HFFFFFF&}
+Dialogue: 0,0:25:36.67,0:25:36.92,ValueSubtitles_style,,0,0,0,,All reli{\c&H000000&}gion,{\c&HFFFFFF&}
+Dialogue: 0,0:25:36.92,0:25:38.65,ValueSubtitles_style,,0,0,0,,All religion,
+Dialogue: 0,0:25:38.76,0:25:39.10,ValueSubtitles_style,,0,0,0,,su{\c&H000000&}personic{\c&HFFFFFF&}
+Dialogue: 0,0:25:39.10,0:25:39.30,ValueSubtitles_style,,0,0,0,,super{\c&H000000&}sonic{\c&HFFFFFF&}
+Dialogue: 0,0:25:39.30,0:25:39.69,ValueSubtitles_style,,0,0,0,,superso{\c&H000000&}nic{\c&HFFFFFF&}
+Dialogue: 0,0:25:39.69,0:25:40.92,ValueSubtitles_style,,0,0,0,,supersonic
+Dialogue: 0,0:25:41.59,0:25:41.87,ValueSubtitles_style,,0,0,0,,My {\c&H000000&}existence,{\c&HFFFFFF&}
+Dialogue: 0,0:25:41.87,0:25:42.10,ValueSubtitles_style,,0,0,0,,My ex{\c&H000000&}istence,{\c&HFFFFFF&}
+Dialogue: 0,0:25:42.10,0:25:42.46,ValueSubtitles_style,,0,0,0,,My exis{\c&H000000&}tence,{\c&HFFFFFF&}
+Dialogue: 0,0:25:42.46,0:25:43.76,ValueSubtitles_style,,0,0,0,,My existence,
+Dialogue: 0,0:25:44.14,0:25:44.32,ValueSubtitles_style,,0,0,0,,you {\c&H000000&}can't resist us{\c&HFFFFFF&}
+Dialogue: 0,0:25:44.32,0:25:44.67,ValueSubtitles_style,,0,0,0,,you can't {\c&H000000&}resist us{\c&HFFFFFF&}
+Dialogue: 0,0:25:44.67,0:25:44.85,ValueSubtitles_style,,0,0,0,,you can't re{\c&H000000&}sist us{\c&HFFFFFF&}
+Dialogue: 0,0:25:44.85,0:25:45.13,ValueSubtitles_style,,0,0,0,,you can't resist{\c&H000000&} us{\c&HFFFFFF&}
+Dialogue: 0,0:25:45.13,0:25:45.25,ValueSubtitles_style,,0,0,0,,you can't resist{\c&H000000&} us{\c&HFFFFFF&}
+Dialogue: 0,0:25:45.25,0:25:46.98,ValueSubtitles_style,,0,0,0,,you can't resist us
+Dialogue: 0,0:25:46.98,0:25:49.62,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:49.82,0:25:52.31,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:52.49,0:25:53.24,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:53.51,0:25:53.85,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:54.19,0:25:54.54,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:54.88,0:25:55.12,ValueSubtitles_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:55.55,0:25:55.90,ValueSubtitles_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.07,0:25:56.24,ValueSubtitles_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.41,0:25:56.57,ValueSubtitles_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.75,0:25:56.93,ValueSubtitles_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:57.09,0:25:57.23,ValueSubtitles_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:59.33,0:26:01.48,ValueSubtitles_style,,0,0,0,,Did the math, I'm baby Johnny Cash
+Dialogue: 0,0:26:01.48,0:26:02.72,ValueSubtitles_style,,0,0,0,,My girl gon' throw it back
+Dialogue: 0,0:26:02.72,0:26:04.11,ValueSubtitles_style,,0,0,0,,Damn, my life is Cinemax
+Dialogue: 0,0:26:04.48,0:26:05.41,ValueSubtitles_style,,0,0,0,,Holly hell, this smacks
+Dialogue: 0,0:26:05.41,0:26:06.80,ValueSubtitles_style,,0,0,0,,I make hits and you make trash
+Dialogue: 0,0:26:06.80,0:26:08.08,ValueSubtitles_style,,0,0,0,,I'm on vacay do not ask
+Dialogue: 0,0:26:08.08,0:26:09.58,ValueSubtitles_style,,0,0,0,,Poolside eating apple jacks
+Dialogue: 0,0:26:09.80,0:26:11.03,ValueSubtitles_style,,0,0,0,,Shut up bitch
+Dialogue: 0,0:26:11.03,0:26:12.60,ValueSubtitles_style,,0,0,0,,Big deal like Tj Maxx
+Dialogue: 0,0:26:12.63,0:26:13.85,ValueSubtitles_style,,0,0,0,,Pop some cataracts
+Dialogue: 0,0:26:13.85,0:26:15.22,ValueSubtitles_style,,0,0,0,,Watching Art Attack
+Dialogue: 0,0:26:15.22,0:26:16.73,ValueSubtitles_style,,0,0,0,,Nick Cage, how I act
+Dialogue: 0,0:26:16.73,0:26:18.03,ValueSubtitles_style,,0,0,0,,Heavily dislike tax
+Dialogue: 0,0:26:18.03,0:26:20.45,ValueSubtitles_style,,0,0,0,,Got some Asics on my feet, never wear Air Max
+Dialogue: 0,0:26:20.60,0:26:22.14,ValueSubtitles_style,,0,0,0,,I'm in the cut, like a wound
+Dialogue: 0,0:26:22.14,0:26:23.47,ValueSubtitles_style,,0,0,0,,Wake yo' ass up, make some room
+Dialogue: 0,0:26:23.47,0:26:24.86,ValueSubtitles_style,,0,0,0,,In my girl coming soon
+Dialogue: 0,0:26:24.86,0:26:26.23,ValueSubtitles_style,,0,0,0,,I don't fuck with honeymoons
+Dialogue: 0,0:26:26.23,0:26:27.52,ValueSubtitles_style,,0,0,0,,Throw some money on my tomb
+Dialogue: 0,0:26:27.52,0:26:28.97,ValueSubtitles_style,,0,0,0,,Finesse too hard, I'm feeling oom
+Dialogue: 0,0:26:28.97,0:26:30.28,ValueSubtitles_style,,0,0,0,,Girls love me, they wanna spoon
+Dialogue: 0,0:26:30.28,0:26:31.63,ValueSubtitles_style,,0,0,0,,Let me finish, I'll resume
+Dialogue: 0,0:26:31.63,0:26:34.09,ValueSubtitles_style,,0,0,0,,Flame suit, french leather and my girl bad
+Dialogue: 0,0:26:34.42,0:26:36.77,ValueSubtitles_style,,0,0,0,,Gatekeeper say it's open, I ain't calling back
+Dialogue: 0,0:26:37.02,0:26:39.52,ValueSubtitles_style,,0,0,0,,15 minute TED Talk, collecting 40 racks
+Dialogue: 0,0:26:39.87,0:26:42.25,ValueSubtitles_style,,0,0,0,,One milly paid in tax, bitch do the math
+Dialogue: 0,0:26:48.42,0:26:50.80,ValueSubtitles_style,,0,0,0,,Do the math, bitch, do the math
+Dialogue: 0,0:26:50.80,0:26:53.20,ValueSubtitles_style,,0,0,0,,One milly paid in tax, bitch do the math
+Dialogue: 0,0:26:59.23,0:27:01.68,ValueSubtitles_style,,0,0,0,,Do the math, bitch, do the math
+Dialogue: 0,0:27:01.68,0:27:04.12,ValueSubtitles_style,,0,0,0,,One milly paid in tax, bitch do the math
+Dialogue: 0,0:27:26.78,0:27:31.33,ValueSubtitles_style,,0,0,0,,When I'm falling down
+Dialogue: 0,0:27:31.93,0:27:37.38,ValueSubtitles_style,,0,0,0,,Will you pick me up again?
+Dialogue: 0,0:27:37.77,0:27:42.08,ValueSubtitles_style,,0,0,0,,When I'm too far gone
+Dialogue: 0,0:27:42.92,0:27:47.76,ValueSubtitles_style,,0,0,0,,Dead in the eyes of my friends
+Dialogue: 0,0:27:48.34,0:27:50.97,ValueSubtitles_style,,0,0,0,,Will you take me out of here
+Dialogue: 0,0:27:51.44,0:27:54.07,ValueSubtitles_style,,0,0,0,,When I'm staring down the barrel
+Dialogue: 0,0:27:54.18,0:27:56.38,ValueSubtitles_style,,0,0,0,,When I'm blinded by the lights
+Dialogue: 0,0:27:56.92,0:27:59.88,ValueSubtitles_style,,0,0,0,,When I cannot see your face?
+Dialogue: 0,0:28:00.30,0:28:02.03,ValueSubtitles_style,,0,0,0,,Take me out of here
+Dialogue: 0,0:28:03.05,0:28:04.77,ValueSubtitles_style,,0,0,0,,Take me out of here
+Dialogue: 0,0:28:05.78,0:28:07.50,ValueSubtitles_style,,0,0,0,,Take me out of here
+Dialogue: 0,0:28:08.52,0:28:08.68,ValueSubtitles_style,,0,0,0,,Take {\c&H000000&}me out of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:08.68,0:28:08.73,ValueSubtitles_style,,0,0,0,,Take me {\c&H000000&}out of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:08.73,0:28:08.84,ValueSubtitles_style,,0,0,0,,Take me {\c&H000000&}out of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:08.84,0:28:08.98,ValueSubtitles_style,,0,0,0,,Take me out {\c&H000000&}of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:08.98,0:28:09.18,ValueSubtitles_style,,0,0,0,,Take me out of {\c&H000000&}here{\c&HFFFFFF&}
+Dialogue: 0,0:28:09.18,0:28:09.53,ValueSubtitles_style,,0,0,0,,Take me out of here
+Dialogue: 0,0:28:09.53,0:28:15.06,ValueSubtitles_style,,0,0,0,,{\ytshake}Take me out of {\b1}here{\b0}
+Dialogue: 0,0:28:30.32,0:28:33.08,ValueSubtitles_style,,0,0,0,,All I believe
+Dialogue: 0,0:28:33.08,0:28:35.73,ValueSubtitles_style,,0,0,0,,And all I've known
+Dialogue: 0,0:28:35.73,0:28:38.82,ValueSubtitles_style,,0,0,0,,Are being taken from me
+Dialogue: 0,0:28:38.82,0:28:40.95,ValueSubtitles_style,,0,0,0,,Can't get home
+Dialogue: 0,0:28:41.23,0:28:43.93,ValueSubtitles_style,,0,0,0,,Yeah, do your worst
+Dialogue: 0,0:28:43.93,0:28:46.93,ValueSubtitles_style,,0,0,0,,When worlds collide
+Dialogue: 0,0:28:46.93,0:28:49.37,ValueSubtitles_style,,0,0,0,,Let their fear collapse
+Dialogue: 0,0:28:49.37,0:28:52.08,ValueSubtitles_style,,0,0,0,,Bring no surprise
+Dialogue: 0,0:28:52.07,0:28:52.27,ValueSubtitles_style,,0,0,0,,Take {\c&H000000&}me out of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:52.27,0:28:52.41,ValueSubtitles_style,,0,0,0,,Take me {\c&H000000&}out of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:52.41,0:28:52.59,ValueSubtitles_style,,0,0,0,,Take me out {\c&H000000&}of here{\c&HFFFFFF&}
+Dialogue: 0,0:28:52.59,0:28:52.77,ValueSubtitles_style,,0,0,0,,Take me out of {\c&H000000&}here{\c&HFFFFFF&}
+Dialogue: 0,0:28:52.77,0:28:53.16,ValueSubtitles_style,,0,0,0,,Take me out of here
+Dialogue: 0,0:29:14.32,0:29:15.68,ValueSubtitles_style,,0,0,0,,Feed the fire,
+Dialogue: 0,0:29:15.68,0:29:17.03,ValueSubtitles_style,,0,0,0,,break your vision
+Dialogue: 0,0:29:17.03,0:29:18.37,ValueSubtitles_style,,0,0,0,,Throw your fists up
+Dialogue: 0,0:29:18.37,0:29:19.60,ValueSubtitles_style,,0,0,0,,come with me
+Dialogue: 0,0:29:19.70,0:29:21.07,ValueSubtitles_style,,0,0,0,,Feed the fire,
+Dialogue: 0,0:29:21.07,0:29:22.42,ValueSubtitles_style,,0,0,0,,break your vision
+Dialogue: 0,0:29:22.42,0:29:23.75,ValueSubtitles_style,,0,0,0,,Throw your fists up
+Dialogue: 0,0:29:23.75,0:29:25.17,ValueSubtitles_style,,0,0,0,,come with me
+Dialogue: 0,0:29:25.22,0:29:26.58,ValueSubtitles_style,,0,0,0,,Feed the fire,
+Dialogue: 0,0:29:26.58,0:29:27.93,ValueSubtitles_style,,0,0,0,,break your vision
+Dialogue: 0,0:29:27.93,0:29:29.32,ValueSubtitles_style,,0,0,0,,Throw your fists up
+Dialogue: 0,0:29:29.32,0:29:30.58,ValueSubtitles_style,,0,0,0,,come with me
+Dialogue: 0,0:29:30.65,0:29:32.02,ValueSubtitles_style,,0,0,0,,Feed the fire,
+Dialogue: 0,0:29:32.02,0:29:33.37,ValueSubtitles_style,,0,0,0,,break your vision
+Dialogue: 0,0:29:33.37,0:29:34.70,ValueSubtitles_style,,0,0,0,,Throw your fists up
+Dialogue: 0,0:29:34.70,0:29:36.80,ValueSubtitles_style,,0,0,0,,come with me
+Dialogue: 0,0:30:00.40,0:30:03.48,ValueSubtitles_style,,0,0,0,,And we fall with you
+Dialogue: 0,0:30:05.77,0:30:08.72,ValueSubtitles_style,,0,0,0,,And we fall with you
+Dialogue: 0,0:30:11.33,0:30:14.42,ValueSubtitles_style,,0,0,0,,And we fall with you
+Dialogue: 0,0:30:16.47,0:30:19.55,ValueSubtitles_style,,0,0,0,,And we fall with you
+Dialogue: 0,0:30:20.48,0:30:23.15,ValueSubtitles_style,,0,0,0,,So listen up, keep your ears to the ground
+Dialogue: 0,0:30:23.15,0:30:25.89,ValueSubtitles_style,,0,0,0,,Don't go getting mistaken now
+Dialogue: 0,0:30:26.27,0:30:28.50,ValueSubtitles_style,,0,0,0,,I'm the dude with the don't care crown
+Dialogue: 0,0:30:28.50,0:30:31.32,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken down
+Dialogue: 0,0:30:31.52,0:30:33.87,ValueSubtitles_style,,0,0,0,,I ain't lettin' my spirits down
+Dialogue: 0,0:30:33.87,0:30:36.83,ValueSubtitles_style,,0,0,0,,'Cause ain't much matter that much I found
+Dialogue: 0,0:30:37.15,0:30:39.32,ValueSubtitles_style,,0,0,0,,I'm the dude with the don't care crown
+Dialogue: 0,0:30:39.32,0:30:39.55,ValueSubtitles_style,,0,0,0,,And {\c&H000000&}I ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:39.55,0:30:39.82,ValueSubtitles_style,,0,0,0,,And I {\c&H000000&}ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:39.82,0:30:40.20,ValueSubtitles_style,,0,0,0,,And I ain't {\c&H000000&}gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:40.20,0:30:40.36,ValueSubtitles_style,,0,0,0,,And I ain't gon{\c&H000000&}na be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:40.36,0:30:40.55,ValueSubtitles_style,,0,0,0,,And I ain't gonna {\c&H000000&}be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:40.55,0:30:40.88,ValueSubtitles_style,,0,0,0,,And I ain't gonna be {\c&H000000&}taken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:40.88,0:30:41.21,ValueSubtitles_style,,0,0,0,,And I ain't gonna be ta{\c&H000000&}ken down{\c&HFFFFFF&}
+Dialogue: 0,0:30:41.21,0:30:41.58,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken{\c&H000000&} down{\c&HFFFFFF&}
+Dialogue: 0,0:30:41.58,0:30:42.25,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken down
+Dialogue: 0,0:30:50.47,0:30:53.18,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:31:01.38,0:31:04.06,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:31:04.59,0:31:06.77,ValueSubtitles_style,,0,0,0,,Alright, alright, worry keeps you up all night
+Dialogue: 0,0:31:06.77,0:31:09.50,ValueSubtitles_style,,0,0,0,,Could just be a problem with the things you keep inside your mind
+Dialogue: 0,0:31:09.50,0:31:12.10,ValueSubtitles_style,,0,0,0,,I get that it's hard to find recipes for living right
+Dialogue: 0,0:31:12.09,0:31:14.99,ValueSubtitles_style,,0,0,0,,Maybe take a seat, and I'll tell you how it goes
+Dialogue: 0,0:31:15.00,0:31:17.43,ValueSubtitles_style,,0,0,0,,We can never know everything, everything
+Dialogue: 0,0:31:17.43,0:31:20.22,ValueSubtitles_style,,0,0,0,,So I've been letting go everything, everything
+Dialogue: 0,0:31:20.22,0:31:22.82,ValueSubtitles_style,,0,0,0,,Relax and then rejoice, 'cause you can't change a thing
+Dialogue: 0,0:31:22.82,0:31:25.56,ValueSubtitles_style,,0,0,0,,Disappointment is a choice, that's the thing, that's the thing
+Dialogue: 0,0:31:25.56,0:31:25.73,ValueSubtitles_style,,0,0,0,,that's the thing, that's the thing
+Dialogue: 0,0:31:25.98,0:31:28.58,ValueSubtitles_style,,0,0,0,,So listen up, keep your ears to the ground
+Dialogue: 0,0:31:28.58,0:31:31.35,ValueSubtitles_style,,0,0,0,,Don't go getting mistaken now
+Dialogue: 0,0:31:31.67,0:31:34.05,ValueSubtitles_style,,0,0,0,,I'm the dude with the don't care crown
+Dialogue: 0,0:31:34.05,0:31:36.78,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken down
+Dialogue: 0,0:31:36.98,0:31:39.35,ValueSubtitles_style,,0,0,0,,I ain't lettin' my spirits down
+Dialogue: 0,0:31:39.35,0:31:42.26,ValueSubtitles_style,,0,0,0,,'Cause ain't much matter that much I found
+Dialogue: 0,0:31:42.59,0:31:44.80,ValueSubtitles_style,,0,0,0,,I'm the dude with the don't care crown
+Dialogue: 0,0:31:44.80,0:31:44.98,ValueSubtitles_style,,0,0,0,,And {\c&H000000&}I ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:44.98,0:31:45.23,ValueSubtitles_style,,0,0,0,,And I {\c&H000000&}ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:45.23,0:31:45.65,ValueSubtitles_style,,0,0,0,,And I ain't {\c&H000000&}gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:45.65,0:31:45.78,ValueSubtitles_style,,0,0,0,,And I ain't gon{\c&H000000&}na be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:45.78,0:31:45.94,ValueSubtitles_style,,0,0,0,,And I ain't gonna {\c&H000000&}be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:45.94,0:31:46.29,ValueSubtitles_style,,0,0,0,,And I ain't gonna be {\c&H000000&}taken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:46.29,0:31:46.64,ValueSubtitles_style,,0,0,0,,And I ain't gonna be ta{\c&H000000&}ken down{\c&HFFFFFF&}
+Dialogue: 0,0:31:46.64,0:31:47.01,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken{\c&H000000&} down{\c&HFFFFFF&}
+Dialogue: 0,0:31:47.01,0:31:47.72,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken down
+Dialogue: 0,0:31:55.90,0:31:58.65,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:32:08.35,0:32:10.98,ValueSubtitles_style,,0,0,0,,So choose something to believe in
+Dialogue: 0,0:32:10.98,0:32:14.13,ValueSubtitles_style,,0,0,0,,You know we give life it's meaning, oh
+Dialogue: 0,0:32:14.13,0:32:18.92,ValueSubtitles_style,,0,0,0,,If I search my feelings, I don't know
+Dialogue: 0,0:32:19.20,0:32:22.03,ValueSubtitles_style,,0,0,0,,And it's beyond comprehension
+Dialogue: 0,0:32:22.03,0:32:25.10,ValueSubtitles_style,,0,0,0,,You know I don't sense the tension, oh
+Dialogue: 0,0:32:25.10,0:32:30.03,ValueSubtitles_style,,0,0,0,,In place of redemption, I let go
+Dialogue: 0,0:32:30.83,0:32:33.82,ValueSubtitles_style,,0,0,0,,And well, I spent so much time with the don't care crown
+Dialogue: 0,0:32:33.82,0:32:36.50,ValueSubtitles_style,,0,0,0,,That I don't care how it's been weighing me down
+Dialogue: 0,0:32:36.50,0:32:39.43,ValueSubtitles_style,,0,0,0,,And I can't be open in my heart now
+Dialogue: 0,0:32:39.43,0:32:42.26,ValueSubtitles_style,,0,0,0,,I'm feeling nothing at all
+Dialogue: 0,0:32:42.38,0:32:44.77,ValueSubtitles_style,,0,0,0,,I ain't lettin' my spirits down
+Dialogue: 0,0:32:44.77,0:32:47.73,ValueSubtitles_style,,0,0,0,,'Cause ain't much matter that much I found
+Dialogue: 0,0:32:48.11,0:32:50.28,ValueSubtitles_style,,0,0,0,,I'm the dude with the don't care crown
+Dialogue: 0,0:32:50.28,0:32:50.44,ValueSubtitles_style,,0,0,0,,And {\c&H000000&}I ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:50.44,0:32:50.76,ValueSubtitles_style,,0,0,0,,And I {\c&H000000&}ain't gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:50.76,0:32:51.14,ValueSubtitles_style,,0,0,0,,And I ain't {\c&H000000&}gonna be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:51.14,0:32:51.31,ValueSubtitles_style,,0,0,0,,And I ain't gon{\c&H000000&}na be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:51.31,0:32:51.48,ValueSubtitles_style,,0,0,0,,And I ain't gonna {\c&H000000&}be taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:51.48,0:32:51.77,ValueSubtitles_style,,0,0,0,,And I ain't gonna be {\c&H000000&}taken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:51.77,0:32:52.47,ValueSubtitles_style,,0,0,0,,And I ain't gonna be ta{\c&H000000&}ken down{\c&HFFFFFF&}
+Dialogue: 0,0:32:52.47,0:32:53.14,ValueSubtitles_style,,0,0,0,,And I ain't gonna be taken{\c&H000000&} down{\c&HFFFFFF&}
+Dialogue: 0,0:32:53.14,0:32:55.71,ValueSubtitles_style,,0,0,0,,{\ytshake}And I ain't gonna be taken DOWN
+Dialogue: 0,0:32:55.99,0:32:58.60,ValueSubtitles_style,,0,0,0,,Don't go getting mistaken now
+Dialogue: 0,0:32:58.64,0:33:01.20,ValueSubtitles_style,,0,0,0,,{\ytshake}DOWN
+Dialogue: 0,0:33:01.35,0:33:04.06,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:33:06.82,0:33:09.52,ValueSubtitles_style,,0,0,0,,'Cause ain't much matter that much I found
+Dialogue: 0,0:33:12.28,0:33:14.99,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:33:23.15,0:33:25.88,ValueSubtitles_style,,0,0,0,,I ain't gonna be taken down
+Dialogue: 0,0:34:21.17,0:34:26.25,ValueSubtitles_style,,0,0,0,,Broken footsteps on the floor
+Dialogue: 0,0:34:26.25,0:34:29.80,ValueSubtitles_style,,0,0,0,,Pick myself up and carry on
+Dialogue: 0,0:34:29.80,0:34:31.36,ValueSubtitles_style,,0,0,0,,'Cause something's waiting for me
+Dialogue: 0,0:34:31.83,0:34:36.73,ValueSubtitles_style,,0,0,0,,And I won't let them ride my soul
+Dialogue: 0,0:34:36.73,0:34:41.60,ValueSubtitles_style,,0,0,0,,Keep my direction and soon I'll be turned to gold
+Dialogue: 0,0:34:41.97,0:34:43.50,ValueSubtitles_style,,0,0,0,,I'm a king without a throne
+Dialogue: 0,0:34:43.50,0:34:44.82,ValueSubtitles_style,,0,0,0,,A heart without a home
+Dialogue: 0,0:34:44.82,0:34:47.30,ValueSubtitles_style,,0,0,0,,Just cards that I've been dealt in life
+Dialogue: 0,0:34:47.60,0:34:48.87,ValueSubtitles_style,,0,0,0,,I walk the road alone
+Dialogue: 0,0:34:48.87,0:34:53.07,ValueSubtitles_style,,0,0,0,,But my hope will never die
+Dialogue: 0,0:34:57.20,0:34:58.61,ValueSubtitles_style,,0,0,0,,MOM GET THE CAMERA
+Dialogue: 0,0:35:03.43,0:35:04.00,ValueSubtitles_style,,0,0,0,,{\pos(1280,1400)}{\ytshake(200, 200)}OH MY GOD
+Dialogue: 0,0:35:08.35,0:35:09.57,ValueSubtitles_style,,0,0,0,,{\pos(1280,1400)}{\ytshake(200, 200)}OOHOHOOHH
+Dialogue: 0,0:35:14.30,0:35:14.87,ValueSubtitles_style,,0,0,0,,{\pos(1280,1400)}{\ytshake(200, 200)}OH MY GOD
+Dialogue: 0,0:35:17.93,0:35:20.43,ValueSubtitles_style,,0,0,0,,Two step, then I bring it right back
+Dialogue: 0,0:35:28.95,0:35:31.37,ValueSubtitles_style,,0,0,0,,One step, now take it right back
+Dialogue: 0,0:35:39.93,0:35:42.25,ValueSubtitles_style,,0,0,0,,Two step, then I bring it right back
+Dialogue: 0,0:35:50.75,0:35:53.22,ValueSubtitles_style,,0,0,0,,One step, now take it right back
+Dialogue: 0,0:36:01.60,0:36:04.02,ValueSubtitles_style,,0,0,0,,Two step, then I bring it right back
+Dialogue: 0,0:36:12.53,0:36:14.03,ValueSubtitles_style,,0,0,0,,One step, now take it right back
+Dialogue: 0,0:36:14.03,0:36:16.85,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:36:16.85,0:36:19.48,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:36:19.48,0:36:21.82,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:36:21.82,0:36:23.20,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:36:23.20,0:36:24.52,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:36:24.90,0:36:27.88,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:36:27.88,0:36:30.38,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:36:30.38,0:36:33.38,ValueSubtitles_style,,0,0,0,,When you see me in the club, the party on lock
+Dialogue: 0,0:36:33.38,0:36:35.82,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:36:35.82,0:36:38.90,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:36:38.90,0:36:41.25,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:36:41.25,0:36:43.65,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:36:43.65,0:36:45.05,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:36:45.05,0:36:46.37,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:36:46.68,0:36:49.45,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:36:49.75,0:36:52.17,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:36:52.17,0:36:55.20,ValueSubtitles_style,,0,0,0,,When you see me in the club, the party on lock
+Dialogue: 0,0:36:55.20,0:36:57.57,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:36:57.57,0:37:00.70,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:37:00.70,0:37:03.02,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:37:03.02,0:37:05.42,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:37:05.42,0:37:06.82,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:37:06.82,0:37:08.13,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:37:08.52,0:37:11.23,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:37:11.58,0:37:13.83,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:37:13.98,0:37:16.70,ValueSubtitles_style,,0,0,0,,When you see me in the club, the party on lock
+Dialogue: 0,0:37:17.05,0:37:19.27,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:37:19.47,0:37:22.15,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:37:22.48,0:37:24.57,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:37:24.80,0:37:27.20,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:37:27.20,0:37:28.60,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:37:28.60,0:37:29.92,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:37:30.40,0:37:31.68,ValueSubtitles_style,,0,0,0,,When I step into the-
+Dialogue: 0,0:37:31.68,0:37:34.42,ValueSubtitles_style,,0,0,0,,Ayy, ayy, ayy, ayy
+Dialogue: 0,0:37:34.42,0:37:35.80,ValueSubtitles_style,,0,0,0,,From the bottom to the-
+Dialogue: 0,0:37:35.80,0:37:38.88,ValueSubtitles_style,,0,0,0,,When you see me in the club (yeah, yeah, yeah)
+Dialogue: 0,0:37:38.88,0:37:41.23,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop (yeah, yeah, yeah)
+Dialogue: 0,0:37:41.23,0:37:43.98,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot (ayy, ayy, \Nayy)
+Dialogue: 0,0:37:44.22,0:37:46.68,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top (yeah, yeah, yeah)
+Dialogue: 0,0:37:46.68,0:37:49.08,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:37:49.08,0:37:50.48,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:37:50.48,0:37:51.80,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:37:52.13,0:37:53.87,ValueSubtitles_style,,0,0,0,,When I step into the club
+Dialogue: 0,0:37:53.87,0:37:56.67,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:37:56.67,0:37:58.98,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't s-
+Dialogue: 0,0:37:59.33,0:38:02.05,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:02.05,0:38:04.20,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't s-
+Dialogue: 0,0:38:04.73,0:38:07.30,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:07.53,0:38:09.57,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't s-
+Dialogue: 0,0:38:10.20,0:38:12.28,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:12.88,0:38:15.35,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:15.78,0:38:16.75,ValueSubtitles_style,,0,0,0,,Drop it like it's hot
+Dialogue: 0,0:38:17.02,0:38:19.42,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:38:19.42,0:38:22.50,ValueSubtitles_style,,0,0,0,,When you see me in the club, the party on lock
+Dialogue: 0,0:38:22.50,0:38:24.87,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:24.87,0:38:27.95,ValueSubtitles_style,,0,0,0,,When I step into the club, drop it like it's hot
+Dialogue: 0,0:38:27.95,0:38:30.30,ValueSubtitles_style,,0,0,0,,DJ turn it up from the bottom to the top
+Dialogue: 0,0:38:30.30,0:38:32.70,ValueSubtitles_style,,0,0,0,,You've got to move with it,
+Dialogue: 0,0:38:32.70,0:38:34.10,ValueSubtitles_style,,0,0,0,,step with it,
+Dialogue: 0,0:38:34.10,0:38:35.42,ValueSubtitles_style,,0,0,0,,step with it, no limit
+Dialogue: 0,0:38:35.90,0:38:36.90,ValueSubtitles_style,,0,0,0,,When I step into the-
+Dialogue: 0,0:38:39.90,0:38:40.92,ValueSubtitles_style,,0,0,0,,From the bottom to the-
+Dialogue: 0,0:38:41.22,0:38:42.27,ValueSubtitles_style,,0,0,0,,When I step into the-
+Dialogue: 0,0:38:44.28,0:38:46.68,ValueSubtitles_style,,0,0,0,,DJ turn it up, rock your body, don't stop
+Dialogue: 0,0:38:46.68,0:38:47.68,ValueSubtitles_style,,0,0,0,,When I step into the-
+Dialogue: 0,0:38:52.13,0:38:53.20,ValueSubtitles_style,,0,0,0,,When I step into the-
+Dialogue: 0,0:39:00.28,0:39:03.64,ValueSubtitles_style,,0,0,0,,And then a thin layer of fog comes in around my ankles
+Dialogue: 0,0:39:03.64,0:39:06.45,ValueSubtitles_style,,0,0,0,,Roadies, that means dry ice,\Nwe're gonna talk about this later
+Dialogue: 0,0:39:07.34,0:39:10.13,ValueSubtitles_style,,0,0,0,,In the ancient time
+Dialogue: 0,0:39:10.13,0:39:12.89,ValueSubtitles_style,,0,0,0,,An artist lead the way
+Dialogue: 0,0:39:12.89,0:39:14.55,ValueSubtitles_style,,0,0,0,,But no one
+Dialogue: 0,0:39:14.55,0:39:15.74,ValueSubtitles_style,,0,0,0,,Seem to {\c&H000000&}underSTAAAAND{\c&HFFFFFF&}
+Dialogue: 0,0:39:15.74,0:39:16.42,ValueSubtitles_style,,0,0,0,,Seem to under{\c&H000000&}STAAAAND{\c&HFFFFFF&}
+Dialogue: 0,0:39:16.42,0:39:17.89,ValueSubtitles_style,,0,0,0,,Seem to underSTAAAAND
+Dialogue: 0,0:39:18.59,0:39:20.65,ValueSubtitles_style,,0,0,0,,Chimes, Freddy?
+Dialogue: 0,0:39:20.65,0:39:23.75,ValueSubtitles_style,,0,0,0,,In his heart he knew
+Dialogue: 0,0:39:23.75,0:39:26.75,ValueSubtitles_style,,0,0,0,,The artist must be true
+Dialogue: 0,0:39:26.77,0:39:28.55,ValueSubtitles_style,,0,0,0,,But the legend
+Dialogue: 0,0:39:28.55,0:39:29.53,ValueSubtitles_style,,0,0,0,,of the rent
+Dialogue: 0,0:39:29.52,0:39:31.48,ValueSubtitles_style,,0,0,0,,was way past due
+Dialogue: 0,0:39:31.65,0:39:33.74,ValueSubtitles_style,,0,0,0,,And then Katie you come in with the bass
+Dialogue: 0,0:39:54.87,0:39:55.92,ValueSubtitles_style,,0,0,0,,Come in with the bass
+Dialogue: 0,0:40:05.75,0:40:06.82,ValueSubtitles_style,,0,0,0,,Come in with the bass
+Dialogue: 0,0:40:16.65,0:40:17.67,ValueSubtitles_style,,0,0,0,,Shi-gu-di-gu-di-gu-di-ga
+Dialogue: 0,0:40:25.94,0:40:28.77,ValueSubtitles_style,,0,0,0,,rim-bim-bim-bim-bim-bim-bim-bim-be-du-du-be-du-du-be-du
+Dialogue: 0,0:40:36.81,0:40:39.32,ValueSubtitles_style,,0,0,0,,rim-bim-bim-bim-bim-bim-bim-bim-be-du-du-be-du-du-be-du
+Dialogue: 0,0:40:39.32,0:40:40.88,ValueSubtitles_style,,0,0,0,,You're not hardcore
+Dialogue: 0,0:40:41.72,0:40:43.63,ValueSubtitles_style,,0,0,0,,Unless you live hardcore
+Dialogue: 0,0:40:44.67,0:40:46.38,ValueSubtitles_style,,0,0,0,,You're not hardcore
+Dialogue: 0,0:40:47.13,0:40:49.10,ValueSubtitles_style,,0,0,0,,Unless you live hardcore
+Dialogue: 0,0:40:50.08,0:40:51.12,ValueSubtitles_style,,0,0,0,,Will you not hard-
+Dialogue: 0,0:40:51.47,0:40:52.65,ValueSubtitles_style,,0,0,0,,No, you're not hardcore-
+Dialogue: 0,0:40:52.65,0:40:53.83,ValueSubtitles_style,,0,0,0,,Unless, you live hardc-
+Dialogue: 0,0:40:54.10,0:40:55.70,ValueSubtitles_style,,0,0,0,,Unless, you live hardcore
+Dialogue: 0,0:40:55.75,0:40:59.30,ValueSubtitles_style,,0,0,0,,The Legend of the rent was way past due
+Dialogue: 0,0:40:59.30,0:40:59.96,ValueSubtitles_style,,0,0,0,,*dawwww*
+Dialogue: 0,0:41:00.23,0:41:01.28,ValueSubtitles_style,,0,0,0,,Shi-gu-di-gu-di-gu-di-ga
+Dialogue: 0,0:41:11.22,0:41:12.22,ValueSubtitles_style,,0,0,0,,Come in with the bass
+Dialogue: 0,0:41:23.68,0:41:25.88,ValueSubtitles_style,,0,0,0,,Feelin' like a freight train runnin'
+Dialogue: 0,0:41:26.57,0:41:28.68,ValueSubtitles_style,,0,0,0,,I'm that hurricane turnin'
+Dialogue: 0,0:41:29.15,0:41:31.27,ValueSubtitles_style,,0,0,0,,Feelin' like a polar bear burnin'
+Dialogue: 0,0:41:31.73,0:41:33.40,ValueSubtitles_style,,0,0,0,,What are we gonna do?
+Dialogue: 0,0:41:34.82,0:41:36.80,ValueSubtitles_style,,0,0,0,,I'm that fake smile gleamin'
+Dialogue: 0,0:41:37.00,0:41:39.53,ValueSubtitles_style,,0,0,0,,Yeah, I'm the lie that you choose to believe in
+Dialogue: 0,0:41:39.83,0:41:42.20,ValueSubtitles_style,,0,0,0,,Guess the truth kinda lost all meanin'
+Dialogue: 0,0:41:42.38,0:41:43.98,ValueSubtitles_style,,0,0,0,,And I'm enjoying the view
+Dialogue: 0,0:41:44.60,0:41:47.70,ValueSubtitles_style,,0,0,0,,Well I've been a lovin' lover
+Dialogue: 0,0:41:47.70,0:41:50.28,ValueSubtitles_style,,0,0,0,,I've been a trusting brother
+Dialogue: 0,0:41:50.28,0:41:53.00,ValueSubtitles_style,,0,0,0,,I'm taking my time to recover
+Dialogue: 0,0:41:53.00,0:41:55.58,ValueSubtitles_style,,0,0,0,,And pickin' it up when I'm better
+Dialogue: 0,0:41:55.58,0:41:58.28,ValueSubtitles_style,,0,0,0,,Oh, there's so much to see in a lifetime
+Dialogue: 0,0:41:58.28,0:42:01.00,ValueSubtitles_style,,0,0,0,,So why does it feel like it flies by?
+Dialogue: 0,0:42:01.00,0:42:04.05,ValueSubtitles_style,,0,0,0,,She's staring me down with the bright eyes
+Dialogue: 0,0:42:04.05,0:42:06.28,ValueSubtitles_style,,0,0,0,,Don't threaten me with a good time
+Dialogue: 0,0:42:40.05,0:42:42.18,ValueSubtitles_style,,0,0,0,,Feelin' like a freight train runnin'
+Dialogue: 0,0:42:45.67,0:42:47.65,ValueSubtitles_style,,0,0,0,,I'm that hurricane turnin'
+Dialogue: 0,0:42:51.12,0:42:53.20,ValueSubtitles_style,,0,0,0,,Feelin' like a freight train runnin'
+Dialogue: 0,0:42:53.68,0:42:56.40,ValueSubtitles_style,,0,0,0,,I'm that hurricane turnin'
+Dialogue: 0,0:42:56.40,0:42:58.97,ValueSubtitles_style,,0,0,0,,Feelin' like a polar bear burnin'
+Dialogue: 0,0:42:58.97,0:43:00.32,ValueSubtitles_style,,0,0,0,,What are we gonna do?
+Dialogue: 0,0:43:02.02,0:43:04.27,ValueSubtitles_style,,0,0,0,,I'm that fake smile gleamin'
+Dialogue: 0,0:43:04.27,0:43:07.08,ValueSubtitles_style,,0,0,0,,Yeah, I'm the lie that you choose to believe in
+Dialogue: 0,0:43:07.08,0:43:09.58,ValueSubtitles_style,,0,0,0,,Guess the truth kinda lost all meanin'
+Dialogue: 0,0:43:09.58,0:43:11.42,ValueSubtitles_style,,0,0,0,,And I'm enjoying the view
+Dialogue: 0,0:43:12.24,0:43:14.73,ValueSubtitles_style,,0,0,0,,Oooh if we ever get out of here
+Dialogue: 0,0:43:20.92,0:43:25.03,ValueSubtitles_style,,0,0,0,,Without making a sound
+Dialogue: 0,0:43:25.22,0:43:26.90,ValueSubtitles_style,,0,0,0,,I've been fuckin' hoes and poppin' pillies
+Dialogue: 0,0:43:26.90,0:43:28.60,ValueSubtitles_style,,0,0,0,,Man, I feel just like a rockstar
+Dialogue: 0,0:43:30.63,0:43:31.95,ValueSubtitles_style,,0,0,0,,All my brothers got that gas
+Dialogue: 0,0:43:31.95,0:43:34.07,ValueSubtitles_style,,0,0,0,,And they always be smokin' like a Rasta
+Dialogue: 0,0:43:36.05,0:43:37.87,ValueSubtitles_style,,0,0,0,,Fuckin' with me, call up on a Uzi
+Dialogue: 0,0:43:37.87,0:43:39.55,ValueSubtitles_style,,0,0,0,,And show up, man, them the shottas
+Dialogue: 0,0:43:41.43,0:43:43.12,ValueSubtitles_style,,0,0,0,,When my homies pull up on your block
+Dialogue: 0,0:43:43.12,0:43:45.12,ValueSubtitles_style,,0,0,0,,They make that thing go grah-ta-ta-ta
+Dialogue: 0,0:43:46.01,0:43:46.98,ValueSubtitles_style,,0,0,0,,ayy, ayy
+Dialogue: 0,0:43:47.06,0:43:48.11,ValueSubtitles_style,,0,0,0,,Switch my whip, came back in black
+Dialogue: 0,0:43:48.11,0:43:50.71,ValueSubtitles_style,,0,0,0,,I'm startin' sayin', "Rest in peace to Bon Scott"
+Dialogue: 0,0:43:52.17,0:43:52.43,ValueSubtitles_style,,0,0,0,,ayy
+Dialogue: 0,0:43:52.48,0:43:53.69,ValueSubtitles_style,,0,0,0,,Close that door, we blowin' smoke
+Dialogue: 0,0:43:53.69,0:43:55.88,ValueSubtitles_style,,0,0,0,,She ask me light a fire like I'm Morrison
+Dialogue: 0,0:43:57.98,0:43:59.03,ValueSubtitles_style,,0,0,0,,Act a fool on stage
+Dialogue: 0,0:43:59.03,0:44:01.67,ValueSubtitles_style,,0,0,0,,Prolly leave my fuckin' show in a cop car
+Dialogue: 0,0:44:02.37,0:44:02.87,ValueSubtitles_style,,0,0,0,,Ayy
+Dialogue: 0,0:44:03.23,0:44:04.43,ValueSubtitles_style,,0,0,0,,Shit was legendary
+Dialogue: 0,0:44:04.43,0:44:06.85,ValueSubtitles_style,,0,0,0,,Threw a TV out the window of the Montage
+Dialogue: 0,0:44:07.08,0:44:08.88,ValueSubtitles_style,,0,0,0,,Cocaine on the table, liquor pourin'
+Dialogue: 0,0:44:08.89,0:44:11.22,ValueSubtitles_style,,0,0,0,,Don't give a damn, dude, your girlfriend is a groupie
+Dialogue: 0,0:44:11.22,0:44:13.63,ValueSubtitles_style,,0,0,0,,She just tryna get in
+Dialogue: 0,0:44:13.79,0:44:16.47,ValueSubtitles_style,,0,0,0,,Sayin', "I'm with the band"
+Dialogue: 0,0:44:16.69,0:44:17.71,ValueSubtitles_style,,0,0,0,,Ayy, ayy
+Dialogue: 0,0:44:17.94,0:44:19.27,ValueSubtitles_style,,0,0,0,,Now she actin' outta pocket
+Dialogue: 0,0:44:19.27,0:44:22.07,ValueSubtitles_style,,0,0,0,,Tryna grab up on my pants, hundred bitches in my trailer
+Dialogue: 0,0:44:22.07,0:44:24.41,ValueSubtitles_style,,0,0,0,,Say they ain't got a man
+Dialogue: 0,0:44:24.81,0:44:27.16,ValueSubtitles_style,,0,0,0,,And they all brought a friend
+Dialogue: 0,0:44:27.48,0:44:28.54,ValueSubtitles_style,,0,0,0,,Yeah, ayy
+Dialogue: 0,0:44:30.62,0:44:32.27,ValueSubtitles_style,,0,0,0,,I've been fuckin' hoes and poppin' pillies
+Dialogue: 0,0:44:32.27,0:44:34.04,ValueSubtitles_style,,0,0,0,,Man, I feel just like a rockstar
+Dialogue: 0,0:44:36.07,0:44:37.40,ValueSubtitles_style,,0,0,0,,All my brothers got that gas
+Dialogue: 0,0:44:37.40,0:44:39.51,ValueSubtitles_style,,0,0,0,,And they always be smokin' like a Rasta
+Dialogue: 0,0:44:41.54,0:44:43.24,ValueSubtitles_style,,0,0,0,,Fuckin' with me, call up on a Uzi
+Dialogue: 0,0:44:43.24,0:44:44.98,ValueSubtitles_style,,0,0,0,,And show up, man, them the shottas
+Dialogue: 0,0:44:47.00,0:44:48.47,ValueSubtitles_style,,0,0,0,,When my homies pull up on your block
+Dialogue: 0,0:44:48.47,0:44:50.44,ValueSubtitles_style,,0,0,0,,They make that thing go grah-ta-ta-ta
+Dialogue: 0,0:45:11.55,0:45:13.90,ValueSubtitles_style,,0,0,0,,I know that we fight like hell
+Dialogue: 0,0:45:13.90,0:45:15.94,ValueSubtitles_style,,0,0,0,,But if I lose you feel I lose myself
+Dialogue: 0,0:45:15.94,0:45:19.12,ValueSubtitles_style,,0,0,0,,I know there′s no way to win
+Dialogue: 0,0:45:19.64,0:45:21.89,ValueSubtitles_style,,0,0,0,,(No way to win)
+Dialogue: 0,0:45:22.30,0:45:24.80,ValueSubtitles_style,,0,0,0,,But I know I gotta walk away
+Dialogue: 0,0:45:24.80,0:45:26.79,ValueSubtitles_style,,0,0,0,,I know that I cannot stay
+Dialogue: 0,0:45:26.79,0:45:29.22,ValueSubtitles_style,,0,0,0,,So the healing can begin
+Dialogue: 0,0:45:33.65,0:45:36.43,ValueSubtitles_style,,0,0,0,,I said I tried to fight it
+Dialogue: 0,0:45:36.43,0:45:39.60,ValueSubtitles_style,,0,0,0,,And you tried to hide who you really were
+Dialogue: 0,0:45:41.25,0:45:42.38,ValueSubtitles_style,,0,0,0,,And baby oh that hurt
+Dialogue: 0,0:45:44.60,0:45:48.68,ValueSubtitles_style,,0,0,0,,And I did my best to make it better babe
+Dialogue: 0,0:45:48.68,0:45:51.87,ValueSubtitles_style,,0,0,0,,But the love you couldn't give made it worse
+Dialogue: 0,0:45:55.90,0:45:58.62,ValueSubtitles_style,,0,0,0,,But inside I′m slowly dying
+Dialogue: 0,0:45:58.83,0:46:01.28,ValueSubtitles_style,,0,0,0,,Tryna push through all your lying
+Dialogue: 0,0:46:01.52,0:46:04.03,ValueSubtitles_style,,0,0,0,,Tryna get what you won't give to me
+Dialogue: 0,0:46:04.03,0:46:06.78,ValueSubtitles_style,,0,0,0,,(I just want your love)
+Dialogue: 0,0:46:07.07,0:46:09.80,ValueSubtitles_style,,0,0,0,,I'm tryna push us higher
+Dialogue: 0,0:46:09.80,0:46:12.40,ValueSubtitles_style,,0,0,0,,But now babe I′m gettin tired
+Dialogue: 0,0:46:12.40,0:46:16.22,ValueSubtitles_style,,0,0,0,,Cuz you keep tryna clip my wings
+Dialogue: 0,0:46:27.59,0:46:29.35,ValueSubtitles_style,,0,0,0,,Baby oh that hurt
+Dialogue: 0,0:46:38.53,0:46:41.40,ValueSubtitles_style,,0,0,0,,But I still can′t separate
+Dialogue: 0,0:46:41.41,0:46:44.29,ValueSubtitles_style,,0,0,0,,I still can't get away
+Dialogue: 0,0:46:44.29,0:46:45.66,ValueSubtitles_style,,0,0,0,,From you
+Dialogue: 0,0:46:46.74,0:46:48.54,ValueSubtitles_style,,0,0,0,,Oh, From you
+Dialogue: 0,0:46:49.68,0:46:52.29,ValueSubtitles_style,,0,0,0,,But I know if I choose to stay
+Dialogue: 0,0:46:52.29,0:46:57.59,ValueSubtitles_style,,0,0,0,,Oh baby you′ll just keep on taking till I'm through
+Dialogue: 0,0:46:57.59,0:46:59.36,ValueSubtitles_style,,0,0,0,,Oh till I′m through
+Dialogue: 0,0:46:59.98,0:47:03.46,ValueSubtitles_style,,0,0,0,,You must be out of your mind
+Dialogue: 0,0:47:05.43,0:47:08.44,ValueSubtitles_style,,0,0,0,,Blowing me up on my Phoneline
+Dialogue: 0,0:47:08.44,0:47:10.78,ValueSubtitles_style,,0,0,0,,(Why you blowing up my Phoneline)
+Dialogue: 0,0:47:10.92,0:47:13.96,ValueSubtitles_style,,0,0,0,,Call me and I'ma decline
+Dialogue: 0,0:47:13.96,0:47:16.23,ValueSubtitles_style,,0,0,0,,(I'm gon' decline)
+Dialogue: 0,0:47:16.23,0:47:19.03,ValueSubtitles_style,,0,0,0,,And I'm gon' get back in my own time
+Dialogue: 0,0:47:19.03,0:47:22.59,ValueSubtitles_style,,0,0,0,,Won't lie, I'm about to leave you on silent
+Dialogue: 0,0:47:22.59,0:47:24.69,ValueSubtitles_style,,0,0,0,,I know that we fight like hell
+Dialogue: 0,0:47:24.69,0:47:26.85,ValueSubtitles_style,,0,0,0,,But if I lose you feel I lose myself
+Dialogue: 0,0:47:26.85,0:47:30.48,ValueSubtitles_style,,0,0,0,,I know there′s no way to win
+Dialogue: 0,0:47:30.48,0:47:32.69,ValueSubtitles_style,,0,0,0,,(No way to win)
+Dialogue: 0,0:47:33.19,0:47:35.83,ValueSubtitles_style,,0,0,0,,But I know I gotta walk away
+Dialogue: 0,0:47:35.83,0:47:37.76,ValueSubtitles_style,,0,0,0,,I know that I cannot stay
+Dialogue: 0,0:47:37.76,0:47:40.21,ValueSubtitles_style,,0,0,0,,So the healing can begin
+Dialogue: 0,0:47:44.52,0:47:47.44,ValueSubtitles_style,,0,0,0,,I said I tried to fight it
+Dialogue: 0,0:47:47.44,0:47:52.16,ValueSubtitles_style,,0,0,0,,And you tried to hide who you really were
+Dialogue: 0,0:47:52.16,0:47:53.21,ValueSubtitles_style,,0,0,0,,And baby oh that hurt
+Dialogue: 0,0:47:55.41,0:47:59.58,ValueSubtitles_style,,0,0,0,,And I did my best to make it better babe
+Dialogue: 0,0:47:59.58,0:48:03.06,ValueSubtitles_style,,0,0,0,,But the love you couldn't give made it worse
+Dialogue: 0,0:48:20.74,0:48:22.98,ValueSubtitles_style,,0,0,0,,V🅰️LUE$🅾️FT
+Dialogue: 0,0:48:33.46,0:48:33.85,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:48:33.85,0:48:34.17,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:48:34.17,0:48:35.38,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:48:35.38,0:48:36.60,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:48:36.60,0:48:36.95,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:48:36.95,0:48:37.33,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:48:37.33,0:48:38.16,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:48:38.16,0:48:39.28,ValueSubtitles_style,,0,0,0,,You see me mashin' up your airwaves
+Dialogue: 0,0:48:39.28,0:48:40.76,ValueSubtitles_style,,0,0,0,,You see me mashin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:48:40.76,0:48:42.37,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:48:42.37,0:48:42.64,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:48:42.64,0:48:44.01,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:48:44.31,0:48:44.77,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:48:44.77,0:48:44.99,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:48:45.00,0:48:46.28,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:48:46.27,0:48:47.48,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:48:47.49,0:48:47.87,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:48:47.87,0:48:48.24,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:48:48.24,0:48:49.03,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:48:49.03,0:48:50.23,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your airwaves
+Dialogue: 0,0:48:50.23,0:48:51.71,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:48:51.71,0:48:53.28,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:48:53.29,0:48:53.56,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:48:53.56,0:48:54.65,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:48:55.21,0:48:55.68,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:48:55.68,0:48:55.96,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:48:55.96,0:48:57.21,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:48:57.21,0:48:58.41,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:48:58.41,0:48:58.75,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:48:58.75,0:48:59.12,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:48:59.12,0:48:59.95,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:48:59.95,0:49:01.16,ValueSubtitles_style,,0,0,0,,You see me mashin' up your airwaves
+Dialogue: 0,0:49:01.17,0:49:02.66,ValueSubtitles_style,,0,0,0,,You see me mashin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:49:02.66,0:49:04.22,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:49:04.22,0:49:04.55,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:49:04.55,0:49:05.54,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:49:06.14,0:49:06.59,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:49:06.60,0:49:06.88,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:49:06.88,0:49:08.08,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:49:08.08,0:49:09.33,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:49:09.33,0:49:09.68,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:49:09.68,0:49:10.05,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:49:10.05,0:49:10.88,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:49:10.88,0:49:12.05,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your airwaves
+Dialogue: 0,0:49:12.05,0:49:13.58,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:49:13.58,0:49:15.09,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:49:15.09,0:49:15.45,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:49:15.45,0:49:16.57,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:49:38.86,0:49:39.32,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:49:39.32,0:49:39.67,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:49:39.67,0:49:40.84,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:49:40.84,0:49:42.05,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:49:42.05,0:49:42.41,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:49:42.41,0:49:42.73,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:49:42.73,0:49:43.58,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:49:43.58,0:49:44.77,ValueSubtitles_style,,0,0,0,,You see me mashin' up your airwaves
+Dialogue: 0,0:49:44.78,0:49:46.33,ValueSubtitles_style,,0,0,0,,You see me mashin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:49:46.33,0:49:47.85,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:49:47.85,0:49:48.14,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:49:48.14,0:49:49.19,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:49:49.73,0:49:50.23,ValueSubtitles_style,,0,0,0,,It's like gold dust
+Dialogue: 0,0:49:50.23,0:49:50.57,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold{\c&HFFFFFF&} dust
+Dialogue: 0,0:49:50.57,0:49:51.76,ValueSubtitles_style,,0,0,0,,It's like {\c&H20D2FF&}gold dust{\c&HFFFFFF&}
+Dialogue: 0,0:49:51.76,0:49:52.95,ValueSubtitles_style,,0,0,0,,You hear me coming through your speakers
+Dialogue: 0,0:49:52.95,0:49:53.30,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}spe{\c&HFFFFFF&}akers
+Dialogue: 0,0:49:53.30,0:49:53.68,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speak{\c&HFFFFFF&}ers
+Dialogue: 0,0:49:53.68,0:49:54.53,ValueSubtitles_style,,0,0,0,,You hear me coming through your {\c&H20D2FF&}speakers{\c&HFFFFFF&}
+Dialogue: 0,0:49:54.53,0:49:55.70,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your airwaves
+Dialogue: 0,0:49:55.70,0:49:57.23,ValueSubtitles_style,,0,0,0,,You see me blaggin' up your {\c&H20D2FF&}airwaves{\c&HFFFFFF&}
+Dialogue: 0,0:49:57.23,0:49:58.75,ValueSubtitles_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:49:58.75,0:49:59.02,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my{\c&HFFFFFF&} sound
+Dialogue: 0,0:49:59.02,0:50:00.13,ValueSubtitles_style,,0,0,0,,I know you can't get enough of {\c&H20D2FF&}my sound{\c&HFFFFFF&}
+Dialogue: 0,0:51:27.75,0:51:30.38,ValueSubtitles_style,,0,0,0,,Thinking about you when I close my eyes
+Dialogue: 0,0:51:30.38,0:51:33.09,ValueSubtitles_style,,0,0,0,,Like watching the stars across the night collide
+Dialogue: 0,0:51:33.09,0:51:35.86,ValueSubtitles_style,,0,0,0,,And all the space between us two subside
+Dialogue: 0,0:51:35.86,0:51:38.53,ValueSubtitles_style,,0,0,0,,So we stay awake until we see the sunrise
+Dialogue: 0,0:51:38.53,0:51:41.24,ValueSubtitles_style,,0,0,0,,You take the light from the sky,
+Dialogue: 0,0:51:41.24,0:51:43.94,ValueSubtitles_style,,0,0,0,, it fades when you're gone
+Dialogue: 0,0:51:43.94,0:51:45.81,ValueSubtitles_style,,0,0,0,,But when you come back,
+Dialogue: 0,0:51:45.81,0:51:49.23,ValueSubtitles_style,,0,0,0,, it shines on me like the dawn
+Dialogue: 0,0:53:00.94,0:53:06.63,ValueSubtitles_style,,0,0,0,,Ooh, watching wild skies
+Dialogue: 0,0:53:07.94,0:53:12.08,ValueSubtitles_style,,0,0,0,,Wishing with closed eyes
+Dialogue: 0,0:53:12.08,0:53:17.54,ValueSubtitles_style,,0,0,0,,Ooh, run for a lifetime
+Dialogue: 0,0:53:18.78,0:53:22.35,ValueSubtitles_style,,0,0,0,,Follow the signs
+Dialogue: 0,0:53:22.34,0:53:22.71,ValueSubtitles_style,,0,0,0,,{\move(1280,1800, 1280, 100)}Follow the signs
+Dialogue: 0,0:53:22.72,0:53:22.96,ValueSubtitles_style,,0,0,0,,{\move(1280,100, 1280, 1800)}Follow the signs
+Dialogue: 0,0:53:23.38,0:53:26.79,ValueSubtitles_style,,0,0,0,,I put my pictures down
+Dialogue: 0,0:53:26.79,0:53:28.84,ValueSubtitles_style,,0,0,0,,They're not as good as the real thing
+Dialogue: 0,0:53:28.84,0:53:31.58,ValueSubtitles_style,,0,0,0,,"I wish I could go home"
+Dialogue: 0,0:53:31.58,0:53:33.79,ValueSubtitles_style,,0,0,0,,You're just nostalgic
+Dialogue: 0,0:53:34.27,0:53:39.68,ValueSubtitles_style,,0,0,0,,What do we wander from and only notice it now?
+Dialogue: 0,0:53:40.58,0:53:44.31,ValueSubtitles_style,,0,0,0,,So be here with me
+Dialogue: 0,0:53:44.31,0:53:44.45,ValueSubtitles_style,,0,0,0,,{\move(1280,1800, 1280, 100)}So be here with me
+Dialogue: 0,0:53:44.45,0:53:44.71,ValueSubtitles_style,,0,0,0,,{\move(1280, 100, 1280,1800)}So be here with me
+Dialogue: 0,0:53:46.58,0:53:48.54,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:53:48.55,0:53:49.17,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:53:49.17,0:53:50.27,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:53:51.96,0:53:52.57,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:53:52.57,0:53:53.27,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:53:53.27,0:53:55.71,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:53:57.44,0:53:59.37,ValueSubtitles_style,,0,0,0,,'Cause I'm not the same as I was
+Dialogue: 0,0:53:59.38,0:54:01.14,ValueSubtitles_style,,0,0,0,,'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:54:02.90,0:54:04.88,ValueSubtitles_style,,0,0,0,,As I shoulder the weight of the world
+Dialogue: 0,0:54:04.88,0:54:06.27,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:54:06.27,0:54:06.57,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:54:07.53,0:54:12.78,ValueSubtitles_style,,0,0,0,,I was setting in stone until I noticed it right
+Dialogue: 0,0:54:12.95,0:54:15.73,ValueSubtitles_style,,0,0,0,,Do you see how you've grown?
+Dialogue: 0,0:54:15.73,0:54:17.51,ValueSubtitles_style,,0,0,0,,Don't be sorry, then
+Dialogue: 0,0:54:18.41,0:54:21.36,ValueSubtitles_style,,0,0,0,,And I fall from my bones
+Dialogue: 0,0:54:21.36,0:54:23.67,ValueSubtitles_style,,0,0,0,,And now I know I'm alive
+Dialogue: 0,0:54:24.27,0:54:27.73,ValueSubtitles_style,,0,0,0,,I want you to find it
+Dialogue: 0,0:54:27.73,0:54:28.01,ValueSubtitles_style,,0,0,0,,{\move(1280,1500, 1280, 100)}I want you to find it
+Dialogue: 0,0:54:28.19,0:54:28.42,ValueSubtitles_style,,0,0,0,,{\move(1280, 100, 1280,1500)}I want you to find it
+Dialogue: 0,0:54:30.14,0:54:32.18,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:54:32.18,0:54:32.85,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:54:32.85,0:54:33.89,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:54:35.58,0:54:36.21,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:54:36.21,0:54:36.95,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:54:36.95,0:54:39.32,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:54:41.01,0:54:43.01,ValueSubtitles_style,,0,0,0,,'Cause I'm not the same as I was
+Dialogue: 0,0:54:43.01,0:54:44.80,ValueSubtitles_style,,0,0,0,,'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:54:46.47,0:54:48.46,ValueSubtitles_style,,0,0,0,,As I shoulder the weight of the world
+Dialogue: 0,0:54:48.46,0:54:49.87,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:54:49.87,0:54:50.25,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:54:51.64,0:54:55.70,ValueSubtitles_style,,0,0,0,,Thaw your hands now
+Dialogue: 0,0:54:56.69,0:55:01.14,ValueSubtitles_style,,0,0,0,,Put color in your cheeks
+Dialogue: 0,0:55:02.21,0:55:06.69,ValueSubtitles_style,,0,0,0,,I missed you back then
+Dialogue: 0,0:55:07.73,0:55:10.71,ValueSubtitles_style,,0,0,0,,So be here with me
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(213, 500, 213,1500)}here
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(639, 500, 639,1500)}with
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(1065, 500, 1065,1500)}me
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(1491, 500, 1491,1500)}here
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(1917, 500, 1917,1500)}with
+Dialogue: 0,0:55:11.69,0:55:12.11,ValueSubtitles_style,,0,0,0,,{\fs160\move(2343, 500, 2343, 1500)}me
+Dialogue: 0,0:55:13.81,0:55:15.78,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:55:15.78,0:55:16.50,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB320&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:55:16.50,0:55:17.49,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB320&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:55:19.24,0:55:19.82,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:55:19.82,0:55:20.49,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:55:20.49,0:55:22.95,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:55:24.69,0:55:26.65,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:55:26.65,0:55:27.38,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB320&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:55:27.38,0:55:28.41,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB320&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:55:30.23,0:55:30.76,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:55:30.76,0:55:31.48,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:55:31.48,0:55:33.86,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(213, 500, 213,1800)}know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(639, 500, 639,1800)}know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(1065, 500, 1065, 1800)}know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(1491, 500, 1491,1800)}know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(1917, 500, 1917,1800)}know
+Dialogue: 0,0:55:33.50,0:55:33.82,ValueSubtitles_style,,0,0,0,,{\fs160\move(2343, 500, 2343, 1800)}know
+Dialogue: 0,0:55:35.61,0:55:37.64,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:55:37.64,0:55:38.31,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:55:38.31,0:55:39.35,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:55:41.04,0:55:41.67,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:55:41.67,0:55:42.42,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:55:42.42,0:55:44.79,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:55:46.53,0:55:48.52,ValueSubtitles_style,,0,0,0,,'Cause I'm not the same as I was
+Dialogue: 0,0:55:48.52,0:55:50.25,ValueSubtitles_style,,0,0,0,,'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:55:51.99,0:55:54.01,ValueSubtitles_style,,0,0,0,,As I shoulder the weight of the world
+Dialogue: 0,0:55:54.01,0:55:55.36,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:55:55.36,0:55:55.72,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:55:57.43,0:55:59.42,ValueSubtitles_style,,0,0,0,,And I watched the water unfold
+Dialogue: 0,0:55:59.42,0:56:00.08,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:56:00.08,0:56:01.15,ValueSubtitles_style,,0,0,0,,And I watched the {\c&HFFB322&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:56:02.88,0:56:03.51,ValueSubtitles_style,,0,0,0,,It's a feeling I want you to know
+Dialogue: 0,0:56:03.51,0:56:04.24,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:56:04.24,0:56:06.58,ValueSubtitles_style,,0,0,0,,It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:56:08.34,0:56:10.31,ValueSubtitles_style,,0,0,0,,'Cause I'm not the same as I was
+Dialogue: 0,0:56:10.31,0:56:12.09,ValueSubtitles_style,,0,0,0,,'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:56:13.79,0:56:15.74,ValueSubtitles_style,,0,0,0,,As I shoulder the weight of the world
+Dialogue: 0,0:56:15.74,0:56:17.10,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:56:17.10,0:56:17.46,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:56:19.19,0:56:21.24,ValueSubtitles_style,,0,0,0,,'Cause I'm not the same as I was
+Dialogue: 0,0:56:21.24,0:56:22.96,ValueSubtitles_style,,0,0,0,,'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:56:24.66,0:56:26.70,ValueSubtitles_style,,0,0,0,,As I shoulder the weight of the world
+Dialogue: 0,0:56:26.70,0:56:28.08,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:56:28.08,0:56:28.44,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:56:30.11,0:56:32.07,ValueSubtitles_style,,0,0,0,,{\ytchroma}And I watched the water unfold
+Dialogue: 0,0:56:32.07,0:56:32.82,ValueSubtitles_style,,0,0,0,,{\ytchroma}And I watched the {\c&HFFB320&}wa{\c&HFFFFFF&}ter unfold
+Dialogue: 0,0:56:32.82,0:56:33.91,ValueSubtitles_style,,0,0,0,,{\ytchroma}And I watched the {\c&HFFB320&}water{\c&HFFFFFF&} unfold
+Dialogue: 0,0:56:35.55,0:56:36.20,ValueSubtitles_style,,0,0,0,,{\ytchroma}It's a feeling I want you to know
+Dialogue: 0,0:56:36.20,0:56:36.93,ValueSubtitles_style,,0,0,0,,{\ytchroma}It's a {\c&H3333FF&}fee{\c&HFFFFFF&}ling I want you to know
+Dialogue: 0,0:56:36.93,0:56:39.31,ValueSubtitles_style,,0,0,0,,{\ytchroma}It's a {\c&H3333FF&}feeling{\c&HFFFFFF&} I want you to know
+Dialogue: 0,0:56:41.02,0:56:42.96,ValueSubtitles_style,,0,0,0,,{\ytchroma}'Cause I'm not the same as I was
+Dialogue: 0,0:56:42.96,0:56:45.81,ValueSubtitles_style,,0,0,0,,{\ytchroma}'Cause I'm not the {\c&HFF3399&}same{\c&HFFFFFF&} as I was
+Dialogue: 0,0:56:46.51,0:56:48.50,ValueSubtitles_style,,0,0,0,,{\ytchroma}As I shoulder the weight of the world
+Dialogue: 0,0:56:48.50,0:56:49.85,ValueSubtitles_style,,0,0,0,,{\ytchroma}As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the world
+Dialogue: 0,0:56:49.85,0:56:51.59,ValueSubtitles_style,,0,0,0,,As I shoulder the {\c&H666666&}weight{\c&HFFFFFF&} of the {\c&H33FF33&}world{\c&HFFFFFF&}
+Dialogue: 0,0:56:55.71,0:56:57.13,ValueSubtitles_style,,0,0,0,,:)
+Dialogue: 0,0:57:00.69,0:57:18.23,ValueSubtitles_style,,0,0,0,,Subtitles made by: @MitchSirco
+Dialogue: 0,0:12:02.76,0:12:02.81,ValueSubtitles_style,,0,0,0,,🦴
+Dialogue: 0,0:12:02.81,0:12:02.88,ValueSubtitles_style,,0,0,0,,🦴🦴
+Dialogue: 0,0:12:02.88,0:12:02.98,ValueSubtitles_style,,0,0,0,,🦴🦴🦴
+Dialogue: 0,0:12:02.98,0:12:03.06,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴
+Dialogue: 0,0:12:03.06,0:12:03.16,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.16,0:12:03.39,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.39,0:12:03.44,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.44,0:12:03.51,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.51,0:12:03.61,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.61,0:12:03.69,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:12:03.69,0:12:04.09,ValueSubtitles_style,,0,0,0,,🦴🦴🦴🦴🦴🦴🦴🦴🦴🦴🦴
+Dialogue: 0,0:03:48.73,0:03:49.31,bottom-center_style,,0,0,0,,(Bounce back)
+Dialogue: 0,0:04:16.22,0:04:16.52,bottom-center_style,,0,0,0,,(Straight up)
+Dialogue: 0,0:04:17.74,0:04:18.02,bottom-center_style,,0,0,0,,{\an9}(Damn)
+Dialogue: 0,0:04:18.98,0:04:19.36,bottom-center_style,,0,0,0,,{\an7}(Damn)
+Dialogue: 0,0:04:44.66,0:04:45.34,bottom-center_style,,0,0,0,,(Bounce back)
+Dialogue: 0,0:11:42.90,0:11:44.98,bottom-center_style,,0,0,0,,Even if I lost all my money
+Dialogue: 0,0:11:45.53,0:11:47.70,bottom-center_style,,0,0,0,,This river runs deep, honey
+Dialogue: 0,0:11:48.15,0:11:50.42,bottom-center_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:11:50.93,0:11:51.80,bottom-center_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:51.80,0:11:52.48,bottom-center_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:11:52.48,0:11:53.17,bottom-center_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:11:53.78,0:11:55.92,bottom-center_style,,0,0,0,,Even if my jokes aren't funny
+Dialogue: 0,0:11:56.42,0:11:58.65,bottom-center_style,,0,0,0,,My tongue tied up, honey
+Dialogue: 0,0:11:59.17,0:12:01.40,bottom-center_style,,0,0,0,,And I don't need to speak a single word
+Dialogue: 0,0:12:01.83,0:12:02.70,bottom-center_style,,0,0,0,,'Cause you got me {\c&H000000&}howlin',{\c&HFFFFFF&} {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:12:02.70,0:12:03.38,bottom-center_style,,0,0,0,,'Cause you got me howlin', {\c&H000000&}howlin'{\c&HFFFFFF&}
+Dialogue: 0,0:12:03.38,0:12:04.08,bottom-center_style,,0,0,0,,'Cause you got me howlin', howlin'
+Dialogue: 0,0:21:35.78,0:21:36.82,bottom-center_style,,0,0,0,,Baby prolly still sell reefer
+Dialogue: 0,0:25:53.24,0:25:53.51,bottom-center_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:53.85,0:25:54.19,bottom-center_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:54.54,0:25:54.88,bottom-center_style,,0,0,0,,Can't resist us
+Dialogue: 0,0:25:55.12,0:25:55.55,bottom-center_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:55.90,0:25:56.07,bottom-center_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.24,0:25:56.41,bottom-center_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.57,0:25:56.75,bottom-center_style,,0,0,0,,Supersonic
+Dialogue: 0,0:25:56.93,0:25:57.09,bottom-center_style,,0,0,0,,Supersonic
+Dialogue: 0,0:26:10.53,0:26:11.03,bottom-center_style,,0,0,0,,(shut up)
+Dialogue: 0,0:26:12.28,0:26:12.63,bottom-center_style,,0,0,0,,(Maxx)
+Dialogue: 0,0:26:14.94,0:26:15.20,bottom-center_style,,0,0,0,,(woo)
+Dialogue: 0,0:31:14.65,0:31:15.00,bottom-center_style,,0,0,0,,(yeah)
+Dialogue: 0,0:42:15.00,0:42:17.37,bottom-center_style,,0,0,0,,(Don't threaten me with a good time)
+Dialogue: 0,0:42:24.27,0:42:25.62,bottom-center_style,,0,0,0,,(-na na na na)
+Dialogue: 0,0:42:25.90,0:42:28.50,bottom-center_style,,0,0,0,,(Na na-na-na na na na na)
+Dialogue: 0,0:42:28.63,0:42:31.27,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:31.35,0:42:33.98,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:34.07,0:42:36.70,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:36.82,0:42:39.45,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:39.55,0:42:42.18,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:42.28,0:42:44.92,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:45.02,0:42:47.65,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:42:47.75,0:42:50.38,bottom-center_style,,0,0,0,,Na na-na-na na na na na
+Dialogue: 0,0:49:24.51,0:49:27.63,bottom-center_style,,0,0,0,,I know you can't get enough of my sound
+Dialogue: 0,0:50:21.63,0:50:23.01,bottom-center_style,,0,0,0,,*YEEEAA*
+Dialogue: 0,0:51:16.68,0:51:17.00,bottom-center_style,,0,0,0,,*huh {\c&H000000&}huh huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:17.00,0:51:17.31,bottom-center_style,,0,0,0,,*huh huh {\c&H000000&}huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:17.31,0:51:17.54,bottom-center_style,,0,0,0,,*huh huh huh*
+Dialogue: 0,0:51:19.38,0:51:19.69,bottom-center_style,,0,0,0,,*huh {\c&H000000&}huh huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:19.69,0:51:20.03,bottom-center_style,,0,0,0,,*huh huh {\c&H000000&}huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:20.03,0:51:20.34,bottom-center_style,,0,0,0,,*huh huh huh*
+Dialogue: 0,0:51:22.11,0:51:22.42,bottom-center_style,,0,0,0,,*huh {\c&H000000&}hᵤh hᵤh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:22.42,0:51:22.78,bottom-center_style,,0,0,0,,*huh hᵤh{\c&H000000&} hᵤh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:22.78,0:51:23.09,bottom-center_style,,0,0,0,,*huh hᵤh hᵤh*
+Dialogue: 0,0:51:24.85,0:51:25.19,bottom-center_style,,0,0,0,,*huh {\c&H000000&}huh huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:25.19,0:51:25.53,bottom-center_style,,0,0,0,,*huh huh {\c&H000000&}huh*{\c&HFFFFFF&}
+Dialogue: 0,0:51:25.53,0:51:25.88,bottom-center_style,,0,0,0,,*huh huh huh*
+Dialogue: 0,0:54:53.94,0:54:55.69,bottom-center_style,,0,0,0,,(What I have become)
+Dialogue: 0,0:54:59.42,0:55:01.14,bottom-center_style,,0,0,0,,(Where I belong)
+Dialogue: 0,0:04:35.76,0:04:36.83,bottom-center_style,,0,0,0,,{\an8}(Thank you God, God bless you, thank you so much)
+Dialogue: 0,0:08:14.48,0:08:15.06,bottom-center_style,,0,0,0,,{\an8} *oh*
+Dialogue: 0,0:08:15.07,0:08:15.62,bottom-center_style,,0,0,0,,{\an8} *aaaa*
+Dialogue: 0,0:08:17.33,0:08:17.76,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:08:17.76,0:08:18.44,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:08:19.83,0:08:20.48,bottom-center_style,,0,0,0,,{\an8} *ohh*
+Dialogue: 0,0:08:20.48,0:08:21.06,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:08:22.54,0:08:23.21,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:08:23.21,0:08:23.86,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:08:25.46,0:08:25.96,bottom-center_style,,0,0,0,,{\an8} *oh*
+Dialogue: 0,0:08:25.96,0:08:26.59,bottom-center_style,,0,0,0,,{\an8} *aaaa*
+Dialogue: 0,0:08:28.31,0:08:28.74,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:08:28.74,0:08:29.43,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:08:30.81,0:08:31.38,bottom-center_style,,0,0,0,,{\an8} *ohh*
+Dialogue: 0,0:08:31.38,0:08:32.04,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:08:33.53,0:08:34.19,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:08:34.19,0:08:34.83,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:30.89,0:09:31.48,bottom-center_style,,0,0,0,,{\an8} *oh*
+Dialogue: 0,0:09:31.48,0:09:32.03,bottom-center_style,,0,0,0,,{\an8} *aaaah*
+Dialogue: 0,0:09:33.74,0:09:34.18,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:09:34.18,0:09:34.76,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:36.24,0:09:36.89,bottom-center_style,,0,0,0,,{\an8} *ohh*
+Dialogue: 0,0:09:36.89,0:09:37.48,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:38.97,0:09:39.63,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:09:39.63,0:09:40.28,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:41.78,0:09:42.26,bottom-center_style,,0,0,0,,{\an8} *oh*
+Dialogue: 0,0:09:42.26,0:09:42.81,bottom-center_style,,0,0,0,,{\an8} *aaaah*
+Dialogue: 0,0:09:44.53,0:09:44.96,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:09:44.96,0:09:45.71,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:47.03,0:09:47.68,bottom-center_style,,0,0,0,,{\an8} *ohh*
+Dialogue: 0,0:09:47.69,0:09:48.27,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:09:49.81,0:09:50.41,bottom-center_style,,0,0,0,,{\an8} *ehh*
+Dialogue: 0,0:09:50.41,0:09:51.09,bottom-center_style,,0,0,0,,{\an8} *aaaaaah*
+Dialogue: 0,0:10:25.84,0:10:27.59,bottom-center_style,,0,0,0,,{\an8}awoooo
+Dialogue: 0,0:14:42.59,0:14:45.06,bottom-center_style,,0,0,0,,{\an8}I reckon in 21 seconds
+Dialogue: 0,0:14:45.06,0:14:47.71,bottom-center_style,,0,0,0,,{\an8}I’m about to blow this thing straight to the heavens
+Dialogue: 0,0:14:48.01,0:14:49.06,bottom-center_style,,0,0,0,,{\an8}Still stressin’, {\c&H000000&}Still second guessing{\c&HFFFFFF&}
+Dialogue: 0,0:14:49.06,0:14:50.43,bottom-center_style,,0,0,0,,{\an8}Still stressin’, Still second guessing
+Dialogue: 0,0:14:50.43,0:14:51.83,bottom-center_style,,0,0,0,,{\an8}Paid my price but {\c&H000000&}learned no lesson{\c&HFFFFFF&}
+Dialogue: 0,0:14:51.83,0:14:52.18,bottom-center_style,,0,0,0,,{\an8}Paid my price but learned {\c&H000000&}no lesson{\c&HFFFFFF&}
+Dialogue: 0,0:14:52.18,0:14:52.47,bottom-center_style,,0,0,0,,{\an8}Paid my price but learned no {\c&H000000&}lesson{\c&HFFFFFF&}
+Dialogue: 0,0:14:52.47,0:14:53.21,bottom-center_style,,0,0,0,,{\an8}Paid my price but learned no lesson
+Dialogue: 0,0:14:53.54,0:14:55.86,bottom-center_style,,0,0,0,,{\an8}So cold, my heavyweight soul
+Dialogue: 0,0:14:55.86,0:14:58.66,bottom-center_style,,0,0,0,,{\an8}So weighed down by the things that I know
+Dialogue: 0,0:14:59.06,0:15:01.40,bottom-center_style,,0,0,0,,{\an8}All told I got too bold, {\c&H000000&}Heart of Gold?{\c&HFFFFFF&}
+Dialogue: 0,0:15:01.40,0:15:02.53,bottom-center_style,,0,0,0,,{\an8}All told I got too bold, Heart of Gold?
+Dialogue: 0,0:15:02.68,0:15:03.23,bottom-center_style,,0,0,0,,{\an8}No, {\c&H000000&}I do it like that{\c&HFFFFFF&}
+Dialogue: 0,0:15:03.23,0:15:04.16,bottom-center_style,,0,0,0,,{\an8}No, I do it like that
+Dialogue: 0,0:17:20.76,0:17:21.11,bottom-center_style,,0,0,0,,{\an8}(no)
+Dialogue: 0,0:17:26.19,0:17:26.68,bottom-center_style,,0,0,0,,{\an8}(woah)
+Dialogue: 0,0:17:31.63,0:17:32.11,bottom-center_style,,0,0,0,,{\an8}(though)
+Dialogue: 0,0:18:17.74,0:18:19.13,bottom-center_style,,0,0,0,,(Ethеr)
+Dialogue: 0,0:18:42.41,0:18:44.61,bottom-center_style,,0,0,0,,{\an8}Subtitles might be inaccruate for this part soz
+Dialogue: 0,0:20:09.61,0:20:11.81,bottom-center_style,,0,0,0,,{\an8}Subtitles might be inaccruate for this part too soz
+Dialogue: 0,0:21:51.88,0:21:55.96,bottom-center_style,,0,0,0,,{\an8}Leave it all behind
+Dialogue: 0,0:26:42.93,0:26:45.34,bottom-center_style,,0,0,0,,{\an8}Do the math, bitch, do the math
+Dialogue: 0,0:26:45.34,0:26:47.71,bottom-center_style,,0,0,0,,{\an8}One milly paid in tax, bitch do the math
+Dialogue: 0,0:26:48.43,0:26:50.81,bottom-center_style,,0,0,0,,{\an8}Do the math, bitch, do the math
+Dialogue: 0,0:26:50.81,0:26:53.21,bottom-center_style,,0,0,0,,{\an8}One milly paid in tax, bitch do the math
+Dialogue: 0,0:26:53.91,0:26:56.31,bottom-center_style,,0,0,0,,{\an8}Do the math, bitch, do the math
+Dialogue: 0,0:26:56.31,0:26:58.64,bottom-center_style,,0,0,0,,{\an8}One milly paid in tax, bitch do the math
+Dialogue: 0,0:26:59.24,0:27:01.69,bottom-center_style,,0,0,0,,{\an8}Do the math, bitch, do the math
+Dialogue: 0,0:27:01.69,0:27:04.13,bottom-center_style,,0,0,0,,{\an8}One milly paid in tax, bitch do the math
+Dialogue: 0,0:30:03.08,0:30:05.33,bottom-center_style,,0,0,0,,{\an8}And we fall
+Dialogue: 0,0:30:08.43,0:30:09.55,bottom-center_style,,0,0,0,,{\an8}And we fa-{\c&H000000&} a- a- a- a- a- a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:09.55,0:30:09.71,bottom-center_style,,0,0,0,,{\an8}And we fa- a- {\c&H000000&}a- a- a- a- a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:09.71,0:30:09.85,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- {\c&H000000&}a- a- a- a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:09.85,0:30:10.00,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- {\c&H000000&}a- a- a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:10.00,0:30:10.14,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- a- {\c&H000000&}a- a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:10.14,0:30:10.31,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- a- a- {\c&H000000&}a- a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:10.31,0:30:10.45,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- a- a- a- {\c&H000000&}a- a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:10.45,0:30:10.64,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- a- a- a- a- {\c&H000000&}a-{\c&HFFFFFF&}
+Dialogue: 0,0:30:10.64,0:30:10.81,bottom-center_style,,0,0,0,,{\an8}And we fa- a- a- a- a- a- a- a- a-
+Dialogue: 0,0:30:14.01,0:30:16.26,bottom-center_style,,0,0,0,,{\an8}And we fall
+Dialogue: 0,0:30:19.14,0:30:20.46,bottom-center_style,,0,0,0,,{\an8}And we fall
+Dialogue: 0,0:33:44.98,0:33:47.73,bottom-center_style,,0,0,0,,{\an8}And I ain't gonna be taken down
+Dialogue: 0,0:34:09.69,0:34:12.39,bottom-center_style,,0,0,0,,{\an8}I keep holdin' on
+Dialogue: 0,0:34:24.53,0:34:26.29,bottom-center_style,,0,0,0,,{\an8}I keep holdin' on
+Dialogue: 0,0:34:35.58,0:34:36.79,bottom-center_style,,0,0,0,,{\an8}I keep holdin' on
+Dialogue: 0,0:34:40.23,0:34:41.61,bottom-center_style,,0,0,0,,{\an8}(turned to gold)
+Dialogue: 0,0:34:50.43,0:34:53.08,bottom-center_style,,0,0,0,,{\an8}(my hope will never die)
+Dialogue: 0,0:35:19.16,0:35:20.41,bottom-center_style,,0,0,0,,{\an8}But my hope will never di-
+Dialogue: 0,0:35:30.11,0:35:31.36,bottom-center_style,,0,0,0,,{\an8}But my hope will never di-
+Dialogue: 0,0:35:40.01,0:35:41.26,bottom-center_style,,0,0,0,,{\an8}I keep holding on
+Dialogue: 0,0:36:02.81,0:36:04.06,bottom-center_style,,0,0,0,,{\an8}But my hope will never di-
+Dialogue: 0,0:36:23.39,0:36:25.59,bottom-center_style,,0,0,0,,{\an8}One step, now take it right back
+Dialogue: 0,0:43:55.89,0:43:57.98,bottom-center_style,,0,0,0,,{\an8}Oooh if we ever get out of here
+Dialogue: 0,0:44:04.73,0:44:08.84,bottom-center_style,,0,0,0,,{\an8}Without making a sound
+Dialogue: 0,0:44:28.66,0:44:30.76,bottom-center_style,,0,0,0,,{\an8}Oooh if we ever get out of here
+Dialogue: 0,0:49:15.93,0:49:16.27,bottom-center_style,,0,0,0,,{\an8}FUCKING GOLD DUST
+Dialogue: 0,0:49:16.27,0:49:16.58,bottom-center_style,,0,0,0,,{\an8}FUCKING GOLD DUST
+Dialogue: 0,0:49:16.58,0:49:17.44,bottom-center_style,,0,0,0,,{\an8}FUCKING GOLD DUST
+Dialogue: 0,0:52:10.72,0:52:11.05,bottom-center_style,,0,0,0,,{\an8}Okay, {\c&H000000&}okay, okay, let's go{\c&HFFFFFF&}
+Dialogue: 0,0:52:11.05,0:52:11.40,bottom-center_style,,0,0,0,,{\an8}Okay, okay,{\c&H000000&} okay, let's go{\c&HFFFFFF&}
+Dialogue: 0,0:52:11.40,0:52:11.66,bottom-center_style,,0,0,0,,{\an8}Okay, okay, okay, {\c&H000000&}let's go{\c&HFFFFFF&}
+Dialogue: 0,0:52:11.66,0:52:11.86,bottom-center_style,,0,0,0,,{\an8}Okay, okay, okay, let's {\c&H000000&}go{\c&HFFFFFF&}
+Dialogue: 0,0:52:11.86,0:52:12.14,bottom-center_style,,0,0,0,,{\an8}Okay, okay, okay, let's go
