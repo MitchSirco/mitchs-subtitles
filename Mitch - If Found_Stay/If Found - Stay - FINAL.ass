@@ -1,0 +1,64 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 2560
+PlayResY: 1440
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Top,Arial,80,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1,1,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.90,0:00:06.00,Default,,0,0,0,,Thought I'd figure this all out on my own
+Dialogue: 1,0:00:06.86,0:00:10.62,Default,,0,0,0,,Started hoping we just let it grow
+Dialogue: 2,0:00:12.62,0:00:16.02,Default,,0,0,0,,Now the water's slowly getting cold
+Dialogue: 3,0:00:17.67,0:00:21.28,Default,,0,0,0,,As we lose each day a little more
+Dialogue: 4,0:00:22.31,0:00:26.65,Default,,0,0,0,,Caught up again, we're rusting down another high
+Dialogue: 5,0:00:27.63,0:00:31.97,Default,,0,0,0,,Just burning up like satellites across the sky
+Dialogue: 6,0:00:33.02,0:00:37.34,Default,,0,0,0,,I know I keep pretending that we're doing fine
+Dialogue: 7,0:00:37.97,0:00:38.97,Default,,0,0,0,,Lost
+Dialogue: 8,0:00:38.97,0:00:40.00,Default,,0,0,0,,Lost in
+Dialogue: 9,0:00:40.00,0:00:42.63,Default,,0,0,0,,Lost in us
+Dialogue: 10,0:00:42.63,0:00:47.98,Top,,0,0,0,,{\an8}All I wanted
+Dialogue: 11,0:00:48.59,0:00:53.30,Default,,0,0,0,,Holding up for days just to get by
+Dialogue: 12,0:00:53.35,0:00:58.62,Top,,0,0,0,,{\an8}All I wanted
+Dialogue: 13,0:00:59.19,0:01:03.93,Default,,0,0,0,,Reaching out just for something to feel alive
+Dialogue: 14,0:01:03.99,0:01:09.33,Default,,0,0,0,,All I wanted was you
+Dialogue: 15,0:01:12.25,0:01:14.60,Default,,0,0,0,,And I let it slip away
+Dialogue: 16,0:01:14.65,0:01:19.99,Default,,0,0,0,,All I wanted was you
+Dialogue: 17,0:01:20.60,0:01:21.68,Default,,0,0,0,,-was you
+Dialogue: 18,0:01:21.70,0:01:22.25,Top,,0,0,0,,{\an8}you
+Dialogue: 19,0:01:22.92,0:01:25.33,Default,,0,0,0,,And I can't make you stay
+Dialogue: 20,0:01:33.62,0:01:35.95,Default,,0,0,0,,And I can't make you stay
+Dialogue: 21,0:01:46.92,0:01:49.27,Top,,0,0,0,,And I can't make you stay
+Dialogue: 22,0:01:50.25,0:01:54.60,Default,,0,0,0,,Caught up again, just chase around another life
+Dialogue: 23,0:01:55.57,0:01:59.93,Default,,0,0,0,,So holding on like shadows fading in the night
+Dialogue: 24,0:02:00.98,0:02:05.30,Default,,0,0,0,,I know I keep pretending but we're not alright
+Dialogue: 25,0:02:05.93,0:02:06.93,Default,,0,0,0,,Not
+Dialogue: 26,0:02:06.93,0:02:07.96,Default,,0,0,0,,Not en
+Dialogue: 27,0:02:07.96,0:02:10.59,Default,,0,0,0,,Not enough
+Dialogue: 28,0:02:10.65,0:02:15.92,Top,,0,0,0,,{\an8}All I wanted
+Dialogue: 29,0:02:16.58,0:02:20.62,Default,,0,0,0,,Holding up for days just to get by
+Dialogue: 30,0:02:21.28,0:02:26.57,Top,,0,0,0,,{\an8}All I wanted
+Dialogue: 31,0:02:27.27,0:02:31.93,Default,,0,0,0,,Reaching out just for something to feel alive
+Dialogue: 32,0:02:32.02,0:02:37.33,Default,,0,0,0,,All I wanted was you
+Dialogue: 33,0:02:40.22,0:02:42.58,Default,,0,0,0,,And I let it slip away
+Dialogue: 34,0:02:42.62,0:02:47.95,Default,,0,0,0,,All I wanted was you
+Dialogue: 35,0:02:48.62,0:02:49.68,Default,,0,0,0,,-was you
+Dialogue: 36,0:02:49.73,0:02:50.28,Top,,0,0,0,,{\an8}you
+Dialogue: 37,0:02:51.00,0:02:53.25,Default,,0,0,0,,And I can't make you stay
+Dialogue: 38,0:03:12.30,0:03:14.63,Default,,0,0,0,,And I can't make you stay
+Dialogue: 39,0:03:22.97,0:03:25.23,Default,,0,0,0,,And I can't make you stay
+Dialogue: 40,0:03:33.68,0:03:35.98,Default,,0,0,0,,And I can't make you stay
+Dialogue: 41,0:03:44.25,0:03:46.63,Default,,0,0,0,,And I can't make you stay
+Dialogue: 42,0:03:49.30,0:03:54.95,Default,,0,0,0,,All I wanted was you
+Dialogue: 43,0:03:57.43,0:04:00.01,Default,,0,0,0,,And I let it slip away
+Dialogue: 44,0:04:00.01,0:04:05.37,Default,,0,0,0,,All I wanted was you
+Dialogue: 45,0:04:05.98,0:04:07.06,Default,,0,0,0,,-was you
+Dialogue: 46,0:04:07.08,0:04:07.63,Top,,0,0,0,,{\an8}you
+Dialogue: 47,0:04:08.29,0:04:10.25,Default,,0,0,0,,And I can't make you stay
