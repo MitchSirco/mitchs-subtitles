@@ -1,0 +1,41 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 2560
+PlayResY: 1440
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H002FD0FF,&HFF000000,&H004D1116,&H004D1116,0,0,0,0,100,100,0,0,1,1.0,1,2,10,10,10,1
+Style: Value_style,proportionalSansSerif,80,&H00FFFFFF,&H0300FFFF,&H18000000,&H02000000,0,0,0,0,100,100,0.0,0,3,2,0,2,10,10,10,1
+Style: Top,Arial,80,&H002FD0FF,&HFF000000,&H004D1116,&H004D1116,0,-1,0,0,100,100,0,0,1,1.0,1,8,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.78,0:00:07.28,Default,,0,0,0,,{\ytktFadeTime(3000)}{\k12}Do {\k25}you {\k46}know {\k38}that {\k24}you're {\k47}some{\k30}thing?
+Dialogue: 0,0:00:07.82,0:00:10.23,Default,,0,0,0,,{\ytktFadeTime(3000)}{\k19}The {\k27}way {\k20}that {\k23}you {\k59}rea{\k31}son {\k35}with {\k33}me
+Dialogue: 0,0:00:10.23,0:00:14.01,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k22}When {\k38}I {\k47}thrown {\k42}us {\k36}off {\k30}track?
+Dialogue: 0,0:00:15.13,0:00:17.97,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k22}And {\k21}when {\k23}I {\k43}reach {\k34}out {\k48}for {\k36}you
+Dialogue: 0,0:00:18.20,0:00:22.04,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k16}Cause {\k22}I {\k42}feel {\k45}help{\k30}less
+Dialogue: 0,0:00:22.30,0:00:27.73,Default,,0,0,0,,{\ytktFadeTime(3000)}{\k12}You {\k64}pull {\k20}me {\k67}close {\k20}and {\k60}help {\k20}me {\k49}find {\k21}my {\k22}way {\k128}back
+Dialogue: 0,0:00:31.19,0:00:34.91,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k18}Did {\k24}you {\k45}know {\k43}that {\k20}you're {\k44}pre{\k113}cious?{\k30 }
+Dialogue: 0,0:00:35.31,0:00:41.93,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k18}The {\k21}way {\k18}that {\k25}we {\k61}joke, {\k24}you {\k65}just {\k25}get {\k64}me, {\k21}it's {\k63}so {\k22}biz{\k43}arre
+Dialogue: 0,0:00:42.55,0:00:45.32,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k18}And {\k17}when {\k29}I {\k42}push {\k46}you {\k39}aw{\k30}ay
+Dialogue: 0,0:00:45.57,0:00:49.26,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k20}Cause {\k22}I {\k48}ask {\k63}and {\k30}yell
+Dialogue: 0,0:00:49.70,0:00:56.96,Default,,0,0,0,,{\ytktFadeTime(2000)}{\fad(0,600)}{\k16}You {\k61}ease {\k21}my {\k65}fears {\k21}and {\k78}know {\k13}I'll {\k25}ne{\k19}ver {\k40}give {\k47}up{\k42}
+Dialogue: 0,0:01:29.30,0:01:34.44,Default,,0,0,0,,{\ytktFadeTime(2000)}{\fad(0,1500)}{\k17}Our {\k43}Song {\k21}will {\k65}guide {\k17}me {\k30}home{\k30}
+Dialogue: 0,0:01:31.87,0:01:32.81,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:01:32.81,0:01:33.60,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:01:33.60,0:01:34.49,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:01:34.49,0:01:35.28,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:01:35.28,0:01:36.14,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:01:36.14,0:01:36.90,Top,,0,0,0,,{\fad(300,1000)}Home
+Dialogue: 0,0:02:15.49,0:02:20.77,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k29}So {\k22}ev{\k46}en {\k39}when {\k30}it {\k59}seems {\k30}I {\k55}lost {\k53}my {\k30}way
+Dialogue: 0,0:02:21.56,0:02:23.37,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k37}Meet {\k22}me {\k24}half{\k20}way
+Dialogue: 0,0:02:23.91,0:02:27.57,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k18}Our {\k67}Song {\k31}will {\k58}guide {\k25}me {\k29}home
+Dialogue: 0,0:02:54.99,0:02:57.81,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k18}Our {\k48}Song {\k17}will {\k61}guide {\k30}me {\k29}home
+Dialogue: 0,0:03:16.41,0:03:18.42,Default,,0,0,0,,{\ytktFadeTime(2000)}{\k40}Meet {\k22}me {\k24}half{\k20}way
+Dialogue: 0,0:04:03.80,0:04:05.57,Default,,0,0,0,,Closed Captions - MitchSirco
