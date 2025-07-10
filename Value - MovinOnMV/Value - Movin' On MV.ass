@@ -1,0 +1,432 @@
+[Script Info]
+Title: New subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 2560
+PlayResY: 1440
+ScaledBorderAndShadow: Yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,80,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: DefaultCTaller,Arial,90,&H00FF9232,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: DefaultMTaller,Arial,100,&H00B914FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: DefaultYTaller,Arial,110,&H0000D8FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,5,10,10,10,1
+Style: DefaultCTall,Arial,95,&H00FF9232,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: DefaultMTall,Arial,95,&H00B914FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: DefaultYTall,Arial,95,&H0000D8FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: DefaultC,Arial,80,&H00FF9232,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: DefaultM,Arial,80,&H00B914FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: DefaultY,Arial,80,&H0000D8FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.70,0:00:08.50,Default,,0,0,0,,{\ytchroma(&H00D8FF&,&HFF9232&,&HB914FF&,&H00&,20,0,400,10)}Closed Captions - MitchSirco
+Dialogue: 0,0:00:27.18,0:00:30.00,Default,,0,0,0,,I've been tryna get my weary head right
+Dialogue: 0,0:00:30.30,0:00:32.77,Default,,0,0,0,,Looking out across that shoreline
+Dialogue: 0,0:00:33.07,0:00:35.50,Default,,0,0,0,,Lonely little orange boat light
+Dialogue: 0,0:00:35.81,0:00:37.87,Default,,0,0,0,,Heading out for somewhere new
+Dialogue: 0,0:00:38.25,0:00:41.26,Default,,0,0,0,,If I lean into my so-called breakdown
+Dialogue: 0,0:00:41.35,0:00:43.90,Default,,0,0,0,,I could build myself back up now 
+Dialogue: 0,0:00:44.12,0:00:46.59,Default,,0,0,0,,Better than before, you’ll see now
+Dialogue: 0,0:00:46.87,0:00:48.90,Default,,0,0,0,,I should set sail soon too
+Dialogue: 0,0:00:49.24,0:00:49.77,Default,,0,0,0,,{\ytkt()}{\k18}And{\k19} I
+Dialogue: 0,0:00:49.73,0:00:49.88,DefaultCTaller,,0,0,0,,{\pos(864,359)}{}try
+Dialogue: 0,0:00:49.77,0:00:49.92,DefaultCTaller,,0,0,0,,{\pos(921,329)}{}try
+Dialogue: 0,0:00:49.81,0:00:49.96,DefaultCTaller,,0,0,0,,{\pos(1005,281)}{}try
+Dialogue: 0,0:00:49.85,0:00:50.00,DefaultCTaller,,0,0,0,,{\pos(1102,228)}{}try
+Dialogue: 0,0:00:49.89,0:00:50.04,DefaultCTaller,,0,0,0,,{\pos(1200,181)}{}try
+Dialogue: 0,0:00:49.93,0:00:50.08,DefaultCTaller,,0,0,0,,{\pos(1286,152)}{}try
+Dialogue: 0,0:00:49.97,0:00:50.12,DefaultCTaller,,0,0,0,,{\pos(1348,151)}{}try
+Dialogue: 0,0:00:50.01,0:00:50.16,DefaultCTaller,,0,0,0,,{\pos(1390,200)}{}try
+Dialogue: 0,0:00:50.05,0:00:50.20,DefaultCTaller,,0,0,0,,{\pos(1414,290)}{}try
+Dialogue: 0,0:00:50.09,0:00:50.24,DefaultCTaller,,0,0,0,,{\pos(1423,396)}{}try
+Dialogue: 0,0:00:50.13,0:00:50.28,DefaultCTaller,,0,0,0,,{\pos(1423,497)}{}try
+Dialogue: 0,0:00:50.17,0:00:50.32,DefaultCTaller,,0,0,0,,{\pos(1418,570)}{}try
+Dialogue: 0,0:00:50.21,0:00:50.36,DefaultCTaller,,0,0,0,,{\pos(1405,600)}{}try
+Dialogue: 0,0:00:50.25,0:00:50.40,DefaultCTaller,,0,0,0,,{\pos(1376,595)}{}try
+Dialogue: 0,0:00:50.29,0:00:50.44,DefaultCTaller,,0,0,0,,{\pos(1340,572)}{}try
+Dialogue: 0,0:00:50.33,0:00:50.48,DefaultCTaller,,0,0,0,,{\pos(1307,546)}{}try
+Dialogue: 0,0:00:50.49,0:00:50.64,DefaultMTaller,,0,0,0,,{\pos(1292,536)}{}try
+Dialogue: 0,0:00:50.53,0:00:50.68,DefaultMTaller,,0,0,0,,{\pos(1308,447)}{}try
+Dialogue: 0,0:00:50.57,0:00:50.72,DefaultMTaller,,0,0,0,,{\pos(1332,319)}{}try
+Dialogue: 0,0:00:50.61,0:00:50.76,DefaultMTaller,,0,0,0,,{\pos(1363,211)}{}try
+Dialogue: 0,0:00:50.65,0:00:50.80,DefaultMTaller,,0,0,0,,{\pos(1398,175)}{}try
+Dialogue: 0,0:00:50.69,0:00:50.84,DefaultMTaller,,0,0,0,,{\pos(1440,179)}{}try
+Dialogue: 0,0:00:50.73,0:00:50.88,DefaultMTaller,,0,0,0,,{\pos(1487,203)}{}try
+Dialogue: 0,0:00:50.77,0:00:50.92,DefaultMTaller,,0,0,0,,{\pos(1531,237)}{}try
+Dialogue: 0,0:00:50.81,0:00:50.96,DefaultMTaller,,0,0,0,,{\pos(1564,276)}{}try
+Dialogue: 0,0:00:50.85,0:00:51.00,DefaultMTaller,,0,0,0,,{\pos(1575,312)}{}try
+Dialogue: 0,0:00:50.89,0:00:51.04,DefaultMTaller,,0,0,0,,{\pos(1558,359)}{}try
+Dialogue: 0,0:00:50.93,0:00:51.08,DefaultMTaller,,0,0,0,,{\pos(1523,414)}{}try
+Dialogue: 0,0:00:50.97,0:00:51.12,DefaultMTaller,,0,0,0,,{\pos(1481,467)}{}try
+Dialogue: 0,0:00:51.01,0:00:51.16,DefaultMTaller,,0,0,0,,{\pos(1447,510)}{}try
+Dialogue: 0,0:00:51.11,0:00:51.26,DefaultYTaller,,0,0,0,,{\pos(1437,525)}{}try
+Dialogue: 0,0:00:51.15,0:00:51.30,DefaultYTaller,,0,0,0,,{\pos(1429,482)}{}try
+Dialogue: 0,0:00:51.19,0:00:51.34,DefaultYTaller,,0,0,0,,{\pos(1414,418)}{}try
+Dialogue: 0,0:00:51.23,0:00:51.38,DefaultYTaller,,0,0,0,,{\pos(1398,345)}{}try
+Dialogue: 0,0:00:51.27,0:00:51.42,DefaultYTaller,,0,0,0,,{\pos(1388,271)}{}try
+Dialogue: 0,0:00:51.31,0:00:51.46,DefaultYTaller,,0,0,0,,{\pos(1394,208)}{}try
+Dialogue: 0,0:00:51.35,0:00:51.50,DefaultYTaller,,0,0,0,,{\pos(1421,166)}{}try
+Dialogue: 0,0:00:51.39,0:00:51.54,DefaultYTaller,,0,0,0,,{\pos(1453,153)}{}try
+Dialogue: 0,0:00:51.43,0:00:51.58,DefaultYTaller,,0,0,0,,{\pos(1488,146)}{}try
+Dialogue: 0,0:00:51.47,0:00:51.62,DefaultYTaller,,0,0,0,,{\pos(1531,142)}{}try
+Dialogue: 0,0:00:51.51,0:00:51.66,DefaultYTaller,,0,0,0,,{\pos(1581,140)}{}try
+Dialogue: 0,0:00:51.55,0:00:51.70,DefaultYTaller,,0,0,0,,{\pos(1635,142)}{}try
+Dialogue: 0,0:00:51.59,0:00:51.74,DefaultYTaller,,0,0,0,,{\pos(1691,146)}{}try
+Dialogue: 0,0:00:51.63,0:00:51.78,DefaultYTaller,,0,0,0,,{\pos(1750,153)}{}try
+Dialogue: 0,0:00:51.67,0:00:51.82,DefaultYTaller,,0,0,0,,{\pos(1808,162)}{}try
+Dialogue: 0,0:00:51.71,0:00:51.86,DefaultYTaller,,0,0,0,,{\pos(1864,175)}{}try
+Dialogue: 0,0:00:51.75,0:00:51.90,DefaultYTaller,,0,0,0,,{\pos(1918,191)}{}try
+Dialogue: 0,0:00:51.79,0:00:51.94,DefaultYTaller,,0,0,0,,{\pos(1966,210)}{}try
+Dialogue: 0,0:00:51.83,0:00:51.98,DefaultYTaller,,0,0,0,,{\pos(2008,232)}{}try
+Dialogue: 0,0:00:51.87,0:00:52.02,DefaultYTaller,,0,0,0,,{\pos(2041,257)}{}try
+Dialogue: 0,0:00:51.91,0:00:52.06,DefaultYTaller,,0,0,0,,{\pos(2068,289)}{}try
+Dialogue: 0,0:00:51.95,0:00:52.10,DefaultYTaller,,0,0,0,,{\pos(2090,331)}{}try
+Dialogue: 0,0:00:51.99,0:00:52.14,DefaultYTaller,,0,0,0,,{\pos(2105,381)}{}try
+Dialogue: 0,0:00:52.03,0:00:52.18,DefaultYTaller,,0,0,0,,{\pos(2116,437)}{}try
+Dialogue: 0,0:00:52.07,0:00:52.22,DefaultYTaller,,0,0,0,,{\pos(2123,497)}{}try
+Dialogue: 0,0:00:52.11,0:00:52.26,DefaultYTaller,,0,0,0,,{\pos(2127,559)}{}try
+Dialogue: 0,0:00:52.15,0:00:52.30,DefaultYTaller,,0,0,0,,{\pos(2129,621)}{}try
+Dialogue: 0,0:00:52.19,0:00:52.34,DefaultYTaller,,0,0,0,,{\pos(2129,681)}{}try
+Dialogue: 0,0:00:52.23,0:00:52.38,DefaultYTaller,,0,0,0,,{\pos(2128,738)}{}try
+Dialogue: 0,0:00:52.27,0:00:52.42,DefaultYTaller,,0,0,0,,{\pos(2128,789)}{}try
+Dialogue: 0,0:00:52.31,0:00:52.46,DefaultYTaller,,0,0,0,,{\pos(2128,832)}{}try
+Dialogue: 0,0:00:52.35,0:00:52.50,DefaultYTaller,,0,0,0,,{\pos(2130,866)}{}try
+Dialogue: 0,0:00:52.40,0:00:54.81,Default,,0,0,0,,{\ytkt()}{\k12}But {\k23}no{\k50}thing's {\k19}get{\k33}ting {\k54}thro{\k36}ugh
+Dialogue: 0,0:00:54.81,0:00:55.38,Default,,0,0,0,,Un
+Dialogue: 0,0:00:55.38,0:00:55.53,DefaultCTaller,,0,0,0,,{\pos(2021,437)}{}Uncer
+Dialogue: 0,0:00:55.42,0:00:55.57,DefaultCTaller,,0,0,0,,{\pos(1979,402)}{}Uncer
+Dialogue: 0,0:00:55.46,0:00:55.61,DefaultCTaller,,0,0,0,,{\pos(1922,350)}{}Uncer
+Dialogue: 0,0:00:55.50,0:00:55.65,DefaultCTaller,,0,0,0,,{\pos(1854,290)}{}Uncer
+Dialogue: 0,0:00:55.54,0:00:55.69,DefaultCTaller,,0,0,0,,{\pos(1779,235)}{}Uncer
+Dialogue: 0,0:00:55.58,0:00:55.73,DefaultCTaller,,0,0,0,,{\pos(1702,195)}{}Uncer
+Dialogue: 0,0:00:55.62,0:00:55.77,DefaultCTaller,,0,0,0,,{\pos(1628,183)}{}Uncer
+Dialogue: 0,0:00:55.66,0:00:55.81,DefaultCTaller,,0,0,0,,{\pos(1487,248)}{}Uncer
+Dialogue: 0,0:00:55.70,0:00:55.85,DefaultCTaller,,0,0,0,,{\pos(1339,373)}{}Uncer
+Dialogue: 0,0:00:55.74,0:00:55.89,DefaultCTaller,,0,0,0,,{\pos(1191,480)}{}Uncer
+Dialogue: 0,0:00:55.78,0:00:55.93,DefaultCTaller,,0,0,0,,{\pos(1047,512)}{}Uncer
+Dialogue: 0,0:00:55.82,0:00:55.97,DefaultCTaller,,0,0,0,,{\pos(895,504)}{}Uncer
+Dialogue: 0,0:00:55.86,0:00:56.01,DefaultCTaller,,0,0,0,,{\pos(762,483)}{}Uncer
+Dialogue: 0,0:00:56.03,0:00:56.18,DefaultMTaller,,0,0,0,,{\pos(695,475)}{}Uncertain
+Dialogue: 0,0:00:56.07,0:00:56.22,DefaultMTaller,,0,0,0,,{\pos(744,420)}{}Uncertain
+Dialogue: 0,0:00:56.11,0:00:56.26,DefaultMTaller,,0,0,0,,{\pos(815,338)}{}Uncertain
+Dialogue: 0,0:00:56.15,0:00:56.30,DefaultMTaller,,0,0,0,,{\pos(899,258)}{}Uncertain
+Dialogue: 0,0:00:56.19,0:00:56.34,DefaultMTaller,,0,0,0,,{\pos(989,209)}{}Uncertain
+Dialogue: 0,0:00:56.23,0:00:56.38,DefaultMTaller,,0,0,0,,{\pos(1086,213)}{}Uncertain
+Dialogue: 0,0:00:56.27,0:00:56.42,DefaultMTaller,,0,0,0,,{\pos(1199,257)}{}Uncertain
+Dialogue: 0,0:00:56.31,0:00:56.46,DefaultMTaller,,0,0,0,,{\pos(1315,319)}{}Uncertain
+Dialogue: 0,0:00:56.35,0:00:56.50,DefaultMTaller,,0,0,0,,{\pos(1418,375)}{}Uncertain
+Dialogue: 0,0:00:56.39,0:00:56.54,DefaultMTaller,,0,0,0,,{\pos(1491,405)}{}Uncertain
+Dialogue: 0,0:00:56.43,0:00:56.58,DefaultMTaller,,0,0,0,,{\pos(1534,408)}{}Uncertain
+Dialogue: 0,0:00:56.47,0:00:56.62,DefaultMTaller,,0,0,0,,{\pos(1554,397)}{}Uncertain
+Dialogue: 0,0:00:56.51,0:00:56.66,DefaultMTaller,,0,0,0,,{\pos(1563,382)}{}Uncertain
+Dialogue: 0,0:00:56.55,0:00:56.70,DefaultMTaller,,0,0,0,,{\pos(1571,373)}{}Uncertain
+Dialogue: 0,0:00:56.73,0:00:56.88,DefaultYTaller,,0,0,0,,{\pos(1572,373)}{}Uncertain life
+Dialogue: 0,0:00:56.77,0:00:56.92,DefaultYTaller,,0,0,0,,{\pos(1502,340)}{}Uncertain life
+Dialogue: 0,0:00:56.81,0:00:56.96,DefaultYTaller,,0,0,0,,{\pos(1403,291)}{}Uncertain life
+Dialogue: 0,0:00:56.85,0:00:57.00,DefaultYTaller,,0,0,0,,{\pos(1290,240)}{}Uncertain life
+Dialogue: 0,0:00:56.89,0:00:57.04,DefaultYTaller,,0,0,0,,{\pos(1175,199)}{}Uncertain life
+Dialogue: 0,0:00:56.93,0:00:57.08,DefaultYTaller,,0,0,0,,{\pos(1073,179)}{}Uncertain life
+Dialogue: 0,0:00:56.97,0:00:57.12,DefaultYTaller,,0,0,0,,{\pos(966,165)}{}Uncertain life
+Dialogue: 0,0:00:57.01,0:00:57.16,DefaultYTaller,,0,0,0,,{\pos(857,160)}{}Uncertain life
+Dialogue: 0,0:00:57.05,0:00:57.20,DefaultYTaller,,0,0,0,,{\pos(758,172)}{}Uncertain life
+Dialogue: 0,0:00:57.09,0:00:57.24,DefaultYTaller,,0,0,0,,{\pos(678,209)}{}Uncertain life
+Dialogue: 0,0:00:57.13,0:00:57.28,DefaultYTaller,,0,0,0,,{\pos(632,268)}{}Uncertain life
+Dialogue: 0,0:00:57.17,0:00:57.32,DefaultYTaller,,0,0,0,,{\pos(605,349)}{}Uncertain life
+Dialogue: 0,0:00:57.21,0:00:57.36,DefaultYTaller,,0,0,0,,{\pos(589,446)}{}Uncertain life
+Dialogue: 0,0:00:57.25,0:00:57.40,DefaultYTaller,,0,0,0,,{\pos(580,551)}{}Uncertain life
+Dialogue: 0,0:00:57.29,0:00:57.44,DefaultYTaller,,0,0,0,,{\pos(574,654)}{}Uncertain life
+Dialogue: 0,0:00:57.33,0:00:57.48,DefaultYTaller,,0,0,0,,{\pos(566,748)}{}Uncertain life
+Dialogue: 0,0:00:57.37,0:00:57.52,DefaultYTaller,,0,0,0,,{\pos(556,828)}{}Uncertain life
+Dialogue: 0,0:00:57.41,0:00:57.56,DefaultYTaller,,0,0,0,,{\pos(548,908)}{}Uncertain life
+Dialogue: 0,0:00:57.45,0:00:57.60,DefaultYTaller,,0,0,0,,{\pos(541,986)}{}Uncertain life
+Dialogue: 0,0:00:57.49,0:00:57.64,DefaultYTaller,,0,0,0,,{\pos(536,1059)}{}Uncertain life
+Dialogue: 0,0:00:57.53,0:00:57.68,DefaultYTaller,,0,0,0,,{\pos(532,1123)}{}Uncertain life
+Dialogue: 0,0:00:57.57,0:00:57.72,DefaultYTaller,,0,0,0,,{\pos(529,1173)}{}Uncertain life
+Dialogue: 0,0:00:57.89,0:00:59.43,Default,,0,0,0,,I’m telling you
+Dialogue: 0,0:01:02.56,0:01:03.58,DefaultC,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:01:05.15,0:01:06.36,DefaultM,,0,0,0,,Soon as I let
+Dialogue: 0,0:01:07.91,0:01:09.11,DefaultY,,0,0,0,,I feel the bad times
+Dialogue: 0,0:01:13.60,0:01:14.63,DefaultC,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:01:16.29,0:01:17.38,DefaultM,,0,0,0,,Soon as I let
+Dialogue: 0,0:01:18.93,0:01:20.15,DefaultY,,0,0,0,,I feel the bad times
+Dialogue: 0,0:01:21.16,0:01:21.89,Default,,0,0,0,,Coming on
+Dialogue: 0,0:01:44.18,0:01:47.23,Default,,0,0,0,,{\ytkt()}{\k20}Could {\k58}I {\k20}find out what it’s meant to feel like?
+Dialogue: 0,0:01:47.54,0:01:50.00,Default,,0,0,0,,Make a choice and just be right
+Dialogue: 0,0:01:50.35,0:01:52.93,Default,,0,0,0,,Paddle my way through these times
+Dialogue: 0,0:01:53.10,0:01:54.95,Default,,0,0,0,,Tossed about by the wake
+Dialogue: 0,0:01:55.49,0:01:58.26,Default,,0,0,0,,'Cause I only want to raise my anchor
+Dialogue: 0,0:01:58.47,0:02:01.16,Default,,0,0,0,,And hold myself to a standard
+Dialogue: 0,0:02:01.41,0:02:04.07,Default,,0,0,0,,Probably wouldn't need a map, just
+Dialogue: 0,0:02:04.07,0:02:06.02,Default,,0,0,0,,A point that I need to make
+Dialogue: 0,0:02:06.48,0:02:07.06,Default,,0,0,0,,{\ytkt()}{\k19}And{\k17} I
+Dialogue: 0,0:02:07.06,0:02:07.21,DefaultCTaller,,0,0,0,,{\pos(2077,508)}{}try
+Dialogue: 0,0:02:07.10,0:02:07.25,DefaultCTaller,,0,0,0,,{\pos(2002,447)}{}try
+Dialogue: 0,0:02:07.14,0:02:07.29,DefaultCTaller,,0,0,0,,{\pos(1895,357)}{}try
+Dialogue: 0,0:02:07.18,0:02:07.33,DefaultCTaller,,0,0,0,,{\pos(1778,266)}{}try
+Dialogue: 0,0:02:07.22,0:02:07.37,DefaultCTaller,,0,0,0,,{\pos(1675,203)}{}try
+Dialogue: 0,0:02:07.26,0:02:07.41,DefaultCTaller,,0,0,0,,{\pos(1604,189)}{}try
+Dialogue: 0,0:02:07.30,0:02:07.45,DefaultCTaller,,0,0,0,,{\pos(1548,207)}{}try
+Dialogue: 0,0:02:07.34,0:02:07.49,DefaultCTaller,,0,0,0,,{\pos(1500,242)}{}try
+Dialogue: 0,0:02:07.38,0:02:07.53,DefaultCTaller,,0,0,0,,{\pos(1453,281)}{}try
+Dialogue: 0,0:02:07.42,0:02:07.57,DefaultCTaller,,0,0,0,,{\pos(1403,311)}{}try
+Dialogue: 0,0:02:07.46,0:02:07.61,DefaultCTaller,,0,0,0,,{\pos(1347,339)}{}try
+Dialogue: 0,0:02:07.50,0:02:07.65,DefaultCTaller,,0,0,0,,{\pos(1290,369)}{}try
+Dialogue: 0,0:02:07.54,0:02:07.69,DefaultCTaller,,0,0,0,,{\pos(1238,396)}{}try
+Dialogue: 0,0:02:07.58,0:02:07.73,DefaultCTaller,,0,0,0,,{\pos(1199,417)}{}try
+Dialogue: 0,0:02:07.76,0:02:07.91,DefaultMTaller,,0,0,0,,{\pos(1193,421)}{}try
+Dialogue: 0,0:02:07.80,0:02:07.95,DefaultMTaller,,0,0,0,,{\pos(1259,399)}{}try
+Dialogue: 0,0:02:07.84,0:02:07.99,DefaultMTaller,,0,0,0,,{\pos(1359,364)}{}try
+Dialogue: 0,0:02:07.88,0:02:08.03,DefaultMTaller,,0,0,0,,{\pos(1464,333)}{}try
+Dialogue: 0,0:02:07.92,0:02:08.07,DefaultMTaller,,0,0,0,,{\pos(1548,321)}{}try
+Dialogue: 0,0:02:07.96,0:02:08.11,DefaultMTaller,,0,0,0,,{\pos(1583,347)}{}try
+Dialogue: 0,0:02:08.00,0:02:08.15,DefaultMTaller,,0,0,0,,{\pos(1577,439)}{}try
+Dialogue: 0,0:02:08.04,0:02:08.19,DefaultMTaller,,0,0,0,,{\pos(1540,568)}{}try
+Dialogue: 0,0:02:08.08,0:02:08.23,DefaultMTaller,,0,0,0,,{\pos(1477,687)}{}try
+Dialogue: 0,0:02:08.12,0:02:08.27,DefaultMTaller,,0,0,0,,{\pos(1393,752)}{}try
+Dialogue: 0,0:02:08.16,0:02:08.31,DefaultMTaller,,0,0,0,,{\pos(1281,727)}{}try
+Dialogue: 0,0:02:08.20,0:02:08.35,DefaultMTaller,,0,0,0,,{\pos(1126,631)}{}try
+Dialogue: 0,0:02:08.24,0:02:08.39,DefaultMTaller,,0,0,0,,{\pos(956,502)}{}try
+Dialogue: 0,0:02:08.28,0:02:08.43,DefaultMTaller,,0,0,0,,{\pos(802,378)}{}try
+Dialogue: 0,0:02:08.32,0:02:08.47,DefaultMTaller,,0,0,0,,{\pos(697,297)}{}try
+Dialogue: 0,0:02:08.43,0:02:08.58,DefaultYTaller,,0,0,0,,{\pos(697,297)}{}try
+Dialogue: 0,0:02:08.47,0:02:08.62,DefaultYTaller,,0,0,0,,{\pos(839,349)}{}try
+Dialogue: 0,0:02:08.51,0:02:08.66,DefaultYTaller,,0,0,0,,{\pos(1043,425)}{}try
+Dialogue: 0,0:02:08.55,0:02:08.70,DefaultYTaller,,0,0,0,,{\pos(1204,512)}{}try
+Dialogue: 0,0:02:08.59,0:02:08.74,DefaultYTaller,,0,0,0,,{\pos(1227,604)}{}try
+Dialogue: 0,0:02:08.63,0:02:08.78,DefaultYTaller,,0,0,0,,{\pos(1126,718)}{}try
+Dialogue: 0,0:02:08.67,0:02:08.82,DefaultYTaller,,0,0,0,,{\pos(971,829)}{}try
+Dialogue: 0,0:02:08.71,0:02:08.86,DefaultYTaller,,0,0,0,,{\pos(827,900)}{}try
+Dialogue: 0,0:02:08.75,0:02:08.90,DefaultYTaller,,0,0,0,,{\pos(745,921)}{}try
+Dialogue: 0,0:02:08.79,0:02:08.94,DefaultYTaller,,0,0,0,,{\pos(660,927)}{}try
+Dialogue: 0,0:02:08.83,0:02:08.98,DefaultYTaller,,0,0,0,,{\pos(576,918)}{}try
+Dialogue: 0,0:02:08.87,0:02:09.02,DefaultYTaller,,0,0,0,,{\pos(499,895)}{}try
+Dialogue: 0,0:02:08.91,0:02:09.06,DefaultYTaller,,0,0,0,,{\pos(436,856)}{}try
+Dialogue: 0,0:02:08.95,0:02:09.10,DefaultYTaller,,0,0,0,,{\pos(384,797)}{}try
+Dialogue: 0,0:02:08.99,0:02:09.14,DefaultYTaller,,0,0,0,,{\pos(334,711)}{}try
+Dialogue: 0,0:02:09.03,0:02:09.18,DefaultYTaller,,0,0,0,,{\pos(294,610)}{}try
+Dialogue: 0,0:02:09.07,0:02:09.22,DefaultYTaller,,0,0,0,,{\pos(273,507)}{}try
+Dialogue: 0,0:02:09.11,0:02:09.26,DefaultYTaller,,0,0,0,,{\pos(280,417)}{}try
+Dialogue: 0,0:02:09.15,0:02:09.30,DefaultYTaller,,0,0,0,,{\pos(319,354)}{}try
+Dialogue: 0,0:02:09.19,0:02:09.34,DefaultYTaller,,0,0,0,,{\pos(395,306)}{}try
+Dialogue: 0,0:02:09.23,0:02:09.38,DefaultYTaller,,0,0,0,,{\pos(498,265)}{}try
+Dialogue: 0,0:02:09.27,0:02:09.42,DefaultYTaller,,0,0,0,,{\pos(612,230)}{}try
+Dialogue: 0,0:02:09.31,0:02:09.46,DefaultYTaller,,0,0,0,,{\pos(722,201)}{}try
+Dialogue: 0,0:02:09.35,0:02:09.50,DefaultYTaller,,0,0,0,,{\pos(813,177)}{}try
+Dialogue: 0,0:02:09.27,0:02:11.50,Default,,0,0,0,,{\ytkt()}{\k17}But {\k20}the {\k34}winds {\k32}don't {\k31}blow {\k31}my {\k23}way
+Dialogue: 0,0:02:11.50,0:02:12.60,Default,,0,0,0,,{\ytkt()}{\k48}I {\k32}need
+Dialogue: 0,0:02:12.57,0:02:12.72,DefaultCTaller,,0,0,0,,{\pos(909,927)}{}some
+Dialogue: 0,0:02:12.61,0:02:12.76,DefaultCTaller,,0,0,0,,{\pos(944,945)}{}some
+Dialogue: 0,0:02:12.65,0:02:12.80,DefaultCTaller,,0,0,0,,{\pos(994,963)}{}some
+Dialogue: 0,0:02:12.69,0:02:12.84,DefaultCTaller,,0,0,0,,{\pos(1036,936)}{}some
+Dialogue: 0,0:02:12.73,0:02:12.88,DefaultCTaller,,0,0,0,,{\pos(1056,857)}{}some
+Dialogue: 0,0:02:12.77,0:02:12.92,DefaultCTaller,,0,0,0,,{\pos(1085,747)}{}some
+Dialogue: 0,0:02:12.81,0:02:12.96,DefaultCTaller,,0,0,0,,{\pos(1137,648)}{}some
+Dialogue: 0,0:02:12.85,0:02:13.00,DefaultCTaller,,0,0,0,,{\pos(1197,560)}{}some
+Dialogue: 0,0:02:12.89,0:02:13.04,DefaultCTaller,,0,0,0,,{\pos(1267,464)}{}some
+Dialogue: 0,0:02:12.93,0:02:13.08,DefaultCTaller,,0,0,0,,{\pos(1338,370)}{}something
+Dialogue: 0,0:02:12.97,0:02:13.12,DefaultCTaller,,0,0,0,,{\pos(1397,292)}{}something
+Dialogue: 0,0:02:13.21,0:02:13.36,DefaultMTaller,,0,0,0,,{\pos(1461,1056)}{}something
+Dialogue: 0,0:02:13.25,0:02:13.40,DefaultMTaller,,0,0,0,,{\pos(1484,1001)}{}something
+Dialogue: 0,0:02:13.29,0:02:13.44,DefaultMTaller,,0,0,0,,{\pos(1518,922)}{}something
+Dialogue: 0,0:02:13.33,0:02:13.48,DefaultMTaller,,0,0,0,,{\pos(1558,831)}{}something that’s
+Dialogue: 0,0:02:13.37,0:02:13.52,DefaultMTaller,,0,0,0,,{\pos(1598,739)}{}something that’s
+Dialogue: 0,0:02:13.41,0:02:13.56,DefaultMTaller,,0,0,0,,{\pos(1633,655)}{}something that’s
+Dialogue: 0,0:02:13.45,0:02:13.60,DefaultMTaller,,0,0,0,,{\pos(1657,596)}{}something that’s
+Dialogue: 0,0:02:13.49,0:02:13.64,DefaultMTaller,,0,0,0,,{\pos(1675,549)}{}something that’s
+Dialogue: 0,0:02:13.53,0:02:13.68,DefaultMTaller,,0,0,0,,{\pos(1692,505)}{}something that’s
+Dialogue: 0,0:02:13.57,0:02:13.72,DefaultMTaller,,0,0,0,,{\pos(1707,464)}{}something that’s
+Dialogue: 0,0:02:13.61,0:02:13.76,DefaultMTaller,,0,0,0,,{\pos(1721,426)}{}something that’s mine
+Dialogue: 0,0:02:13.65,0:02:13.80,DefaultMTaller,,0,0,0,,{\pos(1733,392)}{}something that’s mine
+Dialogue: 0,0:02:13.69,0:02:13.84,DefaultMTaller,,0,0,0,,{\pos(1743,364)}{}something that’s mine
+Dialogue: 0,0:02:13.73,0:02:13.88,DefaultMTaller,,0,0,0,,{\pos(1750,343)}{}something that’s mine
+Dialogue: 0,0:02:13.92,0:02:14.07,DefaultYTaller,,0,0,0,,{\pos(1781,1263)}{}something that’s mine
+Dialogue: 0,0:02:13.96,0:02:14.11,DefaultYTaller,,0,0,0,,{\pos(1829,1193)}{}something that’s mine
+Dialogue: 0,0:02:14.00,0:02:14.15,DefaultYTaller,,0,0,0,,{\pos(1902,1094)}{}something that’s mine
+Dialogue: 0,0:02:14.04,0:02:14.19,DefaultYTaller,,0,0,0,,{\pos(1986,978)}{}something that’s mine
+Dialogue: 0,0:02:14.08,0:02:14.23,DefaultYTaller,,0,0,0,,{\pos(2064,858)}{}something that’s mine
+Dialogue: 0,0:02:14.12,0:02:14.27,DefaultYTaller,,0,0,0,,{\pos(2123,746)}{}something that’s mine
+Dialogue: 0,0:02:14.16,0:02:14.31,DefaultYTaller,,0,0,0,,{\pos(2147,655)}{}something that’s mine
+Dialogue: 0,0:02:14.20,0:02:14.35,DefaultYTaller,,0,0,0,,{\pos(2139,582)}{}something that’s mine
+Dialogue: 0,0:02:14.24,0:02:14.39,DefaultYTaller,,0,0,0,,{\pos(2111,520)}{}something that’s mine
+Dialogue: 0,0:02:14.28,0:02:14.43,DefaultYTaller,,0,0,0,,{\pos(2063,465)}{}something that’s mine
+Dialogue: 0,0:02:14.32,0:02:14.47,DefaultYTaller,,0,0,0,,{\pos(1996,417)}{}something that’s mine
+Dialogue: 0,0:02:14.36,0:02:14.51,DefaultYTaller,,0,0,0,,{\pos(1908,376)}{}something that’s mine
+Dialogue: 0,0:02:14.40,0:02:14.55,DefaultYTaller,,0,0,0,,{\pos(1801,340)}{}something that’s mine
+Dialogue: 0,0:02:14.44,0:02:14.59,DefaultYTaller,,0,0,0,,{\pos(1652,310)}{}something that’s mine
+Dialogue: 0,0:02:14.48,0:02:14.63,DefaultYTaller,,0,0,0,,{\pos(1460,289)}{}something that’s mine
+Dialogue: 0,0:02:14.52,0:02:14.67,DefaultYTaller,,0,0,0,,{\pos(1247,274)}{}something that’s mine
+Dialogue: 0,0:02:14.56,0:02:14.71,DefaultYTaller,,0,0,0,,{\pos(1039,264)}{}something that’s mine
+Dialogue: 0,0:02:14.60,0:02:14.75,DefaultYTaller,,0,0,0,,{\pos(861,256)}{}something that’s mine
+Dialogue: 0,0:02:14.64,0:02:14.79,DefaultYTaller,,0,0,0,,{\pos(737,249)}{}something that’s mine
+Dialogue: 0,0:02:14.95,0:02:17.04,Default,,0,0,0,,Behind my sails
+Dialogue: 0,0:02:19.82,0:02:20.81,DefaultC,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:02:22.49,0:02:23.57,DefaultM,,0,0,0,,Soon as I let
+Dialogue: 0,0:02:25.13,0:02:26.35,DefaultY,,0,0,0,,I feel the bad times
+Dialogue: 0,0:02:30.83,0:02:31.88,DefaultC,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:02:33.59,0:02:34.63,DefaultM,,0,0,0,,No, I can’t let
+Dialogue: 0,0:02:36.15,0:02:37.40,DefaultY,,0,0,0,,I feel the bad times
+Dialogue: 0,0:03:01.98,0:03:03.67,Default,,0,0,0,,Yeah,
+Dialogue: 0,0:03:04.77,0:03:06.97,Default,,0,0,0,,Yeah, yeah
+Dialogue: 0,0:03:07.14,0:03:09.13,Default,,0,0,0,,Oh yeah,
+Dialogue: 0,0:03:10.34,0:03:12.28,Default,,0,0,0,,Oh yeah, ooh
+Dialogue: 0,0:03:13.03,0:03:14.67,Default,,0,0,0,,Yeah,
+Dialogue: 0,0:03:15.79,0:03:18.20,Default,,0,0,0,,Yeah, yeah
+Dialogue: 0,0:03:18.20,0:03:20.30,Default,,0,0,0,,Oh yeah,
+Dialogue: 0,0:03:21.34,0:03:23.43,Default,,0,0,0,,Oh yeah, ooh
+Dialogue: 0,0:03:23.74,0:03:26.88,Default,,0,0,0,,{\ytkt()}{\k16}May{\k15}be {\k22}the {\k41}headwind’s from acceleration
+Dialogue: 0,0:03:26.88,0:03:29.56,Default,,0,0,0,,And all I need’s determination
+Dialogue: 0,0:03:29.56,0:03:32.17,Default,,0,0,0,,To hold my bearing and keep it bold
+Dialogue: 0,0:03:32.36,0:03:34.71,Default,,0,0,0,,There’s still so many problems I should solve
+Dialogue: 0,0:03:34.71,0:03:37.90,Default,,0,0,0,,So I’ll be rushing toward some horizon
+Dialogue: 0,0:03:37.90,0:03:40.68,Default,,0,0,0,,Or something I can keep my eyes on
+Dialogue: 0,0:03:40.68,0:03:43.58,Default,,0,0,0,,There’s some way I could reach my prize even though
+Dialogue: 0,0:03:43.58,0:03:44.29,Default,,0,0,0,,{\alpha&H70&\c&HFFFFFF&}There’s some way I could reach my prize even though
+Dialogue: 0,0:03:44.29,0:03:44.99,Default,,0,0,0,,{\alpha&HE4&\c&HFFFFFF&}There’s some way I could reach my prize even though
+Dialogue: 0,0:03:46.35,0:03:47.04,DefaultYTall,,0,0,0,,know
+Dialogue: 0,0:03:48.04,0:03:49.12,DefaultY,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:03:49.12,0:03:49.79,DefaultCTall,,0,0,0,,movin' on
+Dialogue: 0,0:03:50.81,0:03:51.85,DefaultC,,0,0,0,,Soon as I let
+Dialogue: 0,0:03:51.86,0:03:52.55,DefaultMTall,,0,0,0,,go
+Dialogue: 0,0:03:53.44,0:03:54.61,DefaultM,,0,0,0,,I feel the bad times
+Dialogue: 0,0:03:54.61,0:03:55.32,DefaultCTall,,0,0,0,,com{\c&HB914FF&}ing{\c&HFF9232&} {\c&H00D8FF&}on{\c&HFF9232&}
+Dialogue: 0,0:03:57.40,0:03:58.05,DefaultMTall,,0,0,0,,know
+Dialogue: 0,0:03:59.10,0:04:00.14,DefaultM,,0,0,0,,How I’m gonna keep
+Dialogue: 0,0:04:00.14,0:04:00.86,DefaultYTall,,0,0,0,,movin' on
+Dialogue: 0,0:04:01.75,0:04:02.90,DefaultY,,0,0,0,,Soon as I let
+Dialogue: 0,0:04:02.90,0:04:03.05,DefaultCTaller,,0,0,0,,{\pos(720,1300)}{}go
+Dialogue: 0,0:04:02.94,0:04:03.09,DefaultCTaller,,0,0,0,,{\pos(734,1239)}{}go
+Dialogue: 0,0:04:02.98,0:04:03.13,DefaultCTaller,,0,0,0,,{\pos(754,1156)}{}go
+Dialogue: 0,0:04:03.02,0:04:03.17,DefaultCTaller,,0,0,0,,{\pos(778,1058)}{}go
+Dialogue: 0,0:04:03.06,0:04:03.21,DefaultCTaller,,0,0,0,,{\pos(805,951)}{}go
+Dialogue: 0,0:04:03.10,0:04:03.25,DefaultCTaller,,0,0,0,,{\pos(833,843)}{}go
+Dialogue: 0,0:04:03.14,0:04:03.29,DefaultCTaller,,0,0,0,,{\pos(860,740)}{}go
+Dialogue: 0,0:04:03.18,0:04:03.33,DefaultCTaller,,0,0,0,,{\pos(897,615)}{}go
+Dialogue: 0,0:04:03.22,0:04:03.37,DefaultCTaller,,0,0,0,,{\pos(949,449)}{}go
+Dialogue: 0,0:04:03.26,0:04:03.41,DefaultCTaller,,0,0,0,,{\pos(1003,289)}{}go
+Dialogue: 0,0:04:03.30,0:04:03.45,DefaultCTaller,,0,0,0,,{\pos(1046,161)}{}go
+Dialogue: 0,0:04:03.44,0:04:04.57,DefaultCTaller,,0,0,0,,{\pos(1046,161)}{}{\c&HFFFFFF&}go{\c&HFFFFFF&}
+Dialogue: 0,0:04:03.43,0:04:03.58,DefaultMTaller,,0,0,0,,{\pos(1382,1265)}{}go
+Dialogue: 0,0:04:03.47,0:04:03.62,DefaultMTaller,,0,0,0,,{\pos(1348,1138)}{}go
+Dialogue: 0,0:04:03.51,0:04:03.66,DefaultMTaller,,0,0,0,,{\pos(1301,957)}{}go
+Dialogue: 0,0:04:03.55,0:04:03.70,DefaultMTaller,,0,0,0,,{\pos(1255,764)}{}go
+Dialogue: 0,0:04:03.59,0:04:03.74,DefaultMTaller,,0,0,0,,{\pos(1225,601)}{}go
+Dialogue: 0,0:04:03.63,0:04:03.78,DefaultMTaller,,0,0,0,,{\pos(1199,429)}{}go
+Dialogue: 0,0:04:03.67,0:04:03.82,DefaultMTaller,,0,0,0,,{\pos(1176,266)}{}go
+Dialogue: 0,0:04:03.71,0:04:03.86,DefaultMTaller,,0,0,0,,{\pos(1160,143)}{}go
+Dialogue: 0,0:04:03.83,0:04:04.57,DefaultMTaller,,0,0,0,,{\pos(1160,143)}{}{\c&HFFFFFF&}go{\c&HFFFFFF&}
+Dialogue: 0,0:04:03.91,0:04:04.06,DefaultYTaller,,0,0,0,,{\pos(1782,1354)}{}go
+Dialogue: 0,0:04:03.95,0:04:04.10,DefaultYTaller,,0,0,0,,{\pos(1755,1295)}{}go
+Dialogue: 0,0:04:03.99,0:04:04.14,DefaultYTaller,,0,0,0,,{\pos(1715,1214)}{}go
+Dialogue: 0,0:04:04.03,0:04:04.18,DefaultYTaller,,0,0,0,,{\pos(1670,1117)}{}go
+Dialogue: 0,0:04:04.07,0:04:04.22,DefaultYTaller,,0,0,0,,{\pos(1624,1014)}{}go
+Dialogue: 0,0:04:04.11,0:04:04.26,DefaultYTaller,,0,0,0,,{\pos(1584,912)}{}go
+Dialogue: 0,0:04:04.15,0:04:04.30,DefaultYTaller,,0,0,0,,{\pos(1557,818)}{}go
+Dialogue: 0,0:04:04.19,0:04:04.34,DefaultYTaller,,0,0,0,,{\pos(1542,725)}{}go
+Dialogue: 0,0:04:04.23,0:04:04.38,DefaultYTaller,,0,0,0,,{\pos(1537,626)}{}go
+Dialogue: 0,0:04:04.27,0:04:04.42,DefaultYTaller,,0,0,0,,{\pos(1537,529)}{}go
+Dialogue: 0,0:04:04.31,0:04:04.46,DefaultYTaller,,0,0,0,,{\pos(1541,438)}{}go
+Dialogue: 0,0:04:04.35,0:04:04.50,DefaultYTaller,,0,0,0,,{\pos(1545,362)}{}go
+Dialogue: 0,0:04:04.39,0:04:04.57,DefaultYTaller,,0,0,0,,{\pos(1547,307)}{}go
+Dialogue: 0,0:04:04.62,0:04:05.66,Default,,0,0,0,,Feel the bad times
+Dialogue: 0,0:04:05.67,0:04:05.82,DefaultCTaller,,0,0,0,,{\pos(1832,1285)}{}coming on
+Dialogue: 0,0:04:05.71,0:04:05.86,DefaultCTaller,,0,0,0,,{\pos(1866,1231)}{}coming on
+Dialogue: 0,0:04:05.75,0:04:05.90,DefaultCTaller,,0,0,0,,{\pos(1915,1157)}{}coming on
+Dialogue: 0,0:04:05.79,0:04:05.94,DefaultCTaller,,0,0,0,,{\pos(1974,1069)}{}coming on
+Dialogue: 0,0:04:05.83,0:04:05.98,DefaultCTaller,,0,0,0,,{\pos(2038,972)}{}coming on
+Dialogue: 0,0:04:05.87,0:04:06.02,DefaultCTaller,,0,0,0,,{\pos(2102,873)}{}coming on
+Dialogue: 0,0:04:05.91,0:04:06.06,DefaultCTaller,,0,0,0,,{\pos(2162,778)}{}coming on
+Dialogue: 0,0:04:05.95,0:04:06.10,DefaultCTaller,,0,0,0,,{\pos(2214,693)}{}coming on
+Dialogue: 0,0:04:05.99,0:04:06.14,DefaultCTaller,,0,0,0,,{\pos(2252,625)}{}coming on
+Dialogue: 0,0:04:06.03,0:04:06.18,DefaultCTaller,,0,0,0,,{\pos(2272,582)}{}coming on
+Dialogue: 0,0:04:06.07,0:04:06.22,DefaultCTaller,,0,0,0,,{\pos(2282,548)}{}coming on
+Dialogue: 0,0:04:06.11,0:04:06.26,DefaultCTaller,,0,0,0,,{\pos(2286,521)}{}coming on
+Dialogue: 0,0:04:06.15,0:04:06.30,DefaultCTaller,,0,0,0,,{\pos(2285,500)}{}coming on
+Dialogue: 0,0:04:06.19,0:04:06.34,DefaultCTaller,,0,0,0,,{\pos(2279,483)}{}coming on
+Dialogue: 0,0:04:06.23,0:04:06.38,DefaultCTaller,,0,0,0,,{\pos(2272,470)}{}coming on
+Dialogue: 0,0:04:06.27,0:04:06.42,DefaultCTaller,,0,0,0,,{\pos(2263,459)}{}coming on
+Dialogue: 0,0:04:06.31,0:04:06.46,DefaultCTaller,,0,0,0,,{\pos(2255,450)}{}coming on
+Dialogue: 0,0:04:06.35,0:04:06.50,DefaultCTaller,,0,0,0,,{\pos(2248,442)}{}coming on
+Dialogue: 0,0:04:06.39,0:04:06.58,DefaultCTaller,,0,0,0,,{\pos(2244,434)}{}coming on
+Dialogue: 0,0:04:06.68,0:04:06.83,DefaultYTaller,,0,0,0,,{\pos(816,1328)}{}coming on
+Dialogue: 0,0:04:06.72,0:04:06.87,DefaultYTaller,,0,0,0,,{\pos(729,1298)}{}coming on
+Dialogue: 0,0:04:06.76,0:04:06.91,DefaultYTaller,,0,0,0,,{\pos(603,1256)}{}coming on
+Dialogue: 0,0:04:06.80,0:04:06.95,DefaultYTaller,,0,0,0,,{\pos(478,1201)}{}coming on
+Dialogue: 0,0:04:06.84,0:04:06.99,DefaultYTaller,,0,0,0,,{\pos(398,1139)}{}coming on
+Dialogue: 0,0:04:06.88,0:04:07.03,DefaultYTaller,,0,0,0,,{\pos(360,1086)}{}coming on
+Dialogue: 0,0:04:06.92,0:04:07.07,DefaultYTaller,,0,0,0,,{\pos(331,1027)}{}coming on
+Dialogue: 0,0:04:06.96,0:04:07.11,DefaultYTaller,,0,0,0,,{\pos(310,963)}{}coming on
+Dialogue: 0,0:04:07.00,0:04:07.15,DefaultYTaller,,0,0,0,,{\pos(296,896)}{}coming on
+Dialogue: 0,0:04:07.04,0:04:07.19,DefaultYTaller,,0,0,0,,{\pos(289,827)}{}coming on
+Dialogue: 0,0:04:07.08,0:04:07.23,DefaultYTaller,,0,0,0,,{\pos(288,758)}{}coming on
+Dialogue: 0,0:04:07.12,0:04:07.27,DefaultYTaller,,0,0,0,,{\pos(298,675)}{}coming on
+Dialogue: 0,0:04:07.16,0:04:07.31,DefaultYTaller,,0,0,0,,{\pos(318,586)}{}coming on
+Dialogue: 0,0:04:07.20,0:04:07.35,DefaultYTaller,,0,0,0,,{\pos(346,499)}{}coming on
+Dialogue: 0,0:04:07.24,0:04:07.39,DefaultYTaller,,0,0,0,,{\pos(378,420)}{}coming on
+Dialogue: 0,0:04:07.28,0:04:07.43,DefaultYTaller,,0,0,0,,{\pos(411,357)}{}coming on
+Dialogue: 0,0:04:07.32,0:04:07.47,DefaultYTaller,,0,0,0,,{\pos(449,314)}{}coming on
+Dialogue: 0,0:04:07.36,0:04:07.51,DefaultYTaller,,0,0,0,,{\pos(498,289)}{}coming on
+Dialogue: 0,0:04:07.40,0:04:07.55,DefaultYTaller,,0,0,0,,{\pos(550,278)}{}coming on
+Dialogue: 0,0:04:07.44,0:04:07.59,DefaultYTaller,,0,0,0,,{\pos(599,273)}{}coming on
+Dialogue: 0,0:04:07.48,0:04:07.63,DefaultYTaller,,0,0,0,,{\pos(638,269)}{}coming on
+Dialogue: 0,0:04:07.75,0:04:07.90,DefaultCTaller,,0,0,0,,{\pos(2244,432)}{}coming on
+Dialogue: 0,0:04:07.79,0:04:07.94,DefaultCTaller,,0,0,0,,{\pos(2208,466)}{}coming on
+Dialogue: 0,0:04:07.83,0:04:07.98,DefaultCTaller,,0,0,0,,{\pos(2165,515)}{}coming on
+Dialogue: 0,0:04:07.87,0:04:08.02,DefaultCTaller,,0,0,0,,{\pos(2112,572)}{}coming on
+Dialogue: 0,0:04:07.91,0:04:08.06,DefaultCTaller,,0,0,0,,{\pos(2045,633)}{}coming on
+Dialogue: 0,0:04:07.95,0:04:08.10,DefaultCTaller,,0,0,0,,{\pos(1962,690)}{}coming on
+Dialogue: 0,0:04:07.99,0:04:08.14,DefaultCTaller,,0,0,0,,{\pos(1858,738)}{}coming on
+Dialogue: 0,0:04:08.03,0:04:08.18,DefaultCTaller,,0,0,0,,{\pos(1714,775)}{}coming on
+Dialogue: 0,0:04:08.07,0:04:08.22,DefaultCTaller,,0,0,0,,{\pos(1514,803)}{}coming on
+Dialogue: 0,0:04:08.11,0:04:08.26,DefaultCTaller,,0,0,0,,{\pos(1287,826)}{}coming on
+Dialogue: 0,0:04:08.15,0:04:08.30,DefaultCTaller,,0,0,0,,{\pos(1064,848)}{}coming on
+Dialogue: 0,0:04:08.19,0:04:08.34,DefaultCTaller,,0,0,0,,{\pos(875,872)}{}coming on
+Dialogue: 0,0:04:08.23,0:04:08.38,DefaultCTaller,,0,0,0,,{\pos(750,902)}{}coming on
+Dialogue: 0,0:04:08.27,0:04:08.42,DefaultCTaller,,0,0,0,,{\pos(741,984)}{}coming on
+Dialogue: 0,0:04:08.31,0:04:08.46,DefaultCTaller,,0,0,0,,{\pos(943,1098)}{}coming on
+Dialogue: 0,0:04:08.35,0:04:08.50,DefaultCTaller,,0,0,0,,{\pos(1134,1203)}{}coming on
+Dialogue: 0,0:04:08.39,0:04:08.54,DefaultCTaller,,0,0,0,,{\pos(1261,1363)}{}coming on
+Dialogue: 0,0:04:07.75,0:04:07.90,DefaultMTaller,,0,0,0,,{\pos(1225,297)}{}coming on
+Dialogue: 0,0:04:07.79,0:04:07.94,DefaultMTaller,,0,0,0,,{\pos(1306,337)}{}coming on
+Dialogue: 0,0:04:07.83,0:04:07.98,DefaultMTaller,,0,0,0,,{\pos(1435,393)}{}coming on
+Dialogue: 0,0:04:07.87,0:04:08.02,DefaultMTaller,,0,0,0,,{\pos(1582,460)}{}coming on
+Dialogue: 0,0:04:07.91,0:04:08.06,DefaultMTaller,,0,0,0,,{\pos(1717,530)}{}coming on
+Dialogue: 0,0:04:07.95,0:04:08.10,DefaultMTaller,,0,0,0,,{\pos(1814,599)}{}coming on
+Dialogue: 0,0:04:07.99,0:04:08.14,DefaultMTaller,,0,0,0,,{\pos(1842,659)}{}coming on
+Dialogue: 0,0:04:08.03,0:04:08.18,DefaultMTaller,,0,0,0,,{\pos(1767,710)}{}coming on
+Dialogue: 0,0:04:08.07,0:04:08.22,DefaultMTaller,,0,0,0,,{\pos(1591,754)}{}coming on
+Dialogue: 0,0:04:08.11,0:04:08.26,DefaultMTaller,,0,0,0,,{\pos(1355,795)}{}coming on
+Dialogue: 0,0:04:08.15,0:04:08.30,DefaultMTaller,,0,0,0,,{\pos(1104,834)}{}coming on
+Dialogue: 0,0:04:08.19,0:04:08.34,DefaultMTaller,,0,0,0,,{\pos(882,874)}{}coming on
+Dialogue: 0,0:04:08.23,0:04:08.38,DefaultMTaller,,0,0,0,,{\pos(732,917)}{}coming on
+Dialogue: 0,0:04:08.27,0:04:08.42,DefaultMTaller,,0,0,0,,{\pos(691,1013)}{}coming on
+Dialogue: 0,0:04:08.31,0:04:08.46,DefaultMTaller,,0,0,0,,{\pos(845,1135)}{}coming on
+Dialogue: 0,0:04:08.35,0:04:08.50,DefaultMTaller,,0,0,0,,{\pos(1012,1240)}{}coming on
+Dialogue: 0,0:04:08.39,0:04:08.54,DefaultMTaller,,0,0,0,,{\pos(1221,1374)}{}coming on
+Dialogue: 0,0:04:07.75,0:04:07.90,DefaultYTaller,,0,0,0,,{\pos(652,267)}{}coming on
+Dialogue: 0,0:04:07.79,0:04:07.94,DefaultYTaller,,0,0,0,,{\pos(783,312)}{}coming on
+Dialogue: 0,0:04:07.83,0:04:07.98,DefaultYTaller,,0,0,0,,{\pos(983,376)}{}coming on
+Dialogue: 0,0:04:07.87,0:04:08.02,DefaultYTaller,,0,0,0,,{\pos(1214,452)}{}coming on
+Dialogue: 0,0:04:07.91,0:04:08.06,DefaultYTaller,,0,0,0,,{\pos(1436,532)}{}coming on
+Dialogue: 0,0:04:07.95,0:04:08.10,DefaultYTaller,,0,0,0,,{\pos(1613,609)}{}coming on
+Dialogue: 0,0:04:07.99,0:04:08.14,DefaultYTaller,,0,0,0,,{\pos(1707,676)}{}coming on
+Dialogue: 0,0:04:08.03,0:04:08.18,DefaultYTaller,,0,0,0,,{\pos(1680,732)}{}coming on
+Dialogue: 0,0:04:08.07,0:04:08.22,DefaultYTaller,,0,0,0,,{\pos(1539,781)}{}coming on
+Dialogue: 0,0:04:08.11,0:04:08.26,DefaultYTaller,,0,0,0,,{\pos(1331,825)}{}coming on
+Dialogue: 0,0:04:08.15,0:04:08.30,DefaultYTaller,,0,0,0,,{\pos(1101,866)}{}coming on
+Dialogue: 0,0:04:08.19,0:04:08.34,DefaultYTaller,,0,0,0,,{\pos(895,907)}{}coming on
+Dialogue: 0,0:04:08.23,0:04:08.38,DefaultYTaller,,0,0,0,,{\pos(760,949)}{}coming on
+Dialogue: 0,0:04:08.27,0:04:08.42,DefaultYTaller,,0,0,0,,{\pos(740,1033)}{}coming on
+Dialogue: 0,0:04:08.31,0:04:08.46,DefaultYTaller,,0,0,0,,{\pos(901,1131)}{}coming on
+Dialogue: 0,0:04:08.35,0:04:08.50,DefaultYTaller,,0,0,0,,{\pos(1066,1220)}{}coming on
+Dialogue: 0,0:04:08.39,0:04:08.54,DefaultYTaller,,0,0,0,,{\pos(1238,1367)}{}coming on
+Dialogue: 0,0:04:08.44,0:04:09.83,DefaultCTall,,0,0,0,,{\c&H00D8FF&}com{\c&HFF9232&}ing{\c&HB914FF&} on{\c&HFF9232&}
+Dialogue: 0,0:04:10.87,0:04:14.60,Default,,0,0,0,,Yeah,
+Dialogue: 0,0:04:15.01,0:04:18.47,Default,,0,0,0,,Yeah, Oh
+Dialogue: 0,0:04:19.28,0:04:20.83,Default,,0,0,0,,Yeah,
+Dialogue: 0,0:04:22.17,0:04:24.14,Default,,0,0,0,,Yeah, yeah
+Dialogue: 0,0:04:24.51,0:04:26.33,Default,,0,0,0,,Oh yeah,
+Dialogue: 0,0:04:27.73,0:04:29.61,Default,,0,0,0,,Oh yeah, ooh
+Dialogue: 0,0:04:29.61,0:04:33.11,Default,,0,0,0,,{\fad(0,800)\ytchroma(&H00D8FF&,&HFF9232&,&HB914FF&,&H00&,600,20,10,2600)}Oh yeah, ooh
+Dialogue: 0,0:04:34.53,0:04:36.58,Default,,0,0,0,,{\ytchroma(&H00D8FF&,&HFF9232&,&HB914FF&,&H00&,20,0,400,10)}Closed Captions - MitchSirco

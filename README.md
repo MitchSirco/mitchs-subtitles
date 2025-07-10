@@ -20,5 +20,9 @@ To get .ass files into youtube, check out [YTSubConverter](https://github.com/ar
 | ValueFactory | [[D&B] ValueFactory @ Hex Furry Fest 2023](https://www.youtube.com/watch?v=fK-eoThm3io) | 03.04.2025 | 55:00 |
 | ValueFactory | [Exile Is A Habit](https://www.youtube.com/watch?v=WE7Sz7lTIII) | 05.04.2025 | 04:18 |
 | WHSPRS | [WHSPRS - Fox Boy (Official VR Music Video)](https://www.youtube.com/watch?v=2tHqjciPEX8) | 08.05.2025 | 03:59 |
+| MitchSirco | [[VRC] if found - Stay](https://www.youtube.com/watch?v=5kPf0b10MB8) | 08.05.2025 | 04:18 |
+| ValueFactory | [ValueFactory Loprov Set Cameo @ Furality Somna](https://www.youtube.com/watch?v=l5OfLiobecU) | 08.05.2025 | 09:52 |
+| ValueFactory/Cynra | ["Our Song" - Cynra @ Furality Somna](https://www.youtube.com/watch?v=S-fEeoLVL2o) | 26.06.2025 | 04:06 |
+| ValueFactory | [Fox Stevenson - Movin' On [MV]](https://www.youtube.com/watch?v=IKW-wcGOjSs) | 01.07.2025 | 04:36 |
 
 Check out [my website (Subtitles)](https://mitchsirco.ch/subtitles) if you're curious about my thoughts during the creation.
